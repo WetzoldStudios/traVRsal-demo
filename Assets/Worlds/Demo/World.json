@@ -1,0 +1,21 @@
+{
+    "name": "My Game",
+    "shortDescription": "My game description.",
+    "replacements": [
+        {
+            "type": "Material",
+            "key": "[walls]",
+            "materials": "/Base/Proto/Blue"
+        },
+        {
+            "type": "Material",
+            "key": "[ceiling]",
+            "materials": "/Base/Proto/White"
+        },
+        {
+            "type": "Material",
+            "key": "[ground]",
+            "materials": "/Base/Proto/Green"
+        }
+    ]
+}
