@@ -1,8 +1,11 @@
 {
-	"maps": [
-		{
-			"fileName": "Intro.tmx"
-		}
-	],
-	"type": "world"
+    "type": "world",
+    "maps": [
+        {
+            "fileName": "Intro.tmx"
+        },
+        {
+            "fileName": "Locomotion.tmx"
+        }
+    ]
 }

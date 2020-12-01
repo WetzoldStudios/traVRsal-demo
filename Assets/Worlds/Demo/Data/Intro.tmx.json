@@ -3,10 +3,210 @@
  "infinite":false,
  "layers":[
         {
-         "id":5,
+         "id":36,
          "layers":[
                 {
                  "data":[4, 4, 4, 4, 4, 4, 4, 4, 4],
+                 "height":3,
+                 "id":38,
+                 "name":"Ground",
+                 "opacity":1,
+                 "properties":[
+                        {
+                         "name":"Materials",
+                         "type":"string",
+                         "value":"[ground]"
+                        }, 
+                        {
+                         "name":"Walkable",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "type":"tilelayer",
+                 "visible":true,
+                 "width":3,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "data":[2684354566, 3221225477, 3221225478, 2684354565, 0, 1610612741, 6, 5, 1610612742],
+                 "height":3,
+                 "id":41,
+                 "name":"Walls",
+                 "opacity":1,
+                 "properties":[
+                        {
+                         "name":"ConnectToCeiling",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "type":"tilelayer",
+                 "visible":true,
+                 "width":3,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "data":[0, 0, 0, 1610612741, 0, 0, 1610612741, 0, 0],
+                 "height":3,
+                 "id":43,
+                 "name":"InnerWalls",
+                 "opacity":1,
+                 "properties":[
+                        {
+                         "name":"ConnectToCeiling",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "type":"tilelayer",
+                 "visible":true,
+                 "width":3,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "draworder":"topdown",
+                 "id":42,
+                 "name":"Transitions",
+                 "objects":[
+                        {
+                         "gid":8,
+                         "height":50,
+                         "id":92,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"MazeTransitions",
+                                 "type":"int",
+                                 "value":0
+                                }, 
+                                {
+                                 "name":"Snap",
+                                 "type":"bool",
+                                 "value":true
+                                }, 
+                                {
+                                 "name":"TargetZone",
+                                 "type":"string",
+                                 "value":"[exit]"
+                                }, 
+                                {
+                                 "name":"ZoneExit",
+                                 "type":"bool",
+                                 "value":true
+                                }],
+                         "rotation":-90,
+                         "type":"\/Base\/Transition",
+                         "visible":true,
+                         "width":50,
+                         "x":50,
+                         "y":150
+                        }],
+                 "opacity":1,
+                 "type":"objectgroup",
+                 "visible":true,
+                 "x":0,
+                 "y":0
+                }],
+         "name":"Underground",
+         "opacity":1,
+         "properties":[
+                {
+                 "name":"Height",
+                 "type":"float",
+                 "value":7
+                }, 
+                {
+                 "name":"Underground",
+                 "type":"bool",
+                 "value":true
+                }],
+         "type":"group",
+         "visible":false,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "id":5,
+         "layers":[
+                {
+                 "draworder":"topdown",
+                 "id":31,
+                 "name":"Ground",
+                 "objects":[
+                        {
+                         "gid":4,
+                         "height":50,
+                         "id":83,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"AutoFill",
+                                 "type":"bool",
+                                 "value":true
+                                }],
+                         "rotation":0,
+                         "type":"\/Base\/Ground",
+                         "visible":true,
+                         "width":50,
+                         "x":100,
+                         "y":150
+                        }, 
+                        {
+                         "gid":4,
+                         "height":50,
+                         "id":84,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"AutoFill",
+                                 "type":"bool",
+                                 "value":true
+                                }],
+                         "rotation":0,
+                         "type":"\/Base\/Ground",
+                         "visible":true,
+                         "width":50,
+                         "x":0,
+                         "y":150
+                        }, 
+                        {
+                         "gid":4,
+                         "height":50,
+                         "id":85,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"AutoFill",
+                                 "type":"bool",
+                                 "value":true
+                                }],
+                         "rotation":0,
+                         "type":"\/Base\/Ground",
+                         "visible":true,
+                         "width":50,
+                         "x":0,
+                         "y":50
+                        }],
+                 "opacity":1,
+                 "properties":[
+                        {
+                         "name":"DontPropagate-Virtual",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"Virtual",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "type":"objectgroup",
+                 "visible":false,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "data":[0, 4, 4, 4, 4, 4, 0, 4, 0],
                  "height":3,
                  "id":1,
                  "name":"Ground",
@@ -30,51 +230,99 @@
                 }, 
                 {
                  "draworder":"topdown",
-                 "id":4,
-                 "name":"Transitions",
+                 "id":44,
+                 "name":"Signs",
                  "objects":[
                         {
-                         "gid":8,
+                         "gid":38,
                          "height":50,
-                         "id":8,
+                         "id":93,
                          "name":"",
                          "properties":[
                                 {
-                                 "name":"MazeTransitions",
-                                 "type":"int",
-                                 "value":2
-                                }, 
-                                {
-                                 "name":"MazeZones",
+                                 "name":"Anchor",
                                  "type":"string",
-                                 "value":"\/Base\/HorizontalMaze"
+                                 "value":"-1,0"
                                 }, 
                                 {
-                                 "name":"Snap",
-                                 "type":"bool",
-                                 "value":true
-                                }, 
-                                {
-                                 "name":"TargetZone",
+                                 "name":"Text",
                                  "type":"string",
-                                 "value":"[exit]"
-                                }, 
-                                {
-                                 "name":"ZoneExit",
-                                 "type":"bool",
-                                 "value":true
+                                 "value":"Logic"
                                 }],
-                         "rotation":-90,
-                         "type":"\/Base\/Transition",
+                         "rotation":-180,
+                         "type":"SignLeft",
+                         "visible":true,
+                         "width":50,
+                         "x":100,
+                         "y":0
+                        }, 
+                        {
+                         "gid":38,
+                         "height":50,
+                         "id":94,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"Anchor",
+                                 "type":"string",
+                                 "value":"0,-1"
+                                }, 
+                                {
+                                 "name":"Text",
+                                 "type":"string",
+                                 "value":"Locomotion"
+                                }],
+                         "rotation":90,
+                         "type":"SignLeft",
+                         "visible":true,
+                         "width":50,
+                         "x":0,
+                         "y":50
+                        }, 
+                        {
+                         "gid":38,
+                         "height":50,
+                         "id":95,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"Anchor",
+                                 "type":"string",
+                                 "value":"1,0"
+                                }, 
+                                {
+                                 "name":"Text",
+                                 "type":"string",
+                                 "value":"Exit"
+                                }],
+                         "rotation":0,
+                         "type":"SignLeft",
                          "visible":true,
                          "width":50,
                          "x":50,
                          "y":150
-                        }, 
+                        }],
+                 "opacity":1,
+                 "properties":[
+                        {
+                         "name":"Y",
+                         "type":"int",
+                         "value":2
+                        }],
+                 "type":"objectgroup",
+                 "visible":true,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "draworder":"topdown",
+                 "id":32,
+                 "name":"Transitions",
+                 "objects":[
                         {
                          "gid":20,
                          "height":50,
-                         "id":64,
+                         "id":96,
                          "name":"",
                          "properties":[
                                 {
@@ -101,53 +349,77 @@
                  "y":0
                 }, 
                 {
-                 "data":[2684354566, 3221225477, 3221225478, 2684354565, 0, 1610612741, 6, 5, 1610612742],
-                 "height":3,
-                 "id":3,
-                 "name":"Walls",
-                 "opacity":1,
-                 "properties":[
+                 "draworder":"topdown",
+                 "id":30,
+                 "name":"Elevators",
+                 "objects":[
                         {
-                         "name":"ConnectToCeiling",
-                         "type":"bool",
-                         "value":true
+                         "gid":9,
+                         "height":50,
+                         "id":86,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"Variable",
+                                 "type":"string",
+                                 "value":"[auto]"
+                                }],
+                         "rotation":90,
+                         "type":"\/TrainingGround\/Elevator",
+                         "visible":true,
+                         "width":50,
+                         "x":0,
+                         "y":0
                         }, 
                         {
-                         "name":"Materials",
-                         "type":"string",
-                         "value":"[walls]"
+                         "gid":9,
+                         "height":50,
+                         "id":87,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"TargetFloor",
+                                 "type":"int",
+                                 "value":2
+                                }, 
+                                {
+                                 "name":"Variable",
+                                 "type":"string",
+                                 "value":"[auto]"
+                                }],
+                         "rotation":0,
+                         "type":"\/TrainingGround\/Elevator",
+                         "visible":true,
+                         "width":50,
+                         "x":0,
+                         "y":150
+                        }, 
+                        {
+                         "gid":9,
+                         "height":50,
+                         "id":88,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"TargetFloor",
+                                 "type":"int",
+                                 "value":-1
+                                }, 
+                                {
+                                 "name":"Variable",
+                                 "type":"string",
+                                 "value":"[auto]"
+                                }],
+                         "rotation":-90,
+                         "type":"\/TrainingGround\/Elevator",
+                         "visible":true,
+                         "width":50,
+                         "x":150,
+                         "y":150
                         }],
-                 "type":"tilelayer",
-                 "visible":true,
-                 "width":3,
-                 "x":0,
-                 "y":0
-                }, 
-                {
-                 "data":[0, 0, 0, 0, 2684354565, 0, 0, 2684354565, 0],
-                 "height":3,
-                 "id":12,
-                 "name":"Walls2",
                  "opacity":1,
-                 "properties":[
-                        {
-                         "name":"Anchor",
-                         "type":"string",
-                         "value":"-1,0"
-                        }, 
-                        {
-                         "name":"ConnectToCeiling",
-                         "type":"bool",
-                         "value":true
-                        }, 
-                        {
-                         "name":"Materials",
-                         "type":"string",
-                         "value":"[walls]"
-                        }],
-                 "type":"tilelayer",
+                 "type":"objectgroup",
                  "visible":true,
-                 "width":3,
                  "x":0,
                  "y":0
                 }],
@@ -160,12 +432,229 @@
                  "value":2.5
                 }],
          "type":"group",
+         "visible":false,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "id":27,
+         "layers":[
+                {
+                 "draworder":"topdown",
+                 "id":29,
+                 "name":"Ground",
+                 "objects":[
+                        {
+                         "gid":4,
+                         "height":50,
+                         "id":89,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"AutoFill",
+                                 "type":"bool",
+                                 "value":true
+                                }],
+                         "rotation":0,
+                         "type":"\/Base\/Ground",
+                         "visible":true,
+                         "width":50,
+                         "x":0,
+                         "y":50
+                        }, 
+                        {
+                         "gid":4,
+                         "height":50,
+                         "id":90,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"AutoFill",
+                                 "type":"bool",
+                                 "value":true
+                                }],
+                         "rotation":0,
+                         "type":"\/Base\/Ground",
+                         "visible":true,
+                         "width":50,
+                         "x":0,
+                         "y":150
+                        }],
+                 "opacity":1,
+                 "properties":[
+                        {
+                         "name":"DontPropagate-Virtual",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"Virtual",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "type":"objectgroup",
+                 "visible":false,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "data":[0, 4, 4, 4, 4, 4, 0, 4, 4],
+                 "height":3,
+                 "id":28,
+                 "name":"Ground",
+                 "opacity":1,
+                 "properties":[
+                        {
+                         "name":"Materials",
+                         "type":"string",
+                         "value":"[ground]"
+                        }, 
+                        {
+                         "name":"Walkable",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "type":"tilelayer",
+                 "visible":false,
+                 "width":3,
+                 "x":0,
+                 "y":0
+                }],
+         "name":"Floor 1",
+         "opacity":1,
+         "properties":[
+                {
+                 "name":"Height",
+                 "type":"float",
+                 "value":10
+                }],
+         "type":"group",
+         "visible":false,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "id":33,
+         "layers":[
+                {
+                 "draworder":"topdown",
+                 "id":34,
+                 "name":"Ground",
+                 "objects":[
+                        {
+                         "gid":4,
+                         "height":50,
+                         "id":91,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"AutoFill",
+                                 "type":"bool",
+                                 "value":true
+                                }],
+                         "rotation":0,
+                         "type":"\/Base\/Ground",
+                         "visible":true,
+                         "width":50,
+                         "x":0,
+                         "y":150
+                        }, 
+                        {
+                         "gid":4,
+                         "height":50,
+                         "id":97,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"AutoFill",
+                                 "type":"bool",
+                                 "value":true
+                                }],
+                         "rotation":0,
+                         "type":"\/Base\/Ground",
+                         "visible":true,
+                         "width":50,
+                         "x":100,
+                         "y":50
+                        }],
+                 "opacity":1,
+                 "properties":[
+                        {
+                         "name":"DontPropagate-Virtual",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"Virtual",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "type":"objectgroup",
+                 "visible":false,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "draworder":"topdown",
+                 "id":45,
+                 "name":"Platform",
+                 "objects":[
+                        {
+                         "gid":29,
+                         "height":50,
+                         "id":98,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"TargetLocation",
+                                 "type":"string",
+                                 "value":"Locomotion"
+                                }],
+                         "rotation":0,
+                         "type":"Platform",
+                         "visible":true,
+                         "width":50,
+                         "x":100,
+                         "y":50
+                        }],
+                 "opacity":1,
+                 "type":"objectgroup",
+                 "visible":true,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "data":[4, 4, 0, 4, 4, 4, 0, 4, 4],
+                 "height":3,
+                 "id":35,
+                 "name":"Ground",
+                 "opacity":1,
+                 "properties":[
+                        {
+                         "name":"Materials",
+                         "type":"string",
+                         "value":"[ground]"
+                        }, 
+                        {
+                         "name":"Walkable",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "type":"tilelayer",
+                 "visible":true,
+                 "width":3,
+                 "x":0,
+                 "y":0
+                }],
+         "name":"Floor 2",
+         "opacity":1,
+         "type":"group",
          "visible":true,
          "x":0,
          "y":0
         }],
- "nextlayerid":27,
- "nextobjectid":65,
+ "nextlayerid":46,
+ "nextobjectid":99,
  "orientation":"orthogonal",
  "properties":[
         {
@@ -177,6 +666,11 @@
          "name":"NoSpawning",
          "type":"bool",
          "value":false
+        }, 
+        {
+         "name":"Skybox",
+         "type":"string",
+         "value":"Skybox"
         }],
  "renderorder":"left-up",
  "tiledversion":"1.4.3",

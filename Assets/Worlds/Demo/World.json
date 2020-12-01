@@ -1,6 +1,8 @@
 {
-    "name": "My Game",
-    "shortDescription": "My game description.",
+    "key": "Demo",
+    "name": "Feature Demo",
+    "shortDescription": "A world show-casing most traVRsal features.",
+    "longDescription": "This world is an example world for world creators to show-case what is possible with traVRsal. The accompanying Unity project including all assets can be downloaded from github.",
     "replacements": [
         {
             "type": "Material",
