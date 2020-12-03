@@ -6,7 +6,7 @@
          "id":5,
          "layers":[
                 {
-                 "data":[4, 4, 0, 4, 4, 4, 4, 4, 4],
+                 "data":[4, 4, 4, 4, 4, 4, 4, 4, 4],
                  "height":3,
                  "id":1,
                  "name":"Ground",
@@ -29,47 +29,7 @@
                  "y":0
                 }, 
                 {
-                 "draworder":"topdown",
-                 "id":30,
-                 "name":"Ground",
-                 "objects":[
-                        {
-                         "gid":4,
-                         "height":50,
-                         "id":66,
-                         "name":"",
-                         "properties":[
-                                {
-                                 "name":"AutoFill",
-                                 "type":"bool",
-                                 "value":true
-                                }],
-                         "rotation":0,
-                         "type":"\/Base\/Ground",
-                         "visible":true,
-                         "width":50,
-                         "x":100,
-                         "y":50
-                        }],
-                 "opacity":1,
-                 "properties":[
-                        {
-                         "name":"DontPropagate-Virtual",
-                         "type":"bool",
-                         "value":true
-                        }, 
-                        {
-                         "name":"Virtual",
-                         "type":"bool",
-                         "value":true
-                        }],
-                 "type":"objectgroup",
-                 "visible":false,
-                 "x":0,
-                 "y":0
-                }, 
-                {
-                 "data":[0, 0, 0, 0, 0, 0, 3, 0, 0],
+                 "data":[3, 3, 3, 3, 3, 3, 3, 3, 3],
                  "height":3,
                  "id":28,
                  "name":"Ceiling",
@@ -92,7 +52,7 @@
                  "y":0
                 }, 
                 {
-                 "data":[0, 0, 0, 0, 0, 0, 6, 0, 0],
+                 "data":[2684354566, 3221225477, 3221225478, 2684354565, 0, 1610612741, 6, 5, 1610612742],
                  "height":3,
                  "id":3,
                  "name":"Walls",
@@ -115,89 +75,10 @@
                  "y":0
                 }, 
                 {
-                 "data":[0, 0, 0, 0, 0, 0, 0, 2684354565, 0],
-                 "height":3,
-                 "id":29,
-                 "name":"Inner Walls",
-                 "opacity":1,
-                 "properties":[
-                        {
-                         "name":"Anchor",
-                         "type":"string",
-                         "value":"-1,0"
-                        }, 
-                        {
-                         "name":"ConnectToCeiling",
-                         "type":"bool",
-                         "value":true
-                        }, 
-                        {
-                         "name":"Materials",
-                         "type":"string",
-                         "value":"[walls]"
-                        }],
-                 "type":"tilelayer",
-                 "visible":true,
-                 "width":3,
-                 "x":0,
-                 "y":0
-                }, 
-                {
                  "draworder":"topdown",
                  "id":4,
                  "name":"Transitions",
-                 "objects":[
-                        {
-                         "gid":8,
-                         "height":50,
-                         "id":65,
-                         "name":"",
-                         "properties":[
-                                {
-                                 "name":"MazeTransitions",
-                                 "type":"int",
-                                 "value":2
-                                }, 
-                                {
-                                 "name":"Snap",
-                                 "type":"bool",
-                                 "value":true
-                                }, 
-                                {
-                                 "name":"TargetZone",
-                                 "type":"string",
-                                 "value":"Labyrinths"
-                                }, 
-                                {
-                                 "name":"ZoneExit",
-                                 "type":"bool",
-                                 "value":true
-                                }],
-                         "rotation":-90,
-                         "type":"\/Base\/Transition",
-                         "visible":true,
-                         "width":50,
-                         "x":50,
-                         "y":150
-                        }, 
-                        {
-                         "gid":30,
-                         "height":50,
-                         "id":67,
-                         "name":"",
-                         "properties":[
-                                {
-                                 "name":"LocationId",
-                                 "type":"string",
-                                 "value":""
-                                }],
-                         "rotation":0,
-                         "type":"\/Base\/Location",
-                         "visible":true,
-                         "width":50,
-                         "x":100,
-                         "y":50
-                        }],
+                 "objects":[],
                  "opacity":1,
                  "type":"objectgroup",
                  "visible":true,
@@ -228,8 +109,8 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":31,
- "nextobjectid":68,
+ "nextlayerid":29,
+ "nextobjectid":65,
  "orientation":"orthogonal",
  "properties":[
         {
@@ -241,11 +122,6 @@
          "name":"NoSpawning",
          "type":"bool",
          "value":false
-        }, 
-        {
-         "name":"Offset",
-         "type":"string",
-         "value":"10,0,0"
         }],
  "renderorder":"left-up",
  "tiledversion":"1.4.3",
