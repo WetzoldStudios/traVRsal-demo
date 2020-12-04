@@ -6,12 +6,40 @@
          "id":5,
          "layers":[
                 {
-                 "data":[4, 4, 0, 4, 4, 0, 4, 4, 0],
+                 "data":[4, 0, 0, 4, 0, 0, 4, 0, 0],
                  "height":3,
                  "id":1,
-                 "name":"Ground",
+                 "name":"LeftGround",
                  "opacity":1,
                  "properties":[
+                        {
+                         "name":"Materials",
+                         "type":"string",
+                         "value":"[ground]"
+                        }, 
+                        {
+                         "name":"Walkable",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "type":"tilelayer",
+                 "visible":true,
+                 "width":3,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "data":[4, 4, 0, 4, 4, 0, 4, 4, 0],
+                 "height":3,
+                 "id":30,
+                 "name":"RightGround",
+                 "opacity":1,
+                 "properties":[
+                        {
+                         "name":"Anchor",
+                         "type":"string",
+                         "value":"1,0"
+                        }, 
                         {
                          "name":"Materials",
                          "type":"string",
@@ -81,7 +109,7 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":30,
+ "nextlayerid":31,
  "nextobjectid":66,
  "orientation":"orthogonal",
  "properties":[

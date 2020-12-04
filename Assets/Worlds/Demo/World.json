@@ -1,8 +1,9 @@
 {
     "key": "Demo",
     "name": "traVRsal Demo",
-    "shortDescription": "A world show-casing most of the available features.",
-    "longDescription": "This world is an example world for world creators to show-case what is possible with traVRsal. The accompanying Unity project including all assets can be downloaded from github.",
+    "shortDescription": "Show-casing many of the available world-building features.",
+    "longDescription": "This is an example for world creators to show-case what is possible with traVRsal for inspiration and as a copy/paste source. The accompanying Unity project including all assets can be downloaded from github. It will constantly be expanded.",
+    "enableChallenges": false,
     "replacements": [
         {
             "type": "Material",
