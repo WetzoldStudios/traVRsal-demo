@@ -3,6 +3,7 @@
     "name": "traVRsal Demo",
     "shortDescription": "Show-casing many of the available world-building features.",
     "longDescription": "This is an example for world creators to show-case what is possible with traVRsal for inspiration and as a copy/paste source. The accompanying Unity project including all assets can be downloaded from github. It will constantly be expanded.",
+    "coverImage": "Cover.png",
     "enableChallenges": false,
     "replacements": [
         {
@@ -19,6 +20,46 @@
             "type": "Material",
             "key": "[ground]",
             "materials": "/Base/Proto/Green"
+        },
+        {
+            "key": "/Base/Ground",
+            "objectKey": "CustomGround",
+            "materials": "",
+            "validZones": [
+                "Sound"
+            ]
+        },
+        {
+            "key": "/Base/Wall",
+            "randomObjects": [
+                "Wall",
+                "Window",
+                "Window2X"
+            ],
+            "validZones": [
+                "Labyrinths"
+            ]
+        }
+    ],
+    "objectSpecs": [
+        {
+            "objectKey": "Window",
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "height": 5
+        },
+        {
+            "objectKey": "Window2X",
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "width": 2,
+            "height": 5
         }
     ]
 }

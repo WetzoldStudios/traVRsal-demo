@@ -6,9 +6,9 @@
          "id":5,
          "layers":[
                 {
-                 "data":[4, 0, 0, 4, 0, 0, 4, 0, 0],
+                 "data":[4, 4, 0, 4, 4, 4, 4, 4, 4],
                  "height":3,
-                 "id":31,
+                 "id":1,
                  "name":"Ground",
                  "opacity":1,
                  "properties":[
@@ -30,7 +30,7 @@
                 }, 
                 {
                  "draworder":"topdown",
-                 "id":32,
+                 "id":30,
                  "name":"Ground",
                  "objects":[
                         {
@@ -48,128 +48,54 @@
                          "type":"\/Base\/Ground",
                          "visible":true,
                          "width":50,
-                         "x":50,
+                         "x":100,
                          "y":50
-                        }, 
-                        {
-                         "gid":4,
-                         "height":50,
-                         "id":67,
-                         "name":"",
-                         "properties":[
-                                {
-                                 "name":"AutoFill",
-                                 "type":"bool",
-                                 "value":true
-                                }],
-                         "rotation":0,
-                         "type":"\/Base\/Ground",
-                         "visible":true,
-                         "width":50,
-                         "x":50,
-                         "y":100
-                        }, 
-                        {
-                         "gid":4,
-                         "height":50,
-                         "id":68,
-                         "name":"",
-                         "properties":[
-                                {
-                                 "name":"AutoFill",
-                                 "type":"bool",
-                                 "value":true
-                                }],
-                         "rotation":0,
-                         "type":"\/Base\/Ground",
-                         "visible":true,
-                         "width":50,
-                         "x":50,
-                         "y":150
                         }],
                  "opacity":1,
                  "properties":[
                         {
-                         "name":"Anchor",
-                         "type":"string",
-                         "value":"1,0"
+                         "name":"DontPropagate-Virtual",
+                         "type":"bool",
+                         "value":true
                         }, 
                         {
-                         "name":"Materials",
-                         "type":"string",
-                         "value":"[ground]"
-                        }, 
-                        {
-                         "name":"Walkable",
+                         "name":"Virtual",
                          "type":"bool",
                          "value":true
                         }],
                  "type":"objectgroup",
-                 "visible":true,
+                 "visible":false,
                  "x":0,
                  "y":0
                 }, 
                 {
-                 "draworder":"topdown",
-                 "id":33,
-                 "name":"Walls",
-                 "objects":[
+                 "data":[0, 0, 0, 0, 0, 0, 3, 0, 0],
+                 "height":3,
+                 "id":28,
+                 "name":"Ceiling",
+                 "opacity":1,
+                 "properties":[
                         {
-                         "gid":6,
-                         "height":50,
-                         "id":69,
-                         "name":"",
-                         "properties":[
-                                {
-                                 "name":"FillHoles",
-                                 "type":"bool",
-                                 "value":false
-                                }],
-                         "rotation":0,
-                         "type":"\/Base\/Corner",
-                         "visible":true,
-                         "width":50,
-                         "x":0,
-                         "y":150
+                         "name":"AtCeiling",
+                         "type":"bool",
+                         "value":true
                         }, 
                         {
-                         "gid":5,
-                         "height":50,
-                         "id":70,
-                         "name":"",
-                         "properties":[
-                                {
-                                 "name":"Anchor",
-                                 "type":"string",
-                                 "value":"-1,0"
-                                }, 
-                                {
-                                 "name":"AutoFill",
-                                 "type":"bool",
-                                 "value":true
-                                }, 
-                                {
-                                 "name":"CheckOccupiedNeighbor",
-                                 "type":"bool",
-                                 "value":true
-                                }, 
-                                {
-                                 "name":"FillHoles",
-                                 "type":"bool",
-                                 "value":true
-                                }, 
-                                {
-                                 "name":"SkipOccupied",
-                                 "type":"string",
-                                 "value":"\/Base\/Door"
-                                }],
-                         "rotation":90,
-                         "type":"\/Base\/Wall",
-                         "visible":true,
-                         "width":50,
-                         "x":50,
-                         "y":100
+                         "name":"Materials",
+                         "type":"string",
+                         "value":"[ceiling]"
                         }],
+                 "type":"tilelayer",
+                 "visible":true,
+                 "width":3,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "data":[0, 0, 0, 0, 0, 0, 6, 0, 0],
+                 "height":3,
+                 "id":3,
+                 "name":"Walls",
                  "opacity":1,
                  "properties":[
                         {
@@ -182,31 +108,82 @@
                          "type":"string",
                          "value":"[walls]"
                         }],
-                 "type":"objectgroup",
+                 "type":"tilelayer",
                  "visible":true,
+                 "width":3,
                  "x":0,
                  "y":0
                 }, 
                 {
-                 "draworder":"topdown",
-                 "id":27,
-                 "name":"Objects",
-                 "objects":[],
-                 "opacity":1,
-                 "type":"objectgroup",
-                 "visible":true,
-                 "x":0,
-                 "y":0
-                }, 
-                {
-                 "draworder":"topdown",
+                 "data":[0, 0, 0, 0, 0, 0, 0, 2684354565, 0],
+                 "height":3,
                  "id":29,
+                 "name":"Inner Walls",
+                 "opacity":1,
+                 "properties":[
+                        {
+                         "name":"Anchor",
+                         "type":"string",
+                         "value":"-1,0"
+                        }, 
+                        {
+                         "name":"ConnectToCeiling",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"Materials",
+                         "type":"string",
+                         "value":"[walls]"
+                        }],
+                 "type":"tilelayer",
+                 "visible":true,
+                 "width":3,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "draworder":"topdown",
+                 "id":4,
                  "name":"Transitions",
                  "objects":[
                         {
-                         "gid":30,
+                         "gid":8,
                          "height":50,
                          "id":65,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"MazeTransitions",
+                                 "type":"int",
+                                 "value":2
+                                }, 
+                                {
+                                 "name":"Snap",
+                                 "type":"bool",
+                                 "value":true
+                                }, 
+                                {
+                                 "name":"TargetZone",
+                                 "type":"string",
+                                 "value":"Labyrinths"
+                                }, 
+                                {
+                                 "name":"ZoneExit",
+                                 "type":"bool",
+                                 "value":true
+                                }],
+                         "rotation":-90,
+                         "type":"\/Base\/Transition",
+                         "visible":true,
+                         "width":50,
+                         "x":50,
+                         "y":150
+                        }, 
+                        {
+                         "gid":30,
+                         "height":50,
+                         "id":67,
                          "name":"",
                          "properties":[
                                 {
@@ -220,49 +197,6 @@
                          "width":50,
                          "x":100,
                          "y":50
-                        }, 
-                        {
-                         "gid":8,
-                         "height":50,
-                         "id":71,
-                         "name":"",
-                         "properties":[
-                                {
-                                 "name":"MazeTransitions",
-                                 "type":"int",
-                                 "value":2
-                                }, 
-                                {
-                                 "name":"Music",
-                                 "type":"string",
-                                 "value":"Sample.mp3"
-                                }, 
-                                {
-                                 "name":"Snap",
-                                 "type":"bool",
-                                 "value":true
-                                }, 
-                                {
-                                 "name":"Speak",
-                                 "type":"string",
-                                 "value":"Transitions to other zones can trigger audio like this text, and as you hear also cross-fade in new music in the background."
-                                }, 
-                                {
-                                 "name":"TargetZone",
-                                 "type":"string",
-                                 "value":"SoundGarden"
-                                }, 
-                                {
-                                 "name":"ZoneExit",
-                                 "type":"bool",
-                                 "value":true
-                                }],
-                         "rotation":-90,
-                         "type":"\/Base\/Transition",
-                         "visible":true,
-                         "width":50,
-                         "x":50,
-                         "y":150
                         }],
                  "opacity":1,
                  "type":"objectgroup",
@@ -272,32 +206,9 @@
                 }, 
                 {
                  "draworder":"topdown",
-                 "id":34,
-                 "name":"Triggers",
-                 "objects":[
-                        {
-                         "gid":31,
-                         "height":50,
-                         "id":72,
-                         "name":"",
-                         "properties":[
-                                {
-                                 "name":"Anchor",
-                                 "type":"string",
-                                 "value":"1,0"
-                                }, 
-                                {
-                                 "name":"Speak",
-                                 "type":"string",
-                                 "value":"Triggers like the one you just entered can cause sound to be played or text to be spoken"
-                                }],
-                         "rotation":0,
-                         "type":"\/Base\/Trigger",
-                         "visible":true,
-                         "width":50,
-                         "x":50,
-                         "y":50
-                        }],
+                 "id":27,
+                 "name":"Objects",
+                 "objects":[],
                  "opacity":1,
                  "type":"objectgroup",
                  "visible":true,
@@ -317,8 +228,8 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":35,
- "nextobjectid":73,
+ "nextlayerid":31,
+ "nextobjectid":68,
  "orientation":"orthogonal",
  "properties":[
         {
@@ -334,12 +245,7 @@
         {
          "name":"Offset",
          "type":"string",
-         "value":"0,0,15"
-        }, 
-        {
-         "name":"Speak",
-         "type":"string",
-         "value":"This zone is all about sound and effects."
+         "value":"15,0,0"
         }],
  "renderorder":"left-up",
  "tiledversion":"1.4.3",

@@ -148,7 +148,7 @@
 </data>
   </layer>
  </group>
- <group id="33" name="Floor 2" visible="0">
+ <group id="33" name="Floor 2">
   <objectgroup id="34" name="Ground" visible="0">
    <properties>
     <property name="DontPropagate-Virtual" type="bool" value="true"/>
@@ -160,7 +160,7 @@
   <objectgroup id="45" name="Platform">
    <object id="98" type="Platform" gid="29" x="100" y="50" width="50" height="50">
     <properties>
-     <property name="TargetLocation" value="Locomotion"/>
+     <property name="TargetLocation" value="Construction"/>
     </properties>
    </object>
   </objectgroup>

@@ -5,13 +5,16 @@
             "fileName": "Intro.tmx"
         },
         {
-            "fileName": "Locomotion.tmx"
+            "fileName": "Construction.tmx"
         },
         {
             "fileName": "Sound.tmx"
         },
         {
             "fileName": "Labyrinths.tmx"
+        },
+        {
+            "fileName": "SoundGarden.tmx"
         }
     ]
 }
