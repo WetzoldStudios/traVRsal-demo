@@ -210,6 +210,11 @@
                          "name":"",
                          "properties":[
                                 {
+                                 "name":"Anchor",
+                                 "type":"string",
+                                 "value":""
+                                }, 
+                                {
                                  "name":"LocationId",
                                  "type":"string",
                                  "value":""
@@ -228,6 +233,11 @@
                          "name":"",
                          "properties":[
                                 {
+                                 "name":"Anchor",
+                                 "type":"string",
+                                 "value":""
+                                }, 
+                                {
                                  "name":"MazeTransitions",
                                  "type":"int",
                                  "value":2
@@ -236,6 +246,21 @@
                                  "name":"Music",
                                  "type":"string",
                                  "value":"Sample.mp3"
+                                }, 
+                                {
+                                 "name":"OneWay",
+                                 "type":"bool",
+                                 "value":false
+                                }, 
+                                {
+                                 "name":"RandomMusic",
+                                 "type":"string",
+                                 "value":""
+                                }, 
+                                {
+                                 "name":"ScaleY",
+                                 "type":"float",
+                                 "value":100
                                 }, 
                                 {
                                  "name":"Snap",
@@ -287,9 +312,19 @@
                                  "value":"1,0"
                                 }, 
                                 {
+                                 "name":"AudioEffect",
+                                 "type":"string",
+                                 "value":""
+                                }, 
+                                {
                                  "name":"Speak",
                                  "type":"string",
                                  "value":"Triggers like the one you just entered can cause sound to be played or text to be spoken"
+                                }, 
+                                {
+                                 "name":"Variable",
+                                 "type":"string",
+                                 "value":""
                                 }],
                          "rotation":0,
                          "type":"\/Base\/Trigger",
@@ -393,6 +428,11 @@
                  "imagewidth":50,
                  "properties":[
                         {
+                         "name":"Anchor",
+                         "type":"string",
+                         "value":""
+                        }, 
+                        {
                          "name":"AutoFill",
                          "type":"bool",
                          "value":true
@@ -452,9 +492,44 @@
                  "imagewidth":50,
                  "properties":[
                         {
+                         "name":"Anchor",
+                         "type":"string",
+                         "value":""
+                        }, 
+                        {
+                         "name":"MazeTransitions",
+                         "type":"int",
+                         "value":0
+                        }, 
+                        {
+                         "name":"Music",
+                         "type":"string",
+                         "value":""
+                        }, 
+                        {
+                         "name":"OneWay",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"RandomMusic",
+                         "type":"string",
+                         "value":""
+                        }, 
+                        {
+                         "name":"ScaleY",
+                         "type":"float",
+                         "value":100
+                        }, 
+                        {
                          "name":"Snap",
                          "type":"bool",
                          "value":true
+                        }, 
+                        {
+                         "name":"Speak",
+                         "type":"string",
+                         "value":""
                         }, 
                         {
                          "name":"TargetZone",
@@ -475,6 +550,11 @@
                  "imagewidth":50,
                  "properties":[
                         {
+                         "name":"Anchor",
+                         "type":"string",
+                         "value":""
+                        }, 
+                        {
                          "name":"Variable",
                          "type":"string",
                          "value":"[auto]"
@@ -494,6 +574,11 @@
                  "imageheight":50,
                  "imagewidth":50,
                  "properties":[
+                        {
+                         "name":"Anchor",
+                         "type":"string",
+                         "value":""
+                        }, 
                         {
                          "name":"Variable",
                          "type":"string",
@@ -526,6 +611,11 @@
                  "imagewidth":50,
                  "properties":[
                         {
+                         "name":"Anchor",
+                         "type":"string",
+                         "value":""
+                        }, 
+                        {
                          "name":"Y",
                          "type":"int",
                          "value":0
@@ -541,7 +631,7 @@
                         {
                          "name":"Anchor",
                          "type":"string",
-                         "value":"0,0"
+                         "value":""
                         }, 
                         {
                          "name":"Virtual",
@@ -593,6 +683,11 @@
                  "imagewidth":50,
                  "properties":[
                         {
+                         "name":"Anchor",
+                         "type":"string",
+                         "value":""
+                        }, 
+                        {
                          "name":"Virtual",
                          "type":"bool",
                          "value":true
@@ -627,6 +722,11 @@
                          "name":"Socket",
                          "type":"bool",
                          "value":true
+                        }, 
+                        {
+                         "name":"ValidSockets",
+                         "type":"string",
+                         "value":""
                         }]
                 }, 
                 {
@@ -658,6 +758,11 @@
                  "imageheight":50,
                  "imagewidth":50,
                  "properties":[
+                        {
+                         "name":"Anchor",
+                         "type":"string",
+                         "value":""
+                        }, 
                         {
                          "name":"AutoFill",
                          "type":"bool",
@@ -725,6 +830,11 @@
                  "imagewidth":50,
                  "properties":[
                         {
+                         "name":"Anchor",
+                         "type":"string",
+                         "value":""
+                        }, 
+                        {
                          "name":"TargetLocation",
                          "type":"string",
                          "value":""
@@ -738,6 +848,11 @@
                  "imagewidth":50,
                  "properties":[
                         {
+                         "name":"Anchor",
+                         "type":"string",
+                         "value":""
+                        }, 
+                        {
                          "name":"LocationId",
                          "type":"string",
                          "value":""
@@ -749,6 +864,27 @@
                  "image":"..\/..\/_Tiled\/Master Images\/trigger.png",
                  "imageheight":50,
                  "imagewidth":50,
+                 "properties":[
+                        {
+                         "name":"Anchor",
+                         "type":"string",
+                         "value":""
+                        }, 
+                        {
+                         "name":"AudioEffect",
+                         "type":"string",
+                         "value":""
+                        }, 
+                        {
+                         "name":"Speak",
+                         "type":"string",
+                         "value":""
+                        }, 
+                        {
+                         "name":"Variable",
+                         "type":"string",
+                         "value":""
+                        }],
                  "type":"\/Base\/Trigger"
                 }],
          "tilewidth":50
@@ -841,7 +977,53 @@
                  "id":6,
                  "image":"..\/..\/_Tiled\/Master Images\/object.png",
                  "imageheight":50,
-                 "imagewidth":50
+                 "imagewidth":50,
+                 "properties":[
+                        {
+                         "name":"MoveForward",
+                         "type":"int",
+                         "value":0
+                        }, 
+                        {
+                         "name":"MoveRight",
+                         "type":"int",
+                         "value":0
+                        }, 
+                        {
+                         "name":"RotateY",
+                         "type":"float",
+                         "value":0
+                        }, 
+                        {
+                         "name":"Scale",
+                         "type":"float",
+                         "value":100
+                        }, 
+                        {
+                         "name":"Snap",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Text",
+                         "type":"string",
+                         "value":""
+                        }, 
+                        {
+                         "name":"XOffset",
+                         "type":"float",
+                         "value":0
+                        }, 
+                        {
+                         "name":"Y",
+                         "type":"int",
+                         "value":0
+                        }, 
+                        {
+                         "name":"ZOffset",
+                         "type":"float",
+                         "value":0
+                        }]
                 }],
          "tilewidth":50
         }],
