@@ -3,7 +3,7 @@
  <properties>
   <property name="NoAgents" type="bool" value="false"/>
   <property name="NoSpawning" type="bool" value="false"/>
-  <property name="Offset" value="0,0,15"/>
+  <property name="Offset" value="0;0;15"/>
   <property name="Speak" value="This zone is all about sound and effects."/>
  </properties>
  <tileset firstgid="1" source="../../_Tiled/Master.tsx"/>

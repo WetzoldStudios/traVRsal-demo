@@ -37,11 +37,102 @@
                 "Window2X"
             ],
             "validZones": [
+                "CustomWallsByRule",
                 "Labyrinths"
             ]
         }
     ],
+    "spawnRules": [
+        {
+            "key": "Transitions",
+            "objectKeys": [
+                "PortalFrame"
+            ],
+            "validObjects": [
+                "/Base/Transition"
+            ],
+            "amountType": "Probability",
+            "amount": 100,
+            "distributionType": "Object",
+            "orientation": "Same",
+            "connectToCeiling": true
+        },
+        {
+            "key": "DeadEnds",
+            "objectKeys": [
+                "SampleObject"
+            ],
+            "amountType": "Probability",
+            "amount": 100,
+            "orientation": "Path_Back",
+            "restrictions": [
+                "deadend",
+                "maze"
+            ],
+            "scale": "1.5",
+            "maxScale": 1.5,
+            "y": 3.0
+        },
+        {
+            "key": "Corners",
+            "objectKeys": [
+                "SampleObject"
+            ],
+            "amountType": "Probability",
+            "amount": 100,
+            "orientation": "Path_Back",
+            "restrictions": [
+                "corner",
+                "maze"
+            ],
+            "scale": "0.5",
+            "maxScale": 1.5,
+            "y": 4.0
+        },
+        {
+            "key": "Directions",
+            "objectKeys": [
+                "Arrow"
+            ],
+            "validSockets": [
+                "ShortestPath"
+            ],
+            "amountType": "Probability",
+            "amount": 100,
+            "dontCountAsObstacle": true,
+            "restrictions": [
+                "maze"
+            ]
+        }
+    ],
     "objectSpecs": [
+        {
+            "objectKey": "Arrow",
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "pivotType": "Center"
+        },
+        {
+            "objectKey": "SampleObject",
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "pivotType": "Center"
+        },
+        {
+            "objectKey": "TileCube",
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "pivotType": "Center"
+        },
         {
             "objectKey": "Window",
             "scale": {

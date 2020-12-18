@@ -5,6 +5,30 @@
             "fileName": "Intro.tmx"
         },
         {
+            "fileName": "MovingPlatform.tmx"
+        },
+        {
+            "fileName": "Elevators.tmx"
+        },
+        {
+            "fileName": "WallMaterials.tmx"
+        },
+        {
+            "fileName": "CustomObjects.tmx"
+        },
+        {
+            "fileName": "CustomWalls.tmx"
+        },
+        {
+            "fileName": "CustomWallsByRule.tmx"
+        },
+        {
+            "fileName": "PlayerDamage.tmx"
+        },
+        {
+            "fileName": "Hub.tmx"
+        },
+        {
             "fileName": "Construction.tmx"
         },
         {

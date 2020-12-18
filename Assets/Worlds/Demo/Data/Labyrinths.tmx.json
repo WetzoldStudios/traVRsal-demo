@@ -632,9 +632,19 @@
                  "imagewidth":50,
                  "properties":[
                         {
+                         "name":"Anchor",
+                         "type":"string",
+                         "value":""
+                        }, 
+                        {
                          "name":"AutoFill",
                          "type":"bool",
                          "value":true
+                        }, 
+                        {
+                         "name":"Virtual",
+                         "type":"bool",
+                         "value":false
                         }],
                  "type":"\/Base\/Ceiling"
                 }, 
@@ -645,9 +655,19 @@
                  "imagewidth":50,
                  "properties":[
                         {
+                         "name":"Anchor",
+                         "type":"string",
+                         "value":""
+                        }, 
+                        {
                          "name":"AutoFill",
                          "type":"bool",
                          "value":true
+                        }, 
+                        {
+                         "name":"Virtual",
+                         "type":"bool",
+                         "value":false
                         }],
                  "type":"\/Base\/Ground"
                 }, 
@@ -747,11 +767,6 @@
                          "value":""
                         }, 
                         {
-                         "name":"ScaleY",
-                         "type":"float",
-                         "value":100
-                        }, 
-                        {
                          "name":"Snap",
                          "type":"bool",
                          "value":true
@@ -826,6 +841,11 @@
                          "name":"Anchor",
                          "type":"string",
                          "value":""
+                        }, 
+                        {
+                         "name":"Snap",
+                         "type":"bool",
+                         "value":false
                         }, 
                         {
                          "name":"Variable",
@@ -1210,24 +1230,24 @@
                  "imagewidth":50,
                  "properties":[
                         {
-                         "name":"MoveForward",
-                         "type":"int",
-                         "value":0
+                         "name":"Move",
+                         "type":"string",
+                         "value":""
                         }, 
                         {
-                         "name":"MoveRight",
-                         "type":"int",
-                         "value":0
+                         "name":"Offset",
+                         "type":"string",
+                         "value":""
                         }, 
                         {
-                         "name":"RotateY",
-                         "type":"float",
-                         "value":0
+                         "name":"Rotate",
+                         "type":"string",
+                         "value":""
                         }, 
                         {
                          "name":"Scale",
-                         "type":"float",
-                         "value":100
+                         "type":"string",
+                         "value":""
                         }, 
                         {
                          "name":"Snap",
@@ -1240,18 +1260,8 @@
                          "value":""
                         }, 
                         {
-                         "name":"XOffset",
-                         "type":"float",
-                         "value":0
-                        }, 
-                        {
                          "name":"Y",
                          "type":"int",
-                         "value":0
-                        }, 
-                        {
-                         "name":"ZOffset",
-                         "type":"float",
                          "value":0
                         }]
                 }],

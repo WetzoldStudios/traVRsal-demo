@@ -7,11 +7,13 @@ Hi, I'm Robert, the creator of traVRsal. Let me be your guide in this demo and s
 
 It all starts with a grid like you see when you look down. The bigger the play-space the more tiles the grid will contain and the bigger the worlds will be. traVRsal will automatically adapt these to the available play-space.
 
-[only grid shown]
+[only grid shown, indicator moves up after a while]
 
-Objects like the sphere over there are placed onto the grid, either manually or via automated rules. Let's create a small wall around your play-space.
+Step onto the indicator.
 
-[small wall appears]
+[Cube appears]
+
+Objects like the cube over there are placed onto the grid, either manually or via automated rules.
 
 Each grid with all objects in it is called a zone. You can travel between zones by different means. The most immersive one is to simply walk there using a portal. Let me open one now.
 
@@ -35,7 +37,7 @@ The easiest way is to simply exchange materials of the included walls. This can 
 
 [portal to next zone]
 
-Here you see some custom objects that have been added. They can face one of the four main directions and can also be rotated in addition and offset manually if needed.
+Here you see custom objects that have been added. They can face one of the four main directions and can also be rotated in addition and offset manually if needed.
 
 [portal to next zone]
 
@@ -45,25 +47,17 @@ This zone shows how to exchange the standard walls with custom ones. Supported a
 
 This zone does the same thing, but not manually and instead through automated rules. This means, the zone will look different each time you visit it as the engine will randomly fulfill the rules.
 
-We have windows now but it looks a bit dull outside. Let's change that in the next zone.
-
-[portal to next zone]
-
-The first thing we can add is a skybox. Some objects would also be nice though.
-
-[portal to next zone]
-
-Here you see how a scenery can be added surrounding the zone. This is a single prefabs of arbitrary complexity which doesn't scale with the play-space.
+Also the outside looks more interesting now as there is now a skybox. In addition, you can see how a scenery is added surrounding the zone. This is a single prefabs of arbitrary complexity which doesn't scale with the play-space.
 
 Now that we have tackled walls and the outside, let's focus on what can be done inside. A very interesting way to connect zones is to create small labyrinths. The arrows on the floor will guide you.
 
 [portal to labyrinth]
 
-Inside the labyrinth objects can be placed through rules. These rules can include constraints so that it is easy to target specific areas, like corners, dead-ends or to set limits to the amount, minimum distance and more. With snapping we can pin objects seamlessly to the walls or the ceiling.
+Inside the labyrinth objects can be placed through rules. These rules can include constraints so that it is easy to target specific areas, like corners, dead-ends or to set limits to the amount, minimum distance and more. With snapping we can pin objects seamlessly to the walls or the ceiling. It's also possible to automatically align objects pointing into the direction of the next or the previous zone like done with the directional arrows.
 
 [enter trap room]
 
-The player can also take damage. This zone contains a trap which you should avoid and a pit you should not fall down in. Try both. Upon death some custom audio can be played.
+You can also take damage. This zone contains a trap which you should avoid and a pit you should not fall down into. Try both. Upon death, custom audio can be played.
 
 [enter gun range]
 
