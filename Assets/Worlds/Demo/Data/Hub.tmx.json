@@ -76,52 +76,17 @@
                          "name":"",
                          "properties":[
                                 {
-                                 "name":"Anchor",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
                                  "name":"MazeTransitions",
                                  "type":"int",
                                  "value":0
                                 }, 
                                 {
-                                 "name":"Music",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"OneWay",
-                                 "type":"bool",
-                                 "value":false
-                                }, 
-                                {
-                                 "name":"RandomMusic",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"Snap",
-                                 "type":"bool",
-                                 "value":true
-                                }, 
-                                {
-                                 "name":"Speak",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
                                  "name":"TargetZone",
                                  "type":"string",
                                  "value":"[exit]"
-                                }, 
-                                {
-                                 "name":"ZoneExit",
-                                 "type":"bool",
-                                 "value":true
                                 }],
                          "rotation":-90,
-                         "type":"\/Base\/Transition",
+                         "type":"",
                          "visible":true,
                          "width":50,
                          "x":50,
@@ -164,24 +129,8 @@
                          "height":50,
                          "id":83,
                          "name":"",
-                         "properties":[
-                                {
-                                 "name":"Anchor",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"AutoFill",
-                                 "type":"bool",
-                                 "value":true
-                                }, 
-                                {
-                                 "name":"Virtual",
-                                 "type":"bool",
-                                 "value":false
-                                }],
                          "rotation":0,
-                         "type":"\/Base\/Ground",
+                         "type":"",
                          "visible":true,
                          "width":50,
                          "x":100,
@@ -192,24 +141,8 @@
                          "height":50,
                          "id":84,
                          "name":"",
-                         "properties":[
-                                {
-                                 "name":"Anchor",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"AutoFill",
-                                 "type":"bool",
-                                 "value":true
-                                }, 
-                                {
-                                 "name":"Virtual",
-                                 "type":"bool",
-                                 "value":false
-                                }],
                          "rotation":0,
-                         "type":"\/Base\/Ground",
+                         "type":"",
                          "visible":true,
                          "width":50,
                          "x":0,
@@ -220,24 +153,8 @@
                          "height":50,
                          "id":85,
                          "name":"",
-                         "properties":[
-                                {
-                                 "name":"Anchor",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"AutoFill",
-                                 "type":"bool",
-                                 "value":true
-                                }, 
-                                {
-                                 "name":"Virtual",
-                                 "type":"bool",
-                                 "value":false
-                                }],
                          "rotation":0,
-                         "type":"\/Base\/Ground",
+                         "type":"",
                          "visible":true,
                          "width":50,
                          "x":0,
@@ -248,24 +165,8 @@
                          "height":50,
                          "id":100,
                          "name":"",
-                         "properties":[
-                                {
-                                 "name":"Anchor",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"AutoFill",
-                                 "type":"bool",
-                                 "value":true
-                                }, 
-                                {
-                                 "name":"Virtual",
-                                 "type":"bool",
-                                 "value":false
-                                }],
                          "rotation":0,
-                         "type":"\/Base\/Ground",
+                         "type":"",
                          "visible":true,
                          "width":50,
                          "x":100,
@@ -328,39 +229,9 @@
                                  "value":"-1,0"
                                 }, 
                                 {
-                                 "name":"Move",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"Offset",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"Rotate",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"Scale",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"Snap",
-                                 "type":"bool",
-                                 "value":false
-                                }, 
-                                {
                                  "name":"Text",
                                  "type":"string",
                                  "value":"Logic"
-                                }, 
-                                {
-                                 "name":"Y",
-                                 "type":"int",
-                                 "value":0
                                 }],
                          "rotation":-180,
                          "type":"SignLeft",
@@ -381,39 +252,9 @@
                                  "value":"0,-1"
                                 }, 
                                 {
-                                 "name":"Move",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"Offset",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"Rotate",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"Scale",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"Snap",
-                                 "type":"bool",
-                                 "value":false
-                                }, 
-                                {
                                  "name":"Text",
                                  "type":"string",
                                  "value":"Locomotion"
-                                }, 
-                                {
-                                 "name":"Y",
-                                 "type":"int",
-                                 "value":0
                                 }],
                          "rotation":90,
                          "type":"SignLeft",
@@ -434,39 +275,9 @@
                                  "value":"1,0"
                                 }, 
                                 {
-                                 "name":"Move",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"Offset",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"Rotate",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"Scale",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"Snap",
-                                 "type":"bool",
-                                 "value":false
-                                }, 
-                                {
                                  "name":"Text",
                                  "type":"string",
                                  "value":"Exit"
-                                }, 
-                                {
-                                 "name":"Y",
-                                 "type":"int",
-                                 "value":0
                                 }],
                          "rotation":0,
                          "type":"SignLeft",
@@ -497,24 +308,8 @@
                          "height":50,
                          "id":96,
                          "name":"",
-                         "properties":[
-                                {
-                                 "name":"Anchor",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"Virtual",
-                                 "type":"bool",
-                                 "value":true
-                                }, 
-                                {
-                                 "name":"ZoneEntry",
-                                 "type":"bool",
-                                 "value":true
-                                }],
                          "rotation":-90,
-                         "type":"\/Base\/Transition",
+                         "type":"",
                          "visible":true,
                          "width":50,
                          "x":100,
@@ -536,17 +331,6 @@
                          "height":50,
                          "id":86,
                          "name":"",
-                         "properties":[
-                                {
-                                 "name":"Anchor",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"Variable",
-                                 "type":"string",
-                                 "value":"[auto]"
-                                }],
                          "rotation":90,
                          "type":"\/TrainingGround\/Elevator",
                          "visible":true,
@@ -561,19 +345,9 @@
                          "name":"",
                          "properties":[
                                 {
-                                 "name":"Anchor",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
                                  "name":"TargetFloor",
                                  "type":"int",
                                  "value":2
-                                }, 
-                                {
-                                 "name":"Variable",
-                                 "type":"string",
-                                 "value":"[auto]"
                                 }],
                          "rotation":0,
                          "type":"\/TrainingGround\/Elevator",
@@ -589,19 +363,9 @@
                          "name":"",
                          "properties":[
                                 {
-                                 "name":"Anchor",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
                                  "name":"TargetFloor",
                                  "type":"int",
                                  "value":-1
-                                }, 
-                                {
-                                 "name":"Variable",
-                                 "type":"string",
-                                 "value":"[auto]"
                                 }],
                          "rotation":-90,
                          "type":"\/TrainingGround\/Elevator",
@@ -627,11 +391,6 @@
                          "id":101,
                          "name":"",
                          "properties":[
-                                {
-                                 "name":"Anchor",
-                                 "type":"string",
-                                 "value":""
-                                }, 
                                 {
                                  "name":"TargetLocation",
                                  "type":"string",
@@ -676,24 +435,8 @@
                          "height":50,
                          "id":89,
                          "name":"",
-                         "properties":[
-                                {
-                                 "name":"Anchor",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"AutoFill",
-                                 "type":"bool",
-                                 "value":true
-                                }, 
-                                {
-                                 "name":"Virtual",
-                                 "type":"bool",
-                                 "value":false
-                                }],
                          "rotation":0,
-                         "type":"\/Base\/Ground",
+                         "type":"",
                          "visible":true,
                          "width":50,
                          "x":0,
@@ -704,24 +447,8 @@
                          "height":50,
                          "id":90,
                          "name":"",
-                         "properties":[
-                                {
-                                 "name":"Anchor",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"AutoFill",
-                                 "type":"bool",
-                                 "value":true
-                                }, 
-                                {
-                                 "name":"Virtual",
-                                 "type":"bool",
-                                 "value":false
-                                }],
                          "rotation":0,
-                         "type":"\/Base\/Ground",
+                         "type":"",
                          "visible":true,
                          "width":50,
                          "x":0,
@@ -793,24 +520,8 @@
                          "height":50,
                          "id":91,
                          "name":"",
-                         "properties":[
-                                {
-                                 "name":"Anchor",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"AutoFill",
-                                 "type":"bool",
-                                 "value":true
-                                }, 
-                                {
-                                 "name":"Virtual",
-                                 "type":"bool",
-                                 "value":false
-                                }],
                          "rotation":0,
-                         "type":"\/Base\/Ground",
+                         "type":"",
                          "visible":true,
                          "width":50,
                          "x":0,
@@ -821,24 +532,8 @@
                          "height":50,
                          "id":97,
                          "name":"",
-                         "properties":[
-                                {
-                                 "name":"Anchor",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"AutoFill",
-                                 "type":"bool",
-                                 "value":true
-                                }, 
-                                {
-                                 "name":"Virtual",
-                                 "type":"bool",
-                                 "value":false
-                                }],
                          "rotation":0,
-                         "type":"\/Base\/Ground",
+                         "type":"",
                          "visible":true,
                          "width":50,
                          "x":100,
@@ -872,11 +567,6 @@
                          "id":98,
                          "name":"",
                          "properties":[
-                                {
-                                 "name":"Anchor",
-                                 "type":"string",
-                                 "value":""
-                                }, 
                                 {
                                  "name":"TargetLocation",
                                  "type":"string",
@@ -980,6 +670,11 @@
                          "value":true
                         }, 
                         {
+                         "name":"DontPropagate-Virtual",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
                          "name":"Virtual",
                          "type":"bool",
                          "value":false
@@ -1001,6 +696,11 @@
                          "name":"AutoFill",
                          "type":"bool",
                          "value":true
+                        }, 
+                        {
+                         "name":"DontPropagate-Virtual",
+                         "type":"bool",
+                         "value":false
                         }, 
                         {
                          "name":"Virtual",
@@ -1499,7 +1199,7 @@
                  "imagewidth":50,
                  "properties":[
                         {
-                         "name":"Images",
+                         "name":"ImagePool",
                          "type":"string",
                          "value":""
                         }, 

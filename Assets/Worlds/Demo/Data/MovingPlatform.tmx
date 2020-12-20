@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="3" height="3" tilewidth="50" tileheight="50" infinite="0" nextlayerid="31" nextobjectid="67">
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="3" height="3" tilewidth="50" tileheight="50" infinite="0" nextlayerid="32" nextobjectid="68">
  <properties>
   <property name="NoAgents" type="bool" value="false"/>
   <property name="NoSpawning" type="bool" value="false"/>
@@ -24,6 +24,8 @@
   <objectgroup id="29" name="Ground">
    <object id="65" gid="4" x="50" y="150" width="50" height="50">
     <properties>
+     <property name="Anchor" value="-1,0"/>
+     <property name="DontPropagate-Virtual" type="bool" value="true"/>
      <property name="Virtual" type="bool" value="true"/>
     </properties>
    </object>
@@ -39,16 +41,17 @@
 0,0,0
 </data>
   </layer>
-  <layer id="30" name="InnerWalls" width="3" height="3">
-   <data encoding="csv">
-0,0,0,
-0,3221225477,0,
-0,0,0
-</data>
-  </layer>
-  <objectgroup id="4" name="Transitions">
+  <objectgroup id="31" name="InnerWalls">
+   <object id="67" gid="5" x="100" y="50" width="50" height="50" rotation="180">
+    <properties>
+     <property name="Anchor" value="0,1"/>
+    </properties>
+   </object>
+  </objectgroup>
+  <objectgroup id="4" name="Transitions" locked="1">
    <object id="66" type="Platform" gid="29" x="50" y="150" width="50" height="50">
     <properties>
+     <property name="Anchor" value="-1,0"/>
      <property name="TargetLocation" value="Elevators"/>
     </properties>
    </object>

@@ -38,24 +38,8 @@
                          "height":50,
                          "id":66,
                          "name":"",
-                         "properties":[
-                                {
-                                 "name":"Anchor",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"AutoFill",
-                                 "type":"bool",
-                                 "value":true
-                                }, 
-                                {
-                                 "name":"Virtual",
-                                 "type":"bool",
-                                 "value":false
-                                }],
                          "rotation":0,
-                         "type":"\/Base\/Ground",
+                         "type":"",
                          "visible":true,
                          "width":50,
                          "x":100,
@@ -164,52 +148,17 @@
                          "name":"",
                          "properties":[
                                 {
-                                 "name":"Anchor",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
                                  "name":"MazeTransitions",
                                  "type":"int",
                                  "value":2
                                 }, 
                                 {
-                                 "name":"Music",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"OneWay",
-                                 "type":"bool",
-                                 "value":false
-                                }, 
-                                {
-                                 "name":"RandomMusic",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"Snap",
-                                 "type":"bool",
-                                 "value":true
-                                }, 
-                                {
-                                 "name":"Speak",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
                                  "name":"TargetZone",
                                  "type":"string",
                                  "value":"Labyrinths"
-                                }, 
-                                {
-                                 "name":"ZoneExit",
-                                 "type":"bool",
-                                 "value":true
                                 }],
                          "rotation":-90,
-                         "type":"\/Base\/Transition",
+                         "type":"",
                          "visible":true,
                          "width":50,
                          "x":50,
@@ -220,19 +169,8 @@
                          "height":50,
                          "id":67,
                          "name":"",
-                         "properties":[
-                                {
-                                 "name":"Anchor",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"LocationId",
-                                 "type":"string",
-                                 "value":""
-                                }],
                          "rotation":0,
-                         "type":"\/Base\/Location",
+                         "type":"",
                          "visible":true,
                          "width":50,
                          "x":100,
@@ -323,6 +261,11 @@
                          "value":true
                         }, 
                         {
+                         "name":"DontPropagate-Virtual",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
                          "name":"Virtual",
                          "type":"bool",
                          "value":false
@@ -344,6 +287,11 @@
                          "name":"AutoFill",
                          "type":"bool",
                          "value":true
+                        }, 
+                        {
+                         "name":"DontPropagate-Virtual",
+                         "type":"bool",
+                         "value":false
                         }, 
                         {
                          "name":"Virtual",
@@ -842,7 +790,7 @@
                  "imagewidth":50,
                  "properties":[
                         {
-                         "name":"Images",
+                         "name":"ImagePool",
                          "type":"string",
                          "value":""
                         }, 

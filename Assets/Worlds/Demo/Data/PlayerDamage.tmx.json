@@ -3,10 +3,84 @@
  "infinite":false,
  "layers":[
         {
-         "id":5,
+         "id":33,
          "layers":[
                 {
                  "data":[4, 4, 4, 4, 4, 4, 4, 4, 4],
+                 "height":3,
+                 "id":34,
+                 "name":"Ground",
+                 "opacity":1,
+                 "type":"tilelayer",
+                 "visible":true,
+                 "width":3,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "data":[38, 38, 38, 38, 38, 38, 38, 38, 38],
+                 "height":3,
+                 "id":37,
+                 "name":"Spikes",
+                 "opacity":1,
+                 "properties":[
+                        {
+                         "name":"AutoFill",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"Type",
+                         "type":"string",
+                         "value":"Spike"
+                        }],
+                 "type":"tilelayer",
+                 "visible":true,
+                 "width":3,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "data":[2684354566, 3221225477, 3221225478, 2684354565, 0, 1610612741, 6, 5, 1610612742],
+                 "height":3,
+                 "id":36,
+                 "name":"Walls",
+                 "opacity":1,
+                 "properties":[
+                        {
+                         "name":"ConnectToCeiling",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"Materials",
+                         "type":"string",
+                         "value":"[walls]"
+                        }],
+                 "type":"tilelayer",
+                 "visible":true,
+                 "width":3,
+                 "x":0,
+                 "y":0
+                }],
+         "name":"Underground",
+         "opacity":1,
+         "properties":[
+                {
+                 "name":"Underground",
+                 "type":"bool",
+                 "value":true
+                }],
+         "type":"group",
+         "visible":false,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "id":5,
+         "layers":[
+                {
+                 "data":[4, 4, 4, 4, 0, 4, 4, 4, 4],
                  "height":3,
                  "id":1,
                  "name":"Ground",
@@ -29,6 +103,35 @@
                  "y":0
                 }, 
                 {
+                 "draworder":"topdown",
+                 "id":30,
+                 "name":"Ground",
+                 "objects":[
+                        {
+                         "gid":4,
+                         "height":50,
+                         "id":65,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"Virtual",
+                                 "type":"bool",
+                                 "value":true
+                                }],
+                         "rotation":0,
+                         "type":"",
+                         "visible":true,
+                         "width":50,
+                         "x":50,
+                         "y":100
+                        }],
+                 "opacity":1,
+                 "type":"objectgroup",
+                 "visible":false,
+                 "x":0,
+                 "y":0
+                }, 
+                {
                  "data":[3, 3, 3, 3, 3, 3, 3, 3, 3],
                  "height":3,
                  "id":28,
@@ -46,7 +149,7 @@
                          "value":"[ceiling]"
                         }],
                  "type":"tilelayer",
-                 "visible":true,
+                 "visible":false,
                  "width":3,
                  "x":0,
                  "y":0
@@ -69,16 +172,70 @@
                          "value":"[walls]"
                         }],
                  "type":"tilelayer",
-                 "visible":true,
+                 "visible":false,
                  "width":3,
                  "x":0,
                  "y":0
                 }, 
                 {
-                 "data":[0, 0, 0, 3221225477, 0, 0, 0, 0, 0],
-                 "height":3,
-                 "id":29,
+                 "draworder":"topdown",
+                 "id":32,
                  "name":"InnerWalls",
+                 "objects":[
+                        {
+                         "gid":5,
+                         "height":50,
+                         "id":66,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"Anchor",
+                                 "type":"string",
+                                 "value":"0,1"
+                                }],
+                         "rotation":180,
+                         "type":"",
+                         "visible":true,
+                         "width":50,
+                         "x":50,
+                         "y":50
+                        }, 
+                        {
+                         "gid":5,
+                         "height":50,
+                         "id":67,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"Anchor",
+                                 "type":"string",
+                                 "value":"0,-1"
+                                }],
+                         "rotation":0,
+                         "type":"",
+                         "visible":true,
+                         "width":50,
+                         "x":0,
+                         "y":100
+                        }, 
+                        {
+                         "gid":5,
+                         "height":50,
+                         "id":68,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"Anchor",
+                                 "type":"string",
+                                 "value":"0,-1"
+                                }],
+                         "rotation":0,
+                         "type":"",
+                         "visible":true,
+                         "width":50,
+                         "x":50,
+                         "y":100
+                        }],
                  "opacity":1,
                  "properties":[
                         {
@@ -91,9 +248,8 @@
                          "type":"string",
                          "value":"[walls]"
                         }],
-                 "type":"tilelayer",
+                 "type":"objectgroup",
                  "visible":true,
-                 "width":3,
                  "x":0,
                  "y":0
                 }, 
@@ -101,7 +257,25 @@
                  "draworder":"topdown",
                  "id":4,
                  "name":"Transitions",
-                 "objects":[],
+                 "objects":[
+                        {
+                         "gid":8,
+                         "height":50,
+                         "id":69,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"TargetZone",
+                                 "type":"string",
+                                 "value":"Crouching"
+                                }],
+                         "rotation":180,
+                         "type":"",
+                         "visible":true,
+                         "width":50,
+                         "x":50,
+                         "y":100
+                        }],
                  "opacity":1,
                  "type":"objectgroup",
                  "visible":true,
@@ -132,8 +306,8 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":30,
- "nextobjectid":65,
+ "nextlayerid":38,
+ "nextobjectid":70,
  "orientation":"orthogonal",
  "properties":[
         {
@@ -182,6 +356,11 @@
                          "value":true
                         }, 
                         {
+                         "name":"DontPropagate-Virtual",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
                          "name":"Virtual",
                          "type":"bool",
                          "value":false
@@ -203,6 +382,11 @@
                          "name":"AutoFill",
                          "type":"bool",
                          "value":true
+                        }, 
+                        {
+                         "name":"DontPropagate-Virtual",
+                         "type":"bool",
+                         "value":false
                         }, 
                         {
                          "name":"Virtual",
@@ -701,7 +885,7 @@
                  "imagewidth":50,
                  "properties":[
                         {
-                         "name":"Images",
+                         "name":"ImagePool",
                          "type":"string",
                          "value":""
                         }, 

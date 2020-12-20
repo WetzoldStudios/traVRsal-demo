@@ -29,7 +29,7 @@
                  "y":0
                 }, 
                 {
-                 "data":[3, 3, 3, 3, 3, 3, 3, 3, 3],
+                 "data":[0, 3, 3, 3, 3, 3, 3, 3, 3],
                  "height":3,
                  "id":28,
                  "name":"Ceiling",
@@ -46,8 +46,42 @@
                          "value":"[ceiling]"
                         }],
                  "type":"tilelayer",
-                 "visible":true,
+                 "visible":false,
                  "width":3,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "draworder":"topdown",
+                 "id":38,
+                 "name":"Ceiling",
+                 "objects":[
+                        {
+                         "gid":3,
+                         "height":50,
+                         "id":72,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"DontPropagate-Virtual",
+                                 "type":"bool",
+                                 "value":true
+                                }, 
+                                {
+                                 "name":"Virtual",
+                                 "type":"bool",
+                                 "value":true
+                                }],
+                         "rotation":0,
+                         "type":"",
+                         "visible":true,
+                         "width":50,
+                         "x":0,
+                         "y":50
+                        }],
+                 "opacity":1,
+                 "type":"objectgroup",
+                 "visible":true,
                  "x":0,
                  "y":0
                 }, 
@@ -75,17 +109,286 @@
                  "y":0
                 }, 
                 {
-                 "data":[0, 0, 0, 5, 0, 0, 0, 0, 0],
+                 "draworder":"topdown",
+                 "id":27,
+                 "name":"Objects",
+                 "objects":[],
+                 "opacity":1,
+                 "type":"objectgroup",
+                 "visible":true,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "draworder":"topdown",
+                 "id":40,
+                 "name":"Images",
+                 "objects":[
+                        {
+                         "gid":38,
+                         "height":50,
+                         "id":74,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"Image",
+                                 "type":"string",
+                                 "value":"https:\/\/travrsal.com\/img\/OutOrDead_EngineDescription.jpg"
+                                }, 
+                                {
+                                 "name":"Snap",
+                                 "type":"bool",
+                                 "value":true
+                                }, 
+                                {
+                                 "name":"Y",
+                                 "type":"int",
+                                 "value":2
+                                }],
+                         "rotation":0,
+                         "type":"Poster",
+                         "visible":true,
+                         "width":50,
+                         "x":50,
+                         "y":150
+                        }, 
+                        {
+                         "gid":38,
+                         "height":50,
+                         "id":76,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"Snap",
+                                 "type":"bool",
+                                 "value":true
+                                }, 
+                                {
+                                 "name":"Y",
+                                 "type":"int",
+                                 "value":2
+                                }],
+                         "rotation":90,
+                         "type":"Poster",
+                         "visible":true,
+                         "width":50,
+                         "x":7,
+                         "y":93
+                        }],
+                 "opacity":1,
+                 "type":"objectgroup",
+                 "visible":true,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "draworder":"topdown",
+                 "id":41,
+                 "name":"Signs",
+                 "objects":[
+                        {
+                         "gid":38,
+                         "height":50,
+                         "id":75,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"Anchor",
+                                 "type":"string",
+                                 "value":"0,-1"
+                                }, 
+                                {
+                                 "name":"Snap",
+                                 "type":"bool",
+                                 "value":true
+                                }, 
+                                {
+                                 "name":"Text",
+                                 "type":"string",
+                                 "value":"Named Image"
+                                }, 
+                                {
+                                 "name":"Y",
+                                 "type":"int",
+                                 "value":2
+                                }],
+                         "rotation":90,
+                         "type":"SignLeft",
+                         "visible":true,
+                         "width":50,
+                         "x":0,
+                         "y":50
+                        }, 
+                        {
+                         "gid":38,
+                         "height":50,
+                         "id":77,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"Anchor",
+                                 "type":"string",
+                                 "value":"1,0"
+                                }, 
+                                {
+                                 "name":"Snap",
+                                 "type":"bool",
+                                 "value":true
+                                }, 
+                                {
+                                 "name":"Text",
+                                 "type":"string",
+                                 "value":"Live Web Image"
+                                }, 
+                                {
+                                 "name":"Y",
+                                 "type":"int",
+                                 "value":2
+                                }],
+                         "rotation":0,
+                         "type":"SignLeft",
+                         "visible":true,
+                         "width":50,
+                         "x":0,
+                         "y":150
+                        }],
+                 "opacity":1,
+                 "type":"objectgroup",
+                 "visible":true,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "draworder":"topdown",
+                 "id":37,
+                 "name":"Transitions",
+                 "objects":[
+                        {
+                         "gid":9,
+                         "height":50,
+                         "id":71,
+                         "name":"",
+                         "rotation":180,
+                         "type":"\/TrainingGround\/Elevator",
+                         "visible":true,
+                         "width":50,
+                         "x":50,
+                         "y":0
+                        }],
+                 "opacity":1,
+                 "type":"objectgroup",
+                 "visible":true,
+                 "x":0,
+                 "y":0
+                }],
+         "name":"Floor 0",
+         "opacity":1,
+         "properties":[
+                {
+                 "name":"Height",
+                 "type":"float",
+                 "value":2.5
+                }, 
+                {
+                 "name":"NoSpawning-Frames",
+                 "type":"bool",
+                 "value":true
+                }],
+         "type":"group",
+         "visible":false,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "id":30,
+         "layers":[
+                {
+                 "data":[0, 4, 4, 4, 4, 4, 4, 4, 4],
                  "height":3,
-                 "id":29,
-                 "name":"InnerWalls",
+                 "id":31,
+                 "name":"Ground",
                  "opacity":1,
                  "properties":[
                         {
-                         "name":"Anchor",
+                         "name":"Materials",
                          "type":"string",
-                         "value":"0,-1"
+                         "value":"[ground]"
                         }, 
+                        {
+                         "name":"Walkable",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "type":"tilelayer",
+                 "visible":true,
+                 "width":3,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "draworder":"topdown",
+                 "id":39,
+                 "name":"Ground",
+                 "objects":[
+                        {
+                         "gid":4,
+                         "height":50,
+                         "id":73,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"DontPropagate-Virtual",
+                                 "type":"bool",
+                                 "value":true
+                                }, 
+                                {
+                                 "name":"Virtual",
+                                 "type":"bool",
+                                 "value":true
+                                }],
+                         "rotation":0,
+                         "type":"",
+                         "visible":true,
+                         "width":50,
+                         "x":0,
+                         "y":50
+                        }],
+                 "opacity":1,
+                 "type":"objectgroup",
+                 "visible":true,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "data":[3, 3, 3, 3, 3, 3, 3, 3, 3],
+                 "height":3,
+                 "id":32,
+                 "name":"Ceiling",
+                 "opacity":1,
+                 "properties":[
+                        {
+                         "name":"AtCeiling",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"Materials",
+                         "type":"string",
+                         "value":"[ceiling]"
+                        }],
+                 "type":"tilelayer",
+                 "visible":false,
+                 "width":3,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "data":[2684354566, 3221225477, 3221225478, 2684354565, 0, 1610612741, 6, 5, 1610612742],
+                 "height":3,
+                 "id":33,
+                 "name":"Walls",
+                 "opacity":1,
+                 "properties":[
                         {
                          "name":"ConnectToCeiling",
                          "type":"bool",
@@ -104,9 +407,90 @@
                 }, 
                 {
                  "draworder":"topdown",
-                 "id":4,
+                 "id":34,
+                 "name":"InnerWalls",
+                 "objects":[
+                        {
+                         "gid":5,
+                         "height":50,
+                         "id":68,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"Anchor",
+                                 "type":"string",
+                                 "value":"1,0"
+                                }],
+                         "rotation":-90,
+                         "type":"",
+                         "visible":true,
+                         "width":50,
+                         "x":100,
+                         "y":150
+                        }, 
+                        {
+                         "gid":5,
+                         "height":50,
+                         "id":69,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"Anchor",
+                                 "type":"string",
+                                 "value":"1,0"
+                                }],
+                         "rotation":-90,
+                         "type":"",
+                         "visible":true,
+                         "width":50,
+                         "x":100,
+                         "y":100
+                        }],
+                 "opacity":1,
+                 "properties":[
+                        {
+                         "name":"ConnectToCeiling",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"Materials",
+                         "type":"string",
+                         "value":"[walls]"
+                        }],
+                 "type":"objectgroup",
+                 "visible":true,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "draworder":"topdown",
+                 "id":35,
                  "name":"Transitions",
-                 "objects":[],
+                 "objects":[
+                        {
+                         "gid":8,
+                         "height":50,
+                         "id":70,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"OneWay",
+                                 "type":"bool",
+                                 "value":true
+                                }, 
+                                {
+                                 "name":"TargetZone",
+                                 "type":"string",
+                                 "value":"Hub"
+                                }],
+                         "rotation":90,
+                         "type":"",
+                         "visible":true,
+                         "width":50,
+                         "x":100,
+                         "y":100
+                        }],
                  "opacity":1,
                  "type":"objectgroup",
                  "visible":true,
@@ -115,7 +499,7 @@
                 }, 
                 {
                  "draworder":"topdown",
-                 "id":27,
+                 "id":36,
                  "name":"Objects",
                  "objects":[],
                  "opacity":1,
@@ -124,7 +508,7 @@
                  "x":0,
                  "y":0
                 }],
-         "name":"Floor 0",
+         "name":"Floor 1",
          "opacity":1,
          "properties":[
                 {
@@ -137,8 +521,8 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":30,
- "nextobjectid":65,
+ "nextlayerid":42,
+ "nextobjectid":78,
  "orientation":"orthogonal",
  "properties":[
         {

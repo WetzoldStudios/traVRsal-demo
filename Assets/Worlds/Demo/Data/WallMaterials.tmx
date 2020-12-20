@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="3" height="3" tilewidth="50" tileheight="50" infinite="0" nextlayerid="32" nextobjectid="75">
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="3" height="3" tilewidth="50" tileheight="50" infinite="0" nextlayerid="35" nextobjectid="83">
  <properties>
   <property name="NoAgents" type="bool" value="false"/>
   <property name="NoSpawning" type="bool" value="false"/>
@@ -51,23 +51,9 @@
      <property name="RandomMaterials" value="/Base/Proto/Green,/Base/Proto/Red,/Base/Proto/Blue,/Base/Proto/White"/>
     </properties>
    </object>
-   <object id="70" gid="5" x="100" y="0" width="50" height="50" rotation="180">
-    <properties>
-     <property name="Materials" value="/Base/Bricks"/>
-    </properties>
-   </object>
-   <object id="71" gid="5" x="150" y="0" width="50" height="50" rotation="180">
-    <properties>
-     <property name="Materials" value="/Base/Bricks"/>
-    </properties>
-   </object>
-   <object id="72" gid="5" x="150" y="50" width="50" height="50" rotation="-90">
-    <properties>
-     <property name="Materials" value="/Base/Bricks"/>
-    </properties>
-   </object>
    <object id="73" gid="5" x="150" y="100" width="50" height="50" rotation="-90">
     <properties>
+     <property name="Anchor" value="0,1"/>
      <property name="Materials" value="/Base/Proto/Red,/Base/Proto/Blue,*,/Base/Proto/Green"/>
     </properties>
    </object>
@@ -77,17 +63,38 @@
     </properties>
    </object>
   </objectgroup>
-  <layer id="29" name="InnerWalls" width="3" height="3">
+  <objectgroup id="34" name="Walls2">
+   <properties>
+    <property name="ConnectToCeiling" type="bool" value="true"/>
+    <property name="Materials" value="[walls]"/>
+   </properties>
+   <object id="78" gid="5" x="100" y="0" width="50" height="50" rotation="180">
+    <properties>
+     <property name="Materials" value="/Base/Bricks"/>
+    </properties>
+   </object>
+   <object id="79" gid="5" x="150" y="0" width="50" height="50" rotation="180">
+    <properties>
+     <property name="Materials" value="/Base/Bricks"/>
+    </properties>
+   </object>
+   <object id="80" gid="5" x="150" y="50" width="50" height="50" rotation="-90">
+    <properties>
+     <property name="Materials" value="/Base/Bricks"/>
+    </properties>
+   </object>
+  </objectgroup>
+  <objectgroup id="32" name="InnerWalls" locked="1">
    <properties>
     <property name="ConnectToCeiling" type="bool" value="true"/>
     <property name="Materials" value="/Base/Proto/Red,/Base/Proto/Blue,*,/Base/Proto/Green"/>
    </properties>
-   <data encoding="csv">
-0,0,0,
-0,0,3221225477,
-0,0,0
-</data>
-  </layer>
+   <object id="75" gid="5" x="150" y="50" width="50" height="50" rotation="180">
+    <properties>
+     <property name="Anchor" value="0,1"/>
+    </properties>
+   </object>
+  </objectgroup>
   <objectgroup id="4" name="Transitions" locked="1">
    <object id="65" gid="8" x="100" y="50" width="50" height="50">
     <properties>

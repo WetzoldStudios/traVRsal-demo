@@ -3,7 +3,7 @@
  <grid orientation="orthogonal" width="1" height="1"/>
  <tile id="3" type="/Base/MultiDisplay">
   <properties>
-   <property name="Images" value=""/>
+   <property name="ImagePool" value=""/>
    <property name="Materials" value=""/>
    <property name="Snap" type="bool" value="true"/>
    <property name="Variable" value=""/>

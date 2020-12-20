@@ -38,24 +38,8 @@
                          "height":50,
                          "id":65,
                          "name":"",
-                         "properties":[
-                                {
-                                 "name":"Anchor",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"Virtual",
-                                 "type":"bool",
-                                 "value":true
-                                }, 
-                                {
-                                 "name":"ZoneEntry",
-                                 "type":"bool",
-                                 "value":true
-                                }],
                          "rotation":90,
-                         "type":"\/Base\/Transition",
+                         "type":"",
                          "visible":true,
                          "width":50,
                          "x":100,
@@ -70,50 +54,15 @@
                                 {
                                  "name":"Anchor",
                                  "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"MazeTransitions",
-                                 "type":"int",
-                                 "value":0
-                                }, 
-                                {
-                                 "name":"Music",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"OneWay",
-                                 "type":"bool",
-                                 "value":false
-                                }, 
-                                {
-                                 "name":"RandomMusic",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"Snap",
-                                 "type":"bool",
-                                 "value":true
-                                }, 
-                                {
-                                 "name":"Speak",
-                                 "type":"string",
-                                 "value":""
+                                 "value":"0,1"
                                 }, 
                                 {
                                  "name":"TargetZone",
                                  "type":"string",
                                  "value":"MovingPlatform"
-                                }, 
-                                {
-                                 "name":"ZoneExit",
-                                 "type":"bool",
-                                 "value":true
                                 }],
                          "rotation":-180,
-                         "type":"\/Base\/Transition",
+                         "type":"",
                          "visible":true,
                          "width":50,
                          "x":100,
@@ -135,42 +84,6 @@
                          "height":50,
                          "id":66,
                          "name":"",
-                         "properties":[
-                                {
-                                 "name":"Move",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"Offset",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"Rotate",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"Scale",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"Snap",
-                                 "type":"bool",
-                                 "value":false
-                                }, 
-                                {
-                                 "name":"Text",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"Y",
-                                 "type":"int",
-                                 "value":0
-                                }],
                          "rotation":0,
                          "type":"TileCube",
                          "visible":true,
@@ -183,42 +96,6 @@
                          "height":50,
                          "id":67,
                          "name":"",
-                         "properties":[
-                                {
-                                 "name":"Move",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"Offset",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"Rotate",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"Scale",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"Snap",
-                                 "type":"bool",
-                                 "value":false
-                                }, 
-                                {
-                                 "name":"Text",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"Y",
-                                 "type":"int",
-                                 "value":0
-                                }],
                          "rotation":0,
                          "type":"\/Base\/FeetIndicatorSimple",
                          "visible":true,
@@ -295,6 +172,11 @@
                          "value":true
                         }, 
                         {
+                         "name":"DontPropagate-Virtual",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
                          "name":"Virtual",
                          "type":"bool",
                          "value":false
@@ -316,6 +198,11 @@
                          "name":"AutoFill",
                          "type":"bool",
                          "value":true
+                        }, 
+                        {
+                         "name":"DontPropagate-Virtual",
+                         "type":"bool",
+                         "value":false
                         }, 
                         {
                          "name":"Virtual",
@@ -814,7 +701,7 @@
                  "imagewidth":50,
                  "properties":[
                         {
-                         "name":"Images",
+                         "name":"ImagePool",
                          "type":"string",
                          "value":""
                         }, 

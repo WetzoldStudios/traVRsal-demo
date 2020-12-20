@@ -25,6 +25,7 @@
    <object id="65" gid="20" x="100" y="50" width="50" height="50" rotation="90"/>
    <object id="68" gid="8" x="100" y="50" width="50" height="50" rotation="-180">
     <properties>
+     <property name="Anchor" value="0,1"/>
      <property name="TargetZone" value="MovingPlatform"/>
     </properties>
    </object>

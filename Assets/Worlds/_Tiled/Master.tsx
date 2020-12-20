@@ -5,6 +5,7 @@
   <properties>
    <property name="Anchor" value=""/>
    <property name="AutoFill" type="bool" value="true"/>
+   <property name="DontPropagate-Virtual" type="bool" value="false"/>
    <property name="Virtual" type="bool" value="false"/>
   </properties>
   <image width="50" height="50" source="Master Images/ceiling.png"/>
@@ -13,6 +14,7 @@
   <properties>
    <property name="Anchor" value=""/>
    <property name="AutoFill" type="bool" value="true"/>
+   <property name="DontPropagate-Virtual" type="bool" value="false"/>
    <property name="Virtual" type="bool" value="false"/>
   </properties>
   <image width="50" height="50" source="Master Images/ground.png"/>

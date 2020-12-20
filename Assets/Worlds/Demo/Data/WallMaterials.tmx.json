@@ -68,26 +68,6 @@
                          "name":"",
                          "properties":[
                                 {
-                                 "name":"Anchor",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"AutoFill",
-                                 "type":"bool",
-                                 "value":true
-                                }, 
-                                {
-                                 "name":"CheckOccupiedNeighbor",
-                                 "type":"bool",
-                                 "value":true
-                                }, 
-                                {
-                                 "name":"FillHoles",
-                                 "type":"bool",
-                                 "value":true
-                                }, 
-                                {
                                  "name":"Materials",
                                  "type":"string",
                                  "value":"\/Base\/Proto\/Red,[random],*,\/Base\/Proto\/Green"
@@ -96,14 +76,9 @@
                                  "name":"RandomMaterials",
                                  "type":"string",
                                  "value":"\/Base\/Proto\/Green,\/Base\/Proto\/Red,\/Base\/Proto\/Blue,\/Base\/Proto\/White"
-                                }, 
-                                {
-                                 "name":"SkipOccupied",
-                                 "type":"string",
-                                 "value":"\/Base\/Door"
                                 }],
                          "rotation":0,
-                         "type":"\/Base\/Wall",
+                         "type":"",
                          "visible":true,
                          "width":50,
                          "x":50,
@@ -116,26 +91,6 @@
                          "name":"",
                          "properties":[
                                 {
-                                 "name":"Anchor",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"AutoFill",
-                                 "type":"bool",
-                                 "value":true
-                                }, 
-                                {
-                                 "name":"CheckOccupiedNeighbor",
-                                 "type":"bool",
-                                 "value":true
-                                }, 
-                                {
-                                 "name":"FillHoles",
-                                 "type":"bool",
-                                 "value":true
-                                }, 
-                                {
                                  "name":"Materials",
                                  "type":"string",
                                  "value":"\/Base\/Proto\/Red,[random],*,\/Base\/Proto\/Green"
@@ -144,147 +99,13 @@
                                  "name":"RandomMaterials",
                                  "type":"string",
                                  "value":"\/Base\/Proto\/Green,\/Base\/Proto\/Red,\/Base\/Proto\/Blue,\/Base\/Proto\/White"
-                                }, 
-                                {
-                                 "name":"SkipOccupied",
-                                 "type":"string",
-                                 "value":"\/Base\/Door"
                                 }],
                          "rotation":0,
-                         "type":"\/Base\/Wall",
+                         "type":"",
                          "visible":true,
                          "width":50,
                          "x":100,
                          "y":150
-                        }, 
-                        {
-                         "gid":5,
-                         "height":50,
-                         "id":70,
-                         "name":"",
-                         "properties":[
-                                {
-                                 "name":"Anchor",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"AutoFill",
-                                 "type":"bool",
-                                 "value":true
-                                }, 
-                                {
-                                 "name":"CheckOccupiedNeighbor",
-                                 "type":"bool",
-                                 "value":true
-                                }, 
-                                {
-                                 "name":"FillHoles",
-                                 "type":"bool",
-                                 "value":true
-                                }, 
-                                {
-                                 "name":"Materials",
-                                 "type":"string",
-                                 "value":"\/Base\/Bricks"
-                                }, 
-                                {
-                                 "name":"SkipOccupied",
-                                 "type":"string",
-                                 "value":"\/Base\/Door"
-                                }],
-                         "rotation":180,
-                         "type":"\/Base\/Wall",
-                         "visible":true,
-                         "width":50,
-                         "x":100,
-                         "y":0
-                        }, 
-                        {
-                         "gid":5,
-                         "height":50,
-                         "id":71,
-                         "name":"",
-                         "properties":[
-                                {
-                                 "name":"Anchor",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"AutoFill",
-                                 "type":"bool",
-                                 "value":true
-                                }, 
-                                {
-                                 "name":"CheckOccupiedNeighbor",
-                                 "type":"bool",
-                                 "value":true
-                                }, 
-                                {
-                                 "name":"FillHoles",
-                                 "type":"bool",
-                                 "value":true
-                                }, 
-                                {
-                                 "name":"Materials",
-                                 "type":"string",
-                                 "value":"\/Base\/Bricks"
-                                }, 
-                                {
-                                 "name":"SkipOccupied",
-                                 "type":"string",
-                                 "value":"\/Base\/Door"
-                                }],
-                         "rotation":180,
-                         "type":"\/Base\/Wall",
-                         "visible":true,
-                         "width":50,
-                         "x":150,
-                         "y":0
-                        }, 
-                        {
-                         "gid":5,
-                         "height":50,
-                         "id":72,
-                         "name":"",
-                         "properties":[
-                                {
-                                 "name":"Anchor",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"AutoFill",
-                                 "type":"bool",
-                                 "value":true
-                                }, 
-                                {
-                                 "name":"CheckOccupiedNeighbor",
-                                 "type":"bool",
-                                 "value":true
-                                }, 
-                                {
-                                 "name":"FillHoles",
-                                 "type":"bool",
-                                 "value":true
-                                }, 
-                                {
-                                 "name":"Materials",
-                                 "type":"string",
-                                 "value":"\/Base\/Bricks"
-                                }, 
-                                {
-                                 "name":"SkipOccupied",
-                                 "type":"string",
-                                 "value":"\/Base\/Door"
-                                }],
-                         "rotation":-90,
-                         "type":"\/Base\/Wall",
-                         "visible":true,
-                         "width":50,
-                         "x":150,
-                         "y":50
                         }, 
                         {
                          "gid":5,
@@ -295,35 +116,15 @@
                                 {
                                  "name":"Anchor",
                                  "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"AutoFill",
-                                 "type":"bool",
-                                 "value":true
-                                }, 
-                                {
-                                 "name":"CheckOccupiedNeighbor",
-                                 "type":"bool",
-                                 "value":true
-                                }, 
-                                {
-                                 "name":"FillHoles",
-                                 "type":"bool",
-                                 "value":true
+                                 "value":"0,1"
                                 }, 
                                 {
                                  "name":"Materials",
                                  "type":"string",
                                  "value":"\/Base\/Proto\/Red,\/Base\/Proto\/Blue,*,\/Base\/Proto\/Green"
-                                }, 
-                                {
-                                 "name":"SkipOccupied",
-                                 "type":"string",
-                                 "value":"\/Base\/Door"
                                 }],
                          "rotation":-90,
-                         "type":"\/Base\/Wall",
+                         "type":"",
                          "visible":true,
                          "width":50,
                          "x":150,
@@ -336,37 +137,12 @@
                          "name":"",
                          "properties":[
                                 {
-                                 "name":"Anchor",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"AutoFill",
-                                 "type":"bool",
-                                 "value":true
-                                }, 
-                                {
-                                 "name":"CheckOccupiedNeighbor",
-                                 "type":"bool",
-                                 "value":true
-                                }, 
-                                {
-                                 "name":"FillHoles",
-                                 "type":"bool",
-                                 "value":true
-                                }, 
-                                {
                                  "name":"Materials",
                                  "type":"string",
                                  "value":"\/Base\/Proto\/Red,\/Base\/Proto\/Blue,*,\/Base\/Proto\/Green"
-                                }, 
-                                {
-                                 "name":"SkipOccupied",
-                                 "type":"string",
-                                 "value":"\/Base\/Door"
                                 }],
                          "rotation":-90,
-                         "type":"\/Base\/Wall",
+                         "type":"",
                          "visible":true,
                          "width":50,
                          "x":150,
@@ -390,10 +166,104 @@
                  "y":0
                 }, 
                 {
-                 "data":[0, 0, 0, 0, 0, 3221225477, 0, 0, 0],
-                 "height":3,
-                 "id":29,
+                 "draworder":"topdown",
+                 "id":34,
+                 "name":"Walls2",
+                 "objects":[
+                        {
+                         "gid":5,
+                         "height":50,
+                         "id":78,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"Materials",
+                                 "type":"string",
+                                 "value":"\/Base\/Bricks"
+                                }],
+                         "rotation":180,
+                         "type":"",
+                         "visible":true,
+                         "width":50,
+                         "x":100,
+                         "y":0
+                        }, 
+                        {
+                         "gid":5,
+                         "height":50,
+                         "id":79,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"Materials",
+                                 "type":"string",
+                                 "value":"\/Base\/Bricks"
+                                }],
+                         "rotation":180,
+                         "type":"",
+                         "visible":true,
+                         "width":50,
+                         "x":150,
+                         "y":0
+                        }, 
+                        {
+                         "gid":5,
+                         "height":50,
+                         "id":80,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"Materials",
+                                 "type":"string",
+                                 "value":"\/Base\/Bricks"
+                                }],
+                         "rotation":-90,
+                         "type":"",
+                         "visible":true,
+                         "width":50,
+                         "x":150,
+                         "y":50
+                        }],
+                 "opacity":1,
+                 "properties":[
+                        {
+                         "name":"ConnectToCeiling",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"Materials",
+                         "type":"string",
+                         "value":"[walls]"
+                        }],
+                 "type":"objectgroup",
+                 "visible":true,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "draworder":"topdown",
+                 "id":32,
                  "name":"InnerWalls",
+                 "objects":[
+                        {
+                         "gid":5,
+                         "height":50,
+                         "id":75,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"Anchor",
+                                 "type":"string",
+                                 "value":"0,1"
+                                }],
+                         "rotation":180,
+                         "type":"",
+                         "visible":true,
+                         "width":50,
+                         "x":150,
+                         "y":50
+                        }],
                  "opacity":1,
                  "properties":[
                         {
@@ -406,9 +276,8 @@
                          "type":"string",
                          "value":"\/Base\/Proto\/Red,\/Base\/Proto\/Blue,*,\/Base\/Proto\/Green"
                         }],
-                 "type":"tilelayer",
+                 "type":"objectgroup",
                  "visible":true,
-                 "width":3,
                  "x":0,
                  "y":0
                 }, 
@@ -424,52 +293,12 @@
                          "name":"",
                          "properties":[
                                 {
-                                 "name":"Anchor",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"MazeTransitions",
-                                 "type":"int",
-                                 "value":0
-                                }, 
-                                {
-                                 "name":"Music",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"OneWay",
-                                 "type":"bool",
-                                 "value":false
-                                }, 
-                                {
-                                 "name":"RandomMusic",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"Snap",
-                                 "type":"bool",
-                                 "value":true
-                                }, 
-                                {
-                                 "name":"Speak",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
                                  "name":"TargetZone",
                                  "type":"string",
                                  "value":"CustomObjects"
-                                }, 
-                                {
-                                 "name":"ZoneExit",
-                                 "type":"bool",
-                                 "value":true
                                 }],
                          "rotation":0,
-                         "type":"\/Base\/Transition",
+                         "type":"",
                          "visible":true,
                          "width":50,
                          "x":100,
@@ -496,26 +325,6 @@
                                  "name":"Anchor",
                                  "type":"string",
                                  "value":"-1,0"
-                                }, 
-                                {
-                                 "name":"Move",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"Offset",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"Rotate",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"Scale",
-                                 "type":"string",
-                                 "value":""
                                 }, 
                                 {
                                  "name":"Snap",
@@ -569,8 +378,8 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":32,
- "nextobjectid":75,
+ "nextlayerid":35,
+ "nextobjectid":83,
  "orientation":"orthogonal",
  "properties":[
         {
@@ -624,6 +433,11 @@
                          "value":true
                         }, 
                         {
+                         "name":"DontPropagate-Virtual",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
                          "name":"Virtual",
                          "type":"bool",
                          "value":false
@@ -645,6 +459,11 @@
                          "name":"AutoFill",
                          "type":"bool",
                          "value":true
+                        }, 
+                        {
+                         "name":"DontPropagate-Virtual",
+                         "type":"bool",
+                         "value":false
                         }, 
                         {
                          "name":"Virtual",
@@ -1143,7 +962,7 @@
                  "imagewidth":50,
                  "properties":[
                         {
-                         "name":"Images",
+                         "name":"ImagePool",
                          "type":"string",
                          "value":""
                         }, 

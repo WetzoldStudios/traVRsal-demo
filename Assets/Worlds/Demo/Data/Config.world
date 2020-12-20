@@ -26,6 +26,12 @@
             "fileName": "PlayerDamage.tmx"
         },
         {
+            "fileName": "Crouching.tmx"
+        },
+        {
+            "fileName": "Gallery.tmx"
+        },
+        {
             "fileName": "Hub.tmx"
         },
         {

@@ -67,37 +67,37 @@
      <property name="Y" type="int" value="3"/>
     </properties>
    </object>
-   <object id="71" type="SampleObject" gid="38" x="0" y="0" width="50" height="50" rotation="90">
+   <object id="71" type="SampleObject" gid="38" x="50" y="50" width="50" height="50" rotation="-90">
     <properties>
      <property name="Rotate" value="0;45;0"/>
      <property name="Y" type="int" value="4"/>
     </properties>
    </object>
-   <object id="72" type="SampleObject" gid="38" x="50" y="150" width="50" height="50">
+   <object id="72" type="SampleObject" gid="38" x="100" y="100" width="50" height="50" rotation="180">
     <properties>
-     <property name="Move" value="0;0;-1.5"/>
+     <property name="Move" value="0;0;1.5"/>
      <property name="Scale" value="2"/>
      <property name="Y" type="int" value="2"/>
     </properties>
    </object>
-   <object id="73" type="SampleObject" gid="38" x="0" y="150" width="50" height="50">
+   <object id="73" type="SampleObject" gid="38" x="50" y="100" width="50" height="50" rotation="-180">
     <properties>
-     <property name="Move" value="-1;0;-1"/>
+     <property name="Move" value="1;0;1"/>
      <property name="Rotate" value="0;45;0"/>
      <property name="Scale" value="2"/>
      <property name="Y" type="int" value="2"/>
     </properties>
    </object>
-   <object id="74" type="SampleObject" gid="38" x="100" y="150" width="50" height="50">
+   <object id="74" type="SampleObject" gid="38" x="150" y="100" width="50" height="50" rotation="180">
     <properties>
-     <property name="Move" value="1;0;-1"/>
+     <property name="Move" value="-1;0;1"/>
      <property name="Rotate" value="0;-45;0"/>
      <property name="Scale" value="2"/>
      <property name="Y" type="int" value="2"/>
     </properties>
    </object>
   </objectgroup>
-  <objectgroup id="30" name="Signs" locked="1">
+  <objectgroup id="30" name="Signs">
    <object id="66" type="SignRight" gid="38" x="100" y="0" width="50" height="50" rotation="-180">
     <properties>
      <property name="Anchor" value="-1,0"/>

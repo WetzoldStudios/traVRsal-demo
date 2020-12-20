@@ -38,24 +38,8 @@
                          "height":50,
                          "id":66,
                          "name":"",
-                         "properties":[
-                                {
-                                 "name":"Anchor",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"AutoFill",
-                                 "type":"bool",
-                                 "value":true
-                                }, 
-                                {
-                                 "name":"Virtual",
-                                 "type":"bool",
-                                 "value":false
-                                }],
                          "rotation":0,
-                         "type":"\/Base\/Ground",
+                         "type":"",
                          "visible":true,
                          "width":50,
                          "x":50,
@@ -66,24 +50,8 @@
                          "height":50,
                          "id":67,
                          "name":"",
-                         "properties":[
-                                {
-                                 "name":"Anchor",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"AutoFill",
-                                 "type":"bool",
-                                 "value":true
-                                }, 
-                                {
-                                 "name":"Virtual",
-                                 "type":"bool",
-                                 "value":false
-                                }],
                          "rotation":0,
-                         "type":"\/Base\/Ground",
+                         "type":"",
                          "visible":true,
                          "width":50,
                          "x":50,
@@ -94,24 +62,8 @@
                          "height":50,
                          "id":68,
                          "name":"",
-                         "properties":[
-                                {
-                                 "name":"Anchor",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"AutoFill",
-                                 "type":"bool",
-                                 "value":true
-                                }, 
-                                {
-                                 "name":"Virtual",
-                                 "type":"bool",
-                                 "value":false
-                                }],
                          "rotation":0,
-                         "type":"\/Base\/Ground",
+                         "type":"",
                          "visible":true,
                          "width":50,
                          "x":50,
@@ -149,14 +101,8 @@
                          "height":50,
                          "id":69,
                          "name":"",
-                         "properties":[
-                                {
-                                 "name":"FillHoles",
-                                 "type":"bool",
-                                 "value":false
-                                }],
                          "rotation":0,
-                         "type":"\/Base\/Corner",
+                         "type":"",
                          "visible":true,
                          "width":50,
                          "x":0,
@@ -172,29 +118,9 @@
                                  "name":"Anchor",
                                  "type":"string",
                                  "value":"-1,0"
-                                }, 
-                                {
-                                 "name":"AutoFill",
-                                 "type":"bool",
-                                 "value":true
-                                }, 
-                                {
-                                 "name":"CheckOccupiedNeighbor",
-                                 "type":"bool",
-                                 "value":true
-                                }, 
-                                {
-                                 "name":"FillHoles",
-                                 "type":"bool",
-                                 "value":true
-                                }, 
-                                {
-                                 "name":"SkipOccupied",
-                                 "type":"string",
-                                 "value":"\/Base\/Door"
                                 }],
                          "rotation":90,
-                         "type":"\/Base\/Wall",
+                         "type":"",
                          "visible":true,
                          "width":50,
                          "x":50,
@@ -238,19 +164,8 @@
                          "height":50,
                          "id":65,
                          "name":"",
-                         "properties":[
-                                {
-                                 "name":"Anchor",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"LocationId",
-                                 "type":"string",
-                                 "value":""
-                                }],
                          "rotation":0,
-                         "type":"\/Base\/Location",
+                         "type":"",
                          "visible":true,
                          "width":50,
                          "x":100,
@@ -263,11 +178,6 @@
                          "name":"",
                          "properties":[
                                 {
-                                 "name":"Anchor",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
                                  "name":"MazeTransitions",
                                  "type":"int",
                                  "value":2
@@ -278,21 +188,6 @@
                                  "value":"Sample.mp3"
                                 }, 
                                 {
-                                 "name":"OneWay",
-                                 "type":"bool",
-                                 "value":false
-                                }, 
-                                {
-                                 "name":"RandomMusic",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"Snap",
-                                 "type":"bool",
-                                 "value":true
-                                }, 
-                                {
                                  "name":"Speak",
                                  "type":"string",
                                  "value":"Transitions to other zones can trigger audio like this text, and as you hear also cross-fade in new music in the background."
@@ -301,14 +196,9 @@
                                  "name":"TargetZone",
                                  "type":"string",
                                  "value":"SoundGarden"
-                                }, 
-                                {
-                                 "name":"ZoneExit",
-                                 "type":"bool",
-                                 "value":true
                                 }],
                          "rotation":-90,
-                         "type":"\/Base\/Transition",
+                         "type":"",
                          "visible":true,
                          "width":50,
                          "x":50,
@@ -337,22 +227,12 @@
                                  "value":"1,0"
                                 }, 
                                 {
-                                 "name":"AudioEffect",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
                                  "name":"Speak",
                                  "type":"string",
                                  "value":"Triggers like the one you just entered can cause sound to be played or text to be spoken"
-                                }, 
-                                {
-                                 "name":"Variable",
-                                 "type":"string",
-                                 "value":""
                                 }],
                          "rotation":0,
-                         "type":"\/Base\/Trigger",
+                         "type":"",
                          "visible":true,
                          "width":50,
                          "x":50,
@@ -437,6 +317,11 @@
                          "value":true
                         }, 
                         {
+                         "name":"DontPropagate-Virtual",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
                          "name":"Virtual",
                          "type":"bool",
                          "value":false
@@ -458,6 +343,11 @@
                          "name":"AutoFill",
                          "type":"bool",
                          "value":true
+                        }, 
+                        {
+                         "name":"DontPropagate-Virtual",
+                         "type":"bool",
+                         "value":false
                         }, 
                         {
                          "name":"Virtual",
@@ -956,7 +846,7 @@
                  "imagewidth":50,
                  "properties":[
                         {
-                         "name":"Images",
+                         "name":"ImagePool",
                          "type":"string",
                          "value":""
                         }, 

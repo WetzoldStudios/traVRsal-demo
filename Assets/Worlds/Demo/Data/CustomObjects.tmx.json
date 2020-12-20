@@ -86,52 +86,12 @@
                          "name":"",
                          "properties":[
                                 {
-                                 "name":"Anchor",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"MazeTransitions",
-                                 "type":"int",
-                                 "value":0
-                                }, 
-                                {
-                                 "name":"Music",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"OneWay",
-                                 "type":"bool",
-                                 "value":false
-                                }, 
-                                {
-                                 "name":"RandomMusic",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"Snap",
-                                 "type":"bool",
-                                 "value":true
-                                }, 
-                                {
-                                 "name":"Speak",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
                                  "name":"TargetZone",
                                  "type":"string",
                                  "value":"CustomWalls"
-                                }, 
-                                {
-                                 "name":"ZoneExit",
-                                 "type":"bool",
-                                 "value":true
                                 }],
                          "rotation":0,
-                         "type":"\/Base\/Transition",
+                         "type":"",
                          "visible":true,
                          "width":50,
                          "x":100,
@@ -153,42 +113,6 @@
                          "height":50,
                          "id":67,
                          "name":"",
-                         "properties":[
-                                {
-                                 "name":"Move",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"Offset",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"Rotate",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"Scale",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"Snap",
-                                 "type":"bool",
-                                 "value":false
-                                }, 
-                                {
-                                 "name":"Text",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"Y",
-                                 "type":"int",
-                                 "value":0
-                                }],
                          "rotation":0,
                          "type":"SampleObject",
                          "visible":true,
@@ -202,36 +126,6 @@
                          "id":68,
                          "name":"",
                          "properties":[
-                                {
-                                 "name":"Move",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"Offset",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"Rotate",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"Scale",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"Snap",
-                                 "type":"bool",
-                                 "value":false
-                                }, 
-                                {
-                                 "name":"Text",
-                                 "type":"string",
-                                 "value":""
-                                }, 
                                 {
                                  "name":"Y",
                                  "type":"int",
@@ -251,36 +145,6 @@
                          "name":"",
                          "properties":[
                                 {
-                                 "name":"Move",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"Offset",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"Rotate",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"Scale",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"Snap",
-                                 "type":"bool",
-                                 "value":false
-                                }, 
-                                {
-                                 "name":"Text",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
                                  "name":"Y",
                                  "type":"int",
                                  "value":2
@@ -298,36 +162,6 @@
                          "id":70,
                          "name":"",
                          "properties":[
-                                {
-                                 "name":"Move",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"Offset",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"Rotate",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"Scale",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"Snap",
-                                 "type":"bool",
-                                 "value":false
-                                }, 
-                                {
-                                 "name":"Text",
-                                 "type":"string",
-                                 "value":""
-                                }, 
                                 {
                                  "name":"Y",
                                  "type":"int",
@@ -347,46 +181,21 @@
                          "name":"",
                          "properties":[
                                 {
-                                 "name":"Move",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"Offset",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
                                  "name":"Rotate",
                                  "type":"string",
                                  "value":"0;45;0"
-                                }, 
-                                {
-                                 "name":"Scale",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"Snap",
-                                 "type":"bool",
-                                 "value":false
-                                }, 
-                                {
-                                 "name":"Text",
-                                 "type":"string",
-                                 "value":""
                                 }, 
                                 {
                                  "name":"Y",
                                  "type":"int",
                                  "value":4
                                 }],
-                         "rotation":90,
+                         "rotation":-90,
                          "type":"SampleObject",
                          "visible":true,
                          "width":50,
-                         "x":0,
-                         "y":0
+                         "x":50,
+                         "y":50
                         }, 
                         {
                          "gid":38,
@@ -397,17 +206,7 @@
                                 {
                                  "name":"Move",
                                  "type":"string",
-                                 "value":"0;0;-1.5"
-                                }, 
-                                {
-                                 "name":"Offset",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"Rotate",
-                                 "type":"string",
-                                 "value":""
+                                 "value":"0;0;1.5"
                                 }, 
                                 {
                                  "name":"Scale",
@@ -415,26 +214,16 @@
                                  "value":"2"
                                 }, 
                                 {
-                                 "name":"Snap",
-                                 "type":"bool",
-                                 "value":false
-                                }, 
-                                {
-                                 "name":"Text",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
                                  "name":"Y",
                                  "type":"int",
                                  "value":2
                                 }],
-                         "rotation":0,
+                         "rotation":180,
                          "type":"SampleObject",
                          "visible":true,
                          "width":50,
-                         "x":50,
-                         "y":150
+                         "x":100,
+                         "y":100
                         }, 
                         {
                          "gid":38,
@@ -445,12 +234,7 @@
                                 {
                                  "name":"Move",
                                  "type":"string",
-                                 "value":"-1;0;-1"
-                                }, 
-                                {
-                                 "name":"Offset",
-                                 "type":"string",
-                                 "value":""
+                                 "value":"1;0;1"
                                 }, 
                                 {
                                  "name":"Rotate",
@@ -463,26 +247,16 @@
                                  "value":"2"
                                 }, 
                                 {
-                                 "name":"Snap",
-                                 "type":"bool",
-                                 "value":false
-                                }, 
-                                {
-                                 "name":"Text",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
                                  "name":"Y",
                                  "type":"int",
                                  "value":2
                                 }],
-                         "rotation":0,
+                         "rotation":-180,
                          "type":"SampleObject",
                          "visible":true,
                          "width":50,
-                         "x":0,
-                         "y":150
+                         "x":50,
+                         "y":100
                         }, 
                         {
                          "gid":38,
@@ -493,12 +267,7 @@
                                 {
                                  "name":"Move",
                                  "type":"string",
-                                 "value":"1;0;-1"
-                                }, 
-                                {
-                                 "name":"Offset",
-                                 "type":"string",
-                                 "value":""
+                                 "value":"-1;0;1"
                                 }, 
                                 {
                                  "name":"Rotate",
@@ -511,26 +280,16 @@
                                  "value":"2"
                                 }, 
                                 {
-                                 "name":"Snap",
-                                 "type":"bool",
-                                 "value":false
-                                }, 
-                                {
-                                 "name":"Text",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
                                  "name":"Y",
                                  "type":"int",
                                  "value":2
                                 }],
-                         "rotation":0,
+                         "rotation":180,
                          "type":"SampleObject",
                          "visible":true,
                          "width":50,
-                         "x":100,
-                         "y":150
+                         "x":150,
+                         "y":100
                         }],
                  "opacity":1,
                  "type":"objectgroup",
@@ -553,26 +312,6 @@
                                  "name":"Anchor",
                                  "type":"string",
                                  "value":"-1,0"
-                                }, 
-                                {
-                                 "name":"Move",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"Offset",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"Rotate",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"Scale",
-                                 "type":"string",
-                                 "value":""
                                 }, 
                                 {
                                  "name":"Snap",
@@ -665,6 +404,11 @@
                          "value":true
                         }, 
                         {
+                         "name":"DontPropagate-Virtual",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
                          "name":"Virtual",
                          "type":"bool",
                          "value":false
@@ -686,6 +430,11 @@
                          "name":"AutoFill",
                          "type":"bool",
                          "value":true
+                        }, 
+                        {
+                         "name":"DontPropagate-Virtual",
+                         "type":"bool",
+                         "value":false
                         }, 
                         {
                          "name":"Virtual",
@@ -1184,7 +933,7 @@
                  "imagewidth":50,
                  "properties":[
                         {
-                         "name":"Images",
+                         "name":"ImagePool",
                          "type":"string",
                          "value":""
                         }, 
