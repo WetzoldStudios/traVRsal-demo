@@ -5,27 +5,25 @@ Welcome back. As you already followed the demo once you can decide if you want t
 
 Hi, I'm Robert, the creator of traVRsal. Let me be your guide in this demo and show you some of the exciting features to build worlds.
 
-It all starts with a grid like you see when you look down. The bigger the play-space the more tiles the grid will contain and the bigger the worlds will be. traVRsal will automatically adapt these to the available play-space.
+It all starts with a grid like you see when you look down. The bigger the play-space the more tiles the grid will contain and the bigger the worlds will be. traVRsal will automatically adapt to the available play-space.
 
 [only grid shown, indicator moves up after a while]
 
-Step onto the indicator.
+Step onto the indicator to the left.
 
-[Cube appears]
+[Cubes appear]
 
-Objects like the cube over there are placed onto the grid, either manually or via automated rules.
+Objects like the cubes over there are placed onto the grid, either manually or via automated rules.
 
-Each grid with all objects in it is called a zone. You can travel between zones by different means. The most immersive one is to simply walk there using a portal. Let me open one now.
+Each grid with all objects in it is called a zone. You can travel between zones by different means. The most immersive one is to simply walk there using a portal like the one in front of you. Step through!
 
-[portal appears]
+[moving platform zone]
 
-Step through!
-
-Another way to get to a different zone is to use a moving platform. Hop on!
+Another way to get to a different zone is to use a moving platform. Hop on! Better. I also took the liberty to add a skybox to get out of the dark. 
 
 [platform]
 
-Each zone can have multiple floors which all can have varying heights. Elevators, which are nothing more than vertically moving platforms,  connect floors inside a zone. Go up and continue from there!
+Each zone can have multiple floors which all can have varying heights. Elevators, which are special versions of moving platforms, connect floors inside a zone. Go up and continue from there!
 
 [move up]
 
@@ -33,7 +31,7 @@ Each zone can have multiple floors which all can have varying heights. Elevators
 
 Now that you know about the two basic ways of getting from one zone to the next, let's create more interesting zones.
 
-The easiest way is to simply exchange materials of the included walls. This can be done for the whole wall, per tile or randomly.
+The easiest way is to simply exchange materials of the included walls. This can be done for the whole wall, per tile or randomly. Check out the walls around you showing static and random patterns as well as custom textures.
 
 [portal to next zone]
 
@@ -47,13 +45,17 @@ This zone shows how to exchange the standard walls with custom ones. Supported a
 
 This zone does the same thing, but not manually and instead through automated rules. This means, the zone will look different each time you visit it as the engine will randomly fulfill the rules.
 
-Also the outside looks more interesting now as there is now a skybox. In addition, you can see how a scenery is added surrounding the zone. This is a single prefabs of arbitrary complexity which doesn't scale with the play-space.
+Also the outside changed to a different skybox now, just because we can.
+
+[future]
+
+In addition, you can see how a scenery is added surrounding the zone. This is a single prefabs of arbitrary complexity which doesn't scale with the play-space.
 
 Now that we have tackled walls and the outside, let's focus on what can be done inside. A very interesting way to connect zones is to create small labyrinths. The arrows on the floor will guide you.
 
 [portal to labyrinth]
 
-Inside the labyrinth objects can be placed through rules. These rules can include constraints so that it is easy to target specific areas, like corners, dead-ends or to set limits to the amount, minimum distance and more. With snapping we can pin objects seamlessly to the walls or the ceiling. It's also possible to automatically align objects pointing into the direction of the next or the previous zone like done with the directional arrows.
+Inside the labyrinth objects can be placed through rules. These rules can include constraints so that it is easy to target specific areas, like corners, dead-ends or to set limits to the amount, minimum distance and more. With snapping we can pin objects seamlessly to the walls or the ceiling. It's also possible to automatically align objects pointing into the direction of the next or the previous zone like done with the objects in the corners that will initially always face you.
 
 [enter trap room]
 
@@ -106,9 +108,9 @@ Since you enabled crouching in the world settings this zone features a much lowe
 [enter gallery]
 [on image ad from server, one from project, rest unsplash, one resue frame from gallery]
 
-It is possible to show external content at runtime. Currently images from  URLs, from unsplash.com and user-defined ones directly from the device are supported.
+It is possible to show external content at runtime. Currently images from  URLs, from unsplash.com, from inside the world and user-defined ones directly from the device are supported.
 
-This concludes my tour for today. I hope this gave you many ideas what can be done with traVRsal. You can download this exact world from github and see how all the different parts were created. Believe me, it is very easy.
+This concludes my tour for today. More content will appear over time. I hope this gave you many ideas what can be done with traVRsal. You can download this exact world from github and see how all the different parts were created. Believe me, it is very easy.
 
 Now I am really looking forward to which world you will create. Join my Discord to discuss details and raise all questions you might have. 
 

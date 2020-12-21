@@ -154,7 +154,6 @@
   <objectgroup id="35" name="Transitions">
    <object id="70" gid="8" x="100" y="100" width="50" height="50" rotation="90">
     <properties>
-     <property name="OneWay" type="bool" value="true"/>
      <property name="TargetZone" value="Hub"/>
     </properties>
    </object>

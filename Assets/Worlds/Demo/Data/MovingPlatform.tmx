@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="3" height="3" tilewidth="50" tileheight="50" infinite="0" nextlayerid="32" nextobjectid="68">
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="3" height="3" tilewidth="50" tileheight="50" infinite="0" nextlayerid="33" nextobjectid="69">
  <properties>
   <property name="NoAgents" type="bool" value="false"/>
   <property name="NoSpawning" type="bool" value="false"/>
+  <property name="Skybox" value="Skybox1"/>
  </properties>
  <tileset firstgid="1" source="../../_Tiled/Master.tsx"/>
  <tileset firstgid="32" source="../../_Tiled/Deco.tsx"/>
@@ -57,5 +58,15 @@
    </object>
   </objectgroup>
   <objectgroup id="27" name="Objects"/>
+  <objectgroup id="32" name="Posters">
+   <object id="68" type="Poster" gid="38" x="100" y="0" width="50" height="50" rotation="180">
+    <properties>
+     <property name="Image" value="https://travrsal.com/img/OutOrDead_EngineDescription.jpg"/>
+     <property name="Move" value="0;0;-2"/>
+     <property name="Scale" value="5;5;5"/>
+     <property name="Y" type="int" value="2"/>
+    </properties>
+   </object>
+  </objectgroup>
  </group>
 </map>

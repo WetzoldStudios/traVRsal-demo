@@ -394,7 +394,7 @@
         {
          "name":"Skybox",
          "type":"string",
-         "value":"Skybox"
+         "value":"Skybox2"
         }],
  "renderorder":"left-up",
  "tiledversion":"1.4.3",

@@ -163,6 +163,50 @@
                  "visible":true,
                  "x":0,
                  "y":0
+                }, 
+                {
+                 "draworder":"topdown",
+                 "id":32,
+                 "name":"Posters",
+                 "objects":[
+                        {
+                         "gid":38,
+                         "height":50,
+                         "id":68,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"Image",
+                                 "type":"string",
+                                 "value":"https:\/\/travrsal.com\/img\/OutOrDead_EngineDescription.jpg"
+                                }, 
+                                {
+                                 "name":"Move",
+                                 "type":"string",
+                                 "value":"0;0;-2"
+                                }, 
+                                {
+                                 "name":"Scale",
+                                 "type":"string",
+                                 "value":"5;5;5"
+                                }, 
+                                {
+                                 "name":"Y",
+                                 "type":"int",
+                                 "value":2
+                                }],
+                         "rotation":180,
+                         "type":"Poster",
+                         "visible":true,
+                         "width":50,
+                         "x":100,
+                         "y":0
+                        }],
+                 "opacity":1,
+                 "type":"objectgroup",
+                 "visible":true,
+                 "x":0,
+                 "y":0
                 }],
          "name":"Floor 0",
          "opacity":1,
@@ -177,8 +221,8 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":32,
- "nextobjectid":68,
+ "nextlayerid":33,
+ "nextobjectid":69,
  "orientation":"orthogonal",
  "properties":[
         {
@@ -190,6 +234,11 @@
          "name":"NoSpawning",
          "type":"bool",
          "value":false
+        }, 
+        {
+         "name":"Skybox",
+         "type":"string",
+         "value":"Skybox1"
         }],
  "renderorder":"left-up",
  "tiledversion":"1.4.3",

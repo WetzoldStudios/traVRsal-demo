@@ -475,11 +475,6 @@
                          "name":"",
                          "properties":[
                                 {
-                                 "name":"OneWay",
-                                 "type":"bool",
-                                 "value":true
-                                }, 
-                                {
                                  "name":"TargetZone",
                                  "type":"string",
                                  "value":"Hub"

@@ -3,7 +3,7 @@
  <properties>
   <property name="NoAgents" type="bool" value="false"/>
   <property name="NoSpawning" type="bool" value="false"/>
-  <property name="Skybox" value="Skybox"/>
+  <property name="Skybox" value="Skybox2"/>
  </properties>
  <tileset firstgid="1" source="../../_Tiled/Master.tsx"/>
  <tileset firstgid="32" source="../../_Tiled/Deco.tsx"/>

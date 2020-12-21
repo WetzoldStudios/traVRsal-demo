@@ -12,6 +12,13 @@
             "repeatWhenDepleted": true
         }
     ],
+    "initialVariables": [
+        {
+            "key": "IntroPortal",
+            "value": "0",
+            "behaviour": "Change_Higher"
+        }
+    ],
     "replacements": [
         {
             "type": "Material",
@@ -51,7 +58,7 @@
     ],
     "spawnRules": [
         {
-            "key": "Transitions",
+            "key": "TransitionFrames",
             "objectKeys": [
                 "PortalFrame"
             ],
@@ -116,13 +123,15 @@
             "objectKeys": [
                 "GalleryImage"
             ],
-            "orientation": "Free_Side",
+            "validZones": [
+                "Gallery"
+            ],
             "amountType": "Probability",
             "amount": 100,
-            "y": 2,
-            "snap": true,
-            "validZones": ["Gallery"],
-            "maxScale": 1.5
+            "orientation": "Free_Side",
+            "maxScale": 1.5,
+            "y": 2.0,
+            "snap": true
         }
     ],
     "objectSpecs": [
