@@ -383,6 +383,11 @@
  "orientation":"orthogonal",
  "properties":[
         {
+         "name":"AudioEffect",
+         "type":"string",
+         "value":"guide-custommaterials.mp3"
+        }, 
+        {
          "name":"NoAgents",
          "type":"bool",
          "value":false

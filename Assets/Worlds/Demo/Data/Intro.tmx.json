@@ -170,6 +170,11 @@
                          "name":"",
                          "properties":[
                                 {
+                                 "name":"AudioEffect",
+                                 "type":"string",
+                                 "value":"guide-intro2.mp3"
+                                }, 
+                                {
                                  "name":"Variable",
                                  "type":"string",
                                  "value":"IntroCube, IntroPortal"
@@ -204,6 +209,11 @@
  "nextobjectid":72,
  "orientation":"orthogonal",
  "properties":[
+        {
+         "name":"AudioEffect",
+         "type":"string",
+         "value":"guide-intro.mp3"
+        }, 
         {
          "name":"NoAgents",
          "type":"bool",

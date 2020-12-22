@@ -359,6 +359,11 @@
  "orientation":"orthogonal",
  "properties":[
         {
+         "name":"AudioEffect",
+         "type":"string",
+         "value":"guide-customobjects.mp3"
+        }, 
+        {
          "name":"NoAgents",
          "type":"bool",
          "value":false

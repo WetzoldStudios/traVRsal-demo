@@ -295,7 +295,7 @@
                  "value":true
                 }],
          "type":"group",
-         "visible":false,
+         "visible":true,
          "x":0,
          "y":0
         }, 
@@ -512,7 +512,7 @@
                  "value":2.5
                 }],
          "type":"group",
-         "visible":true,
+         "visible":false,
          "x":0,
          "y":0
         }],
@@ -520,6 +520,11 @@
  "nextobjectid":78,
  "orientation":"orthogonal",
  "properties":[
+        {
+         "name":"AudioEffect",
+         "type":"string",
+         "value":"guide-galleryexit.mp3"
+        }, 
         {
          "name":"NoAgents",
          "type":"bool",

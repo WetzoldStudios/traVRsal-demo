@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="3" height="3" tilewidth="50" tileheight="50" infinite="0" nextlayerid="33" nextobjectid="81">
  <properties>
+  <property name="AudioEffect" value="guide-customwalls2.mp3"/>
   <property name="NoAgents" type="bool" value="false"/>
   <property name="NoSpawning" type="bool" value="false"/>
   <property name="Skybox" value="Skybox2"/>
@@ -70,6 +71,7 @@
   <objectgroup id="4" name="Transitions">
    <object id="77" gid="8" x="50" y="50" width="50" height="50" rotation="-90">
     <properties>
+     <property name="AudioEffect" value="guide-maze.mp3"/>
      <property name="MazeTransitions" type="int" value="4"/>
      <property name="TargetZone" value="PlayerDamage"/>
     </properties>

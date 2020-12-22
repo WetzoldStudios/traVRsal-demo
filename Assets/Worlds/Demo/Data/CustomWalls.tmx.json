@@ -410,6 +410,11 @@
  "orientation":"orthogonal",
  "properties":[
         {
+         "name":"AudioEffect",
+         "type":"string",
+         "value":"guide-customwalls.mp3"
+        }, 
+        {
          "name":"NoAgents",
          "type":"bool",
          "value":false

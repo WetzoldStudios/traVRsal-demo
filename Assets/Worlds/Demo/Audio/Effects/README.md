@@ -1,1 +1,0 @@
-This folder should be used for audio effects.

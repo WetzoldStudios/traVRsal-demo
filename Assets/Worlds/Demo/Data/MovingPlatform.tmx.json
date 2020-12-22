@@ -226,6 +226,11 @@
  "orientation":"orthogonal",
  "properties":[
         {
+         "name":"AudioEffect",
+         "type":"string",
+         "value":"guide-movingplatform.mp3"
+        }, 
+        {
          "name":"NoAgents",
          "type":"bool",
          "value":false

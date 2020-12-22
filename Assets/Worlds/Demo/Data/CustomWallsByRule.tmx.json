@@ -287,6 +287,11 @@
                          "name":"",
                          "properties":[
                                 {
+                                 "name":"AudioEffect",
+                                 "type":"string",
+                                 "value":"guide-maze.mp3"
+                                }, 
+                                {
                                  "name":"MazeTransitions",
                                  "type":"int",
                                  "value":4
@@ -381,6 +386,11 @@
  "nextobjectid":81,
  "orientation":"orthogonal",
  "properties":[
+        {
+         "name":"AudioEffect",
+         "type":"string",
+         "value":"guide-customwalls2.mp3"
+        }, 
         {
          "name":"NoAgents",
          "type":"bool",

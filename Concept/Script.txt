@@ -55,10 +55,10 @@ Now that we have tackled walls and the outside, let's focus on what can be done 
 
 [portal to labyrinth]
 
-Inside the labyrinth objects can be placed through rules. These rules can include constraints so that it is easy to target specific areas, like corners, dead-ends or to set limits to the amount, minimum distance and more. With snapping we can pin objects seamlessly to the walls or the ceiling. It's also possible to automatically align objects pointing into the direction of the next or the previous zone like done with the objects in the corners that will initially always face you.
+Inside the labyrinth objects can be placed through rules. These rules can include constraints so that it is easy to target specific areas, like corners, dead-ends or to set limits to the amount, minimum distance and more. With snapping we can pin objects seamlessly to the wa lls or the ceiling. It's also possible to automatically align objects pointing into the direction of the next or the previous zone like done with the objects in the corners that will initially always face you.
 
 [enter trap room]
-
+ 
 You can also take damage. This zone contains a trap which you should avoid and a pit you should not fall down into. Try both. Upon death, custom audio can be played.
 
 [enter gun range]
@@ -71,7 +71,7 @@ When grabbing an object like a gun these objects can show specific information o
 
 Continue to the next room to learn about different types of targets. Make sure to take a gun with you.
 
-[enter zone with enemies in scenery]
+[enter zone with enemies in scenery] 
 
 There can be static targets like the dummies ahead and also AI powered agents that react to you and optionally move by themselves. These agents have multiple states that change when they detect you, which causes them to perform different actions like playing a sound or shooting at you.
 
@@ -94,7 +94,7 @@ One useful piece is the trigger which is typically invisible but which you see h
 [Trigger activated]
 On this wall you see a combination riddle. This will be different in each play-through. Only if you enter the right combination the window will open.
 
-Buttons and levers are other means for triggering logic. The button will open the door but it will automatically close again after 5 seconds. If the lever is also pulled down, it will stay open for 10 seconds instead. 
+Buttons and levers are other means for triggering logic. The button will open the door but it will automatically close again after 5 seconds. If the lever is also pulled down, it will stay open f or 10 seconds instead. 
 
 [on door open]
 The door is now open. The picture on the wall shows how easy it is to create such logic with simple nodes.
@@ -116,4 +116,4 @@ Now I am really looking forward to which world you will create. Join my Discord 
 
 On a personal note, I am working on this as a solo developer. If you want to support me by spreading the word, creating a YouTube video, a post on Reddit or anything else, this is highly appreciated. And please put in a review on SideQuest as well!
 
-With that being said, have fun exploring all the content traVRsal has to offer! Bye bye.
+With that being said, have fun exploring all the content traVRsal has to offer! Bye bye.  
