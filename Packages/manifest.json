@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "com.wetzold.travrsal.sdk": "https://github.com/WetzoldStudios/traVRsal-sdk.git#52c9e3985c9f0a8aac87e406c1e5b209d07d87d4", 
+    "com.wetzold.travrsal.sdk": "https://github.com/WetzoldStudios/traVRsal-sdk.git#ede15fb666923fa9b76932bdb74491a49e7fb361", 
     "com.unity.collab-proxy": "1.3.9",
     "com.unity.ide.rider": "1.2.1",
     "com.unity.ide.visualstudio": "2.0.5",
