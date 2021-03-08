@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="3" height="3" tilewidth="50" tileheight="50" infinite="0" nextlayerid="30" nextobjectid="72">
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="3" height="3" tilewidth="50" tileheight="50" infinite="0" nextlayerid="30" nextobjectid="75">
  <properties>
   <property name="AudioEffect" value="guide-intro.mp3"/>
   <property name="NoAgents" type="bool" value="false"/>
@@ -34,7 +34,7 @@
     </properties>
    </object>
   </objectgroup>
-  <objectgroup id="27" name="Objects" locked="1">
+  <objectgroup id="27" name="Objects">
    <object id="66" type="TileCube" gid="38" x="0" y="50" width="50" height="50">
     <properties>
      <property name="Variable" value="IntroCube"/>
@@ -49,7 +49,7 @@
     </properties>
    </object>
   </objectgroup>
-  <objectgroup id="29" name="Trigger">
+  <objectgroup id="29" name="Trigger" locked="1">
    <object id="69" gid="31" x="50" y="150" width="50" height="50">
     <properties>
      <property name="AudioEffect" value="guide-intro2.mp3"/>

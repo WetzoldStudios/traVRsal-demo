@@ -23,7 +23,7 @@
 4,0,4
 </data>
   </layer>
-  <objectgroup id="29" name="Ground">
+  <objectgroup id="29" name="Ground" visible="0">
    <object id="65" gid="4" x="50" y="50" width="50" height="50">
     <properties>
      <property name="Anchor" value="-1,0"/>
@@ -85,7 +85,7 @@
    </properties>
   </objectgroup>
   <objectgroup id="4" name="Transitions"/>
-  <objectgroup id="27" name="Objects" locked="1">
+  <objectgroup id="27" name="Objects">
    <object id="69" type="Platform" gid="29" x="0" y="50" width="50" height="50">
     <properties>
      <property name="TargetFloor" type="int" value="1"/>

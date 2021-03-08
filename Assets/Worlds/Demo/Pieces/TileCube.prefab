@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 5701037963062372345}
   - component: {fileID: 7302224820756049823}
-  - component: {fileID: 8772494531509497927}
   - component: {fileID: 7744230596071120151}
+  - component: {fileID: 3634355977327744523}
   m_Layer: 0
   m_Name: TileCube
   m_TagString: Untagged
@@ -65,25 +65,9 @@ MonoBehaviour:
     pinToSide: 0
     snapSideways: 0
     standalone: 0
+    standaloneAllSides: 0
     adjustMaterials: 1
     pivotType: 2
---- !u!114 &8772494531509497927
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 934713719070716112}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 80938a85df408534287ca46a3ec66d83, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  direction: {x: 0, y: 0.5, z: 0}
-  duration: 3
-  initialDelay: 2
-  onDelay: 0
-  offDelay: 0
 --- !u!114 &7744230596071120151
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -97,10 +81,37 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   variable: 
+  invert: 0
   action: 3
   targetObject: {fileID: 0}
   component: {fileID: 0}
-  invert: 0
+  enabledComponents: []
+  disabledComponents: []
+  enabledColliders: []
+  disabledColliders: []
+  enabledObjects: []
+  disabledObjects: []
+--- !u!114 &3634355977327744523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 934713719070716112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13f8f44173ae41e45ad20ab4120bca50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mode: 1
+  distance: {x: 0.5, y: 0.5}
+  duration: 3
+  axis: {x: 0, y: 1, z: 0}
+  easeType: 4
+  loop: 0
+  loopType: 1
+  onDelay: 2
+  offDelay: 0
 --- !u!1 &2684741980374702227
 GameObject:
   m_ObjectHideFlags: 0
