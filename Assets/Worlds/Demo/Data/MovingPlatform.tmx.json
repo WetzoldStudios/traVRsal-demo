@@ -136,6 +136,11 @@
                                  "value":"-1,0"
                                 }, 
                                 {
+                                 "name":"Materials",
+                                 "type":"string",
+                                 "value":"DarkGrid"
+                                }, 
+                                {
                                  "name":"TargetLocation",
                                  "type":"string",
                                  "value":"Elevators"
@@ -231,6 +236,11 @@
          "value":"guide-movingplatform.mp3"
         }, 
         {
+         "name":"Chapter",
+         "type":"string",
+         "value":"walkthrough"
+        }, 
+        {
          "name":"NoAgents",
          "type":"bool",
          "value":false
@@ -243,10 +253,10 @@
         {
          "name":"Skybox",
          "type":"string",
-         "value":"Skybox1"
+         "value":"\/Skybox\/AllSky_Space_AnotherPlanet"
         }],
  "renderorder":"left-up",
- "tiledversion":"1.4.3",
+ "tiledversion":"1.6.0",
  "tileheight":50,
  "tilesets":[
         {
@@ -414,6 +424,11 @@
                          "name":"RandomMusic",
                          "type":"string",
                          "value":""
+                        }, 
+                        {
+                         "name":"Reactivatable",
+                         "type":"bool",
+                         "value":false
                         }, 
                         {
                          "name":"Snap",
@@ -1082,6 +1097,6 @@
         }],
  "tilewidth":50,
  "type":"map",
- "version":1.4,
+ "version":"1.6",
  "width":3
 }

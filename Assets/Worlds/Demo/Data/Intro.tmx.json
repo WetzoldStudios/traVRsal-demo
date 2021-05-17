@@ -29,6 +29,200 @@
                  "y":0
                 }, 
                 {
+                 "data":[3, 3, 3, 3, 3, 3, 3, 3, 3],
+                 "height":3,
+                 "id":30,
+                 "name":"Ceiling",
+                 "opacity":1,
+                 "properties":[
+                        {
+                         "name":"AtCeiling",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"Materials",
+                         "type":"string",
+                         "value":"DarkGrid"
+                        }, 
+                        {
+                         "name":"Walkable",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "type":"tilelayer",
+                 "visible":true,
+                 "width":3,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "draworder":"topdown",
+                 "id":31,
+                 "name":"Walls",
+                 "objects":[
+                        {
+                         "gid":5,
+                         "height":50,
+                         "id":88,
+                         "name":"",
+                         "rotation":0,
+                         "type":"",
+                         "visible":true,
+                         "width":50,
+                         "x":0,
+                         "y":150
+                        }, 
+                        {
+                         "gid":5,
+                         "height":50,
+                         "id":89,
+                         "name":"",
+                         "rotation":0,
+                         "type":"",
+                         "visible":true,
+                         "width":50,
+                         "x":50,
+                         "y":150
+                        }, 
+                        {
+                         "gid":5,
+                         "height":50,
+                         "id":90,
+                         "name":"",
+                         "rotation":0,
+                         "type":"",
+                         "visible":true,
+                         "width":50,
+                         "x":100,
+                         "y":150
+                        }, 
+                        {
+                         "gid":5,
+                         "height":50,
+                         "id":91,
+                         "name":"",
+                         "rotation":180,
+                         "type":"",
+                         "visible":true,
+                         "width":50,
+                         "x":100,
+                         "y":0
+                        }, 
+                        {
+                         "gid":5,
+                         "height":50,
+                         "id":92,
+                         "name":"",
+                         "rotation":180,
+                         "type":"",
+                         "visible":true,
+                         "width":50,
+                         "x":150,
+                         "y":0
+                        }, 
+                        {
+                         "gid":5,
+                         "height":50,
+                         "id":93,
+                         "name":"",
+                         "rotation":180,
+                         "type":"",
+                         "visible":true,
+                         "width":50,
+                         "x":50,
+                         "y":0
+                        }, 
+                        {
+                         "gid":5,
+                         "height":50,
+                         "id":94,
+                         "name":"",
+                         "rotation":90,
+                         "type":"",
+                         "visible":true,
+                         "width":50,
+                         "x":0,
+                         "y":0
+                        }, 
+                        {
+                         "gid":5,
+                         "height":50,
+                         "id":95,
+                         "name":"",
+                         "rotation":90,
+                         "type":"",
+                         "visible":true,
+                         "width":50,
+                         "x":0,
+                         "y":100
+                        }, 
+                        {
+                         "gid":5,
+                         "height":50,
+                         "id":96,
+                         "name":"",
+                         "rotation":90,
+                         "type":"",
+                         "visible":true,
+                         "width":50,
+                         "x":0,
+                         "y":50
+                        }, 
+                        {
+                         "gid":5,
+                         "height":50,
+                         "id":97,
+                         "name":"",
+                         "rotation":-90,
+                         "type":"",
+                         "visible":true,
+                         "width":50,
+                         "x":150,
+                         "y":150
+                        }, 
+                        {
+                         "gid":5,
+                         "height":50,
+                         "id":98,
+                         "name":"",
+                         "rotation":-90,
+                         "type":"",
+                         "visible":true,
+                         "width":50,
+                         "x":150,
+                         "y":100
+                        }, 
+                        {
+                         "gid":5,
+                         "height":50,
+                         "id":99,
+                         "name":"",
+                         "rotation":-90,
+                         "type":"",
+                         "visible":true,
+                         "width":50,
+                         "x":150,
+                         "y":50
+                        }],
+                 "opacity":1,
+                 "properties":[
+                        {
+                         "name":"ConnectToCeiling",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"Materials",
+                         "type":"string",
+                         "value":"DarkGrid"
+                        }],
+                 "type":"objectgroup",
+                 "visible":true,
+                 "x":0,
+                 "y":0
+                }, 
+                {
                  "draworder":"topdown",
                  "id":4,
                  "name":"Transitions",
@@ -60,6 +254,16 @@
                                  "name":"Move-C",
                                  "type":"string",
                                  "value":"0;-5;0"
+                                }, 
+                                {
+                                 "name":"OneWay",
+                                 "type":"bool",
+                                 "value":true
+                                }, 
+                                {
+                                 "name":"Reactivatable",
+                                 "type":"bool",
+                                 "value":false
                                 }, 
                                 {
                                  "name":"TargetZone",
@@ -101,6 +305,11 @@
                          "name":"",
                          "properties":[
                                 {
+                                 "name":"Materials",
+                                 "type":"string",
+                                 "value":"DarkGrid"
+                                }, 
+                                {
                                  "name":"Variable",
                                  "type":"string",
                                  "value":"IntroCube"
@@ -135,6 +344,11 @@
                          "id":71,
                          "name":"",
                          "properties":[
+                                {
+                                 "name":"Materials",
+                                 "type":"string",
+                                 "value":"DarkGrid"
+                                }, 
                                 {
                                  "name":"Variable",
                                  "type":"string",
@@ -205,14 +419,19 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":30,
- "nextobjectid":75,
+ "nextlayerid":32,
+ "nextobjectid":100,
  "orientation":"orthogonal",
  "properties":[
         {
          "name":"AudioEffect",
          "type":"string",
          "value":"guide-intro.mp3"
+        }, 
+        {
+         "name":"Chapter",
+         "type":"string",
+         "value":"walkthrough"
         }, 
         {
          "name":"NoAgents",
@@ -225,7 +444,7 @@
          "value":false
         }],
  "renderorder":"left-up",
- "tiledversion":"1.4.3",
+ "tiledversion":"1.6.0",
  "tileheight":50,
  "tilesets":[
         {
@@ -393,6 +612,11 @@
                          "name":"RandomMusic",
                          "type":"string",
                          "value":""
+                        }, 
+                        {
+                         "name":"Reactivatable",
+                         "type":"bool",
+                         "value":false
                         }, 
                         {
                          "name":"Snap",
@@ -1061,6 +1285,6 @@
         }],
  "tilewidth":50,
  "type":"map",
- "version":1.4,
+ "version":"1.6",
  "width":3
 }

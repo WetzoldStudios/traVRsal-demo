@@ -1,13 +1,34 @@
 {
     "key": "Demo",
-    "version": "0.0.16",
+    "version": "0.0.49",
     "name": "traVRsal Demo",
     "shortDescription": "Show-casing many of the available world-building features.",
     "longDescription": "This is an example for world creators to show-case what is possible with traVRsal. Use this for inspiration and as a copy/paste resource. The accompanying Unity project including all assets can be downloaded from github and is constantly expanded.",
     "coverImage": "Cover.png",
-    "minVersion": "0.5",
-    "deathSound": "death.mp3",
+    "loadAllChapters": true,
+    "defaultChapter": "explore",
+    "chapters": [
+        {
+            "key": "walkthrough",
+            "name": "Walk-through",
+            "description": "Learn about the different world-building options of traVRsal in a narrated walk-through, introducing elements one by one.",
+            "unlockRule": "None"
+        },
+        {
+            "key": "explore",
+            "name": "Exploration",
+            "description": "Go and explore at your own pace, starting in the hub zone.",
+            "unlockRule": "None"
+        }
+    ],
+    "minVersion": "1.1",
+    "availableTime": 600,
     "enableChallenges": false,
+    "measures": [
+        "Time",
+        "Distance"
+    ],
+    "deathSound": "death.mp3",
     "imageProviders": [
         {
             "key": "unsplash",
@@ -64,13 +85,13 @@
             "objectKeys": [
                 "PortalFrame"
             ],
-            "validObjects": [
-                "/Base/Transition"
-            ],
             "amountType": "Probability",
             "amount": 100,
             "distributionType": "Object",
             "orientation": "Same",
+            "validObjects": [
+                "/Base/Transition"
+            ],
             "connectToCeiling": true
         },
         {
@@ -110,11 +131,11 @@
             "objectKeys": [
                 "Arrow"
             ],
+            "amountType": "Probability",
+            "amount": 100,
             "validSockets": [
                 "ShortestPath"
             ],
-            "amountType": "Probability",
-            "amount": 100,
             "restrictions": [
                 "maze"
             ],
@@ -125,12 +146,12 @@
             "objectKeys": [
                 "GalleryImage"
             ],
-            "validZones": [
-                "Gallery"
-            ],
             "amountType": "Probability",
             "amount": 100,
             "orientation": "Free_Side",
+            "validZones": [
+                "Gallery"
+            ],
             "maxScale": 1.5,
             "y": 2.0,
             "snap": true

@@ -402,6 +402,11 @@
                          "name":"",
                          "properties":[
                                 {
+                                 "name":"Materials",
+                                 "type":"string",
+                                 "value":"DarkGrid"
+                                }, 
+                                {
                                  "name":"TargetLocation",
                                  "type":"string",
                                  "value":"Sound"
@@ -635,6 +640,16 @@
                          "name":"",
                          "properties":[
                                 {
+                                 "name":"Duration",
+                                 "type":"float",
+                                 "value":5
+                                }, 
+                                {
+                                 "name":"Materials",
+                                 "type":"string",
+                                 "value":"DarkGrid"
+                                }, 
+                                {
                                  "name":"TargetLocation",
                                  "type":"string",
                                  "value":"Construction"
@@ -699,10 +714,10 @@
         {
          "name":"Skybox",
          "type":"string",
-         "value":"Skybox1"
+         "value":"\/Skybox\/Space_Nebula_NuminousGlow\n"
         }],
  "renderorder":"left-up",
- "tiledversion":"1.4.3",
+ "tiledversion":"1.6.0",
  "tileheight":50,
  "tilesets":[
         {
@@ -870,6 +885,11 @@
                          "name":"RandomMusic",
                          "type":"string",
                          "value":""
+                        }, 
+                        {
+                         "name":"Reactivatable",
+                         "type":"bool",
+                         "value":false
                         }, 
                         {
                          "name":"Snap",
@@ -1538,6 +1558,6 @@
         }],
  "tilewidth":50,
  "type":"map",
- "version":1.4,
+ "version":"1.6",
  "width":3
 }

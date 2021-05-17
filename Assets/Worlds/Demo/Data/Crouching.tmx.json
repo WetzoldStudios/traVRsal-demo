@@ -195,6 +195,11 @@
          "value":"guide-floorheight.mp3"
         }, 
         {
+         "name":"Chapter",
+         "type":"string",
+         "value":"walkthrough"
+        }, 
+        {
          "name":"NoAgents",
          "type":"bool",
          "value":false
@@ -205,7 +210,7 @@
          "value":false
         }],
  "renderorder":"left-up",
- "tiledversion":"1.4.3",
+ "tiledversion":"1.6.0",
  "tileheight":50,
  "tilesets":[
         {
@@ -373,6 +378,11 @@
                          "name":"RandomMusic",
                          "type":"string",
                          "value":""
+                        }, 
+                        {
+                         "name":"Reactivatable",
+                         "type":"bool",
+                         "value":false
                         }, 
                         {
                          "name":"Snap",
@@ -1041,6 +1051,6 @@
         }],
  "tilewidth":50,
  "type":"map",
- "version":1.4,
+ "version":"1.6",
  "width":3
 }
