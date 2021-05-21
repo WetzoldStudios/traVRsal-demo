@@ -231,11 +231,6 @@
  "orientation":"orthogonal",
  "properties":[
         {
-         "name":"AudioEffect",
-         "type":"string",
-         "value":"guide-movingplatform.mp3"
-        }, 
-        {
          "name":"Chapter",
          "type":"string",
          "value":"walkthrough"
@@ -254,6 +249,11 @@
          "name":"Skybox",
          "type":"string",
          "value":"\/Skybox\/AllSky_Space_AnotherPlanet"
+        }, 
+        {
+         "name":"Speak",
+         "type":"string",
+         "value":"Another way to get to a different zone, and especially to widen the perceived play-area, is to use a moving platform. Hop on!"
         }],
  "renderorder":"left-up",
  "tiledversion":"1.6.0",

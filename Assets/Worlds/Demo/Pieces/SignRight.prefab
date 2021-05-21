@@ -54,6 +54,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -145,6 +146,7 @@ MeshRenderer:
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -261,12 +263,12 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_renderer: {fileID: 8536119147847385739}
-  m_maskType: 0
   _SortingLayer: 0
   _SortingLayerID: 0
   _SortingOrder: 0
+  m_hasFontAssetChanged: 0
+  m_renderer: {fileID: 8536119147847385739}
+  m_maskType: 0
 --- !u!1 &6442667716516228758
 GameObject:
   m_ObjectHideFlags: 0
@@ -320,6 +322,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -410,6 +413,7 @@ MonoBehaviour:
   enabledGameObjects:
   - {fileID: 692845089045625532}
   enabledComponents: []
+  informedComponents: []
   allowInIntro: 1
 --- !u!1001 &6487901945562920711
 PrefabInstance:
@@ -429,6 +433,10 @@ PrefabInstance:
     - target: {fileID: 3962882275848954626, guid: 547cbdb44d99ac04f8e7c1d4eef8d9bc, type: 3}
       propertyPath: m_Mesh
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3962882275848954626, guid: 547cbdb44d99ac04f8e7c1d4eef8d9bc, type: 3}
+      propertyPath: m_MeshFormatVersion
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3962882275848954626, guid: 547cbdb44d99ac04f8e7c1d4eef8d9bc, type: 3}
       propertyPath: m_SelectedEdges.Array.size

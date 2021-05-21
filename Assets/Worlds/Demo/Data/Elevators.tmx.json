@@ -438,11 +438,6 @@
  "orientation":"orthogonal",
  "properties":[
         {
-         "name":"AudioEffect",
-         "type":"string",
-         "value":"guide-elevators.mp3"
-        }, 
-        {
          "name":"Chapter",
          "type":"string",
          "value":"walkthrough"
@@ -461,6 +456,11 @@
          "name":"Offset",
          "type":"string",
          "value":"0;0;-15"
+        }, 
+        {
+         "name":"Speak",
+         "type":"string",
+         "value":"Each zone can have multiple floors which all can have varying heights. Elevators are special versions of moving platforms that connect floors inside a zone. Go up and continue from there!"
         }],
  "renderorder":"left-up",
  "tiledversion":"1.6.0",

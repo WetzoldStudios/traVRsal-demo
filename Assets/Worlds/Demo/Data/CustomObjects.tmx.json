@@ -481,11 +481,6 @@
  "orientation":"orthogonal",
  "properties":[
         {
-         "name":"AudioEffect",
-         "type":"string",
-         "value":"guide-customobjects.mp3"
-        }, 
-        {
          "name":"AvailableTime",
          "type":"int",
          "value":30
@@ -509,6 +504,11 @@
          "name":"Skybox",
          "type":"string",
          "value":"\/Skybox\/Cartoon_Airbrush_Day_NoSun"
+        }, 
+        {
+         "name":"Speak",
+         "type":"string",
+         "value":"Here you see some objects that show basic placement and rotation options as well as data binding and timers in action."
         }],
  "renderorder":"left-up",
  "tiledversion":"1.6.0",

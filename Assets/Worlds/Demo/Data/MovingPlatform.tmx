@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.5.0" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="3" height="3" tilewidth="50" tileheight="50" infinite="0" nextlayerid="33" nextobjectid="69">
+<map version="1.5" tiledversion="1.6.0" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="3" height="3" tilewidth="50" tileheight="50" infinite="0" nextlayerid="33" nextobjectid="69">
  <properties>
-  <property name="AudioEffect" value="guide-movingplatform.mp3"/>
   <property name="Chapter" value="walkthrough"/>
   <property name="NoAgents" type="bool" value="false"/>
   <property name="NoSpawning" type="bool" value="false"/>
   <property name="Skybox" value="/Skybox/AllSky_Space_AnotherPlanet"/>
+  <property name="Speak" value="Another way to get to a different zone, and especially to widen the perceived play-area, is to use a moving platform. Hop on!"/>
  </properties>
  <tileset firstgid="1" source="../../_Tiled/Master.tsx"/>
  <tileset firstgid="33" source="../../_Tiled/Deco.tsx"/>

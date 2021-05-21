@@ -383,11 +383,6 @@
  "orientation":"orthogonal",
  "properties":[
         {
-         "name":"AudioEffect",
-         "type":"string",
-         "value":"guide-custommaterials.mp3"
-        }, 
-        {
          "name":"Chapter",
          "type":"string",
          "value":"walkthrough"
@@ -406,6 +401,11 @@
          "name":"Offset",
          "type":"string",
          "value":"15;0;0"
+        }, 
+        {
+         "name":"Speak",
+         "type":"string",
+         "value":"Now let's get into world building. The easiest way is to simply exchange the materials of the walls, either for the whole wall, per tile or randomly. Check out the walls around you."
         }],
  "renderorder":"left-up",
  "tiledversion":"1.6.0",

@@ -384,9 +384,9 @@
                          "name":"",
                          "properties":[
                                 {
-                                 "name":"AudioEffect",
+                                 "name":"Speak",
                                  "type":"string",
-                                 "value":"guide-intro2.mp3"
+                                 "value":"Objects like the cubes over there are placed onto the grid, either manually or through rules. Each grid with all objects in it is called a zone. You can travel between zones by different means. The most immersive one is to simply walk there using a portal like the one in front of you. Step through!"
                                 }, 
                                 {
                                  "name":"Variable",
@@ -419,8 +419,8 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":32,
- "nextobjectid":100,
+ "nextlayerid":35,
+ "nextobjectid":113,
  "orientation":"orthogonal",
  "properties":[
         {

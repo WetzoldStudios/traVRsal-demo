@@ -410,11 +410,6 @@
  "orientation":"orthogonal",
  "properties":[
         {
-         "name":"AudioEffect",
-         "type":"string",
-         "value":"guide-customwalls.mp3"
-        }, 
-        {
          "name":"Chapter",
          "type":"string",
          "value":"walkthrough"
@@ -433,6 +428,11 @@
          "name":"Skybox",
          "type":"string",
          "value":"\/Skybox\/Cartoon_SunSetLightClouds"
+        }, 
+        {
+         "name":"Speak",
+         "type":"string",
+         "value":"Walls don't have to be all single tiles. You can also use segments spanning the whole height and also segments spanning multiple tiles in width."
         }],
  "renderorder":"left-up",
  "tiledversion":"1.6.0",

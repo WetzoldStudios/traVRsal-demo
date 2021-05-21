@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.5.0" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="3" height="3" tilewidth="50" tileheight="50" infinite="0" nextlayerid="34" nextobjectid="84">
+<map version="1.5" tiledversion="1.6.0" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="3" height="3" tilewidth="50" tileheight="50" infinite="0" nextlayerid="34" nextobjectid="84">
  <properties>
-  <property name="AudioEffect" value="guide-customwalls.mp3"/>
   <property name="Chapter" value="walkthrough"/>
   <property name="NoAgents" type="bool" value="false"/>
   <property name="NoSpawning" type="bool" value="false"/>
   <property name="Skybox" value="/Skybox/Cartoon_SunSetLightClouds"/>
+  <property name="Speak" value="Walls don't have to be all single tiles. You can also use segments spanning the whole height and also segments spanning multiple tiles in width."/>
  </properties>
  <tileset firstgid="1" source="../../_Tiled/Master.tsx"/>
  <tileset firstgid="33" source="../../_Tiled/Deco.tsx"/>

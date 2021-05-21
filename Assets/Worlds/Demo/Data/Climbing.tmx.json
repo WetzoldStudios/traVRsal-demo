@@ -29,21 +29,21 @@
                  "y":0
                 }, 
                 {
-                 "data":[3, 3, 3, 3, 3, 3, 3, 3, 3],
+                 "data":[2684354566, 3221225477, 3221225478, 2684354565, 0, 1610612741, 6, 5, 1610612742],
                  "height":3,
-                 "id":28,
-                 "name":"Ceiling",
+                 "id":3,
+                 "name":"Walls",
                  "opacity":1,
                  "properties":[
                         {
-                         "name":"AtCeiling",
+                         "name":"ConnectToCeiling",
                          "type":"bool",
                          "value":true
                         }, 
                         {
                          "name":"Materials",
                          "type":"string",
-                         "value":"[ceiling]"
+                         "value":"[walls]"
                         }],
                  "type":"tilelayer",
                  "visible":true,
@@ -53,152 +53,26 @@
                 }, 
                 {
                  "draworder":"topdown",
-                 "id":29,
-                 "name":"Walls",
+                 "id":32,
+                 "name":"InnerWalls",
                  "objects":[
-                        {
-                         "gid":5,
-                         "height":50,
-                         "id":65,
-                         "name":"",
-                         "rotation":0,
-                         "type":"",
-                         "visible":true,
-                         "width":50,
-                         "x":0,
-                         "y":150
-                        }, 
                         {
                          "gid":5,
                          "height":50,
                          "id":66,
                          "name":"",
-                         "rotation":0,
-                         "type":"",
-                         "visible":true,
-                         "width":50,
-                         "x":50,
-                         "y":150
-                        }, 
-                        {
-                         "gid":5,
-                         "height":50,
-                         "id":67,
-                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"Anchor",
+                                 "type":"string",
+                                 "value":"0,-1"
+                                }],
                          "rotation":0,
                          "type":"",
                          "visible":true,
                          "width":50,
                          "x":100,
-                         "y":150
-                        }, 
-                        {
-                         "gid":5,
-                         "height":50,
-                         "id":68,
-                         "name":"",
-                         "rotation":90,
-                         "type":"",
-                         "visible":true,
-                         "width":50,
-                         "x":0,
                          "y":100
-                        }, 
-                        {
-                         "gid":5,
-                         "height":50,
-                         "id":69,
-                         "name":"",
-                         "rotation":90,
-                         "type":"",
-                         "visible":true,
-                         "width":50,
-                         "x":0,
-                         "y":50
-                        }, 
-                        {
-                         "gid":5,
-                         "height":50,
-                         "id":70,
-                         "name":"",
-                         "rotation":90,
-                         "type":"",
-                         "visible":true,
-                         "width":50,
-                         "x":0,
-                         "y":0
-                        }, 
-                        {
-                         "gid":5,
-                         "height":50,
-                         "id":71,
-                         "name":"",
-                         "rotation":180,
-                         "type":"",
-                         "visible":true,
-                         "width":50,
-                         "x":50,
-                         "y":0
-                        }, 
-                        {
-                         "gid":5,
-                         "height":50,
-                         "id":72,
-                         "name":"",
-                         "rotation":-90,
-                         "type":"",
-                         "visible":true,
-                         "width":50,
-                         "x":150,
-                         "y":100
-                        }, 
-                        {
-                         "gid":5,
-                         "height":50,
-                         "id":73,
-                         "name":"",
-                         "rotation":-90,
-                         "type":"",
-                         "visible":true,
-                         "width":50,
-                         "x":150,
-                         "y":150
-                        }, 
-                        {
-                         "gid":5,
-                         "height":50,
-                         "id":74,
-                         "name":"",
-                         "rotation":-180,
-                         "type":"",
-                         "visible":true,
-                         "width":50,
-                         "x":100,
-                         "y":0
-                        }, 
-                        {
-                         "gid":5,
-                         "height":50,
-                         "id":75,
-                         "name":"",
-                         "rotation":-90,
-                         "type":"",
-                         "visible":true,
-                         "width":50,
-                         "x":150,
-                         "y":50
-                        }, 
-                        {
-                         "gid":5,
-                         "height":50,
-                         "id":76,
-                         "name":"",
-                         "rotation":-180,
-                         "type":"",
-                         "visible":true,
-                         "width":50,
-                         "x":150,
-                         "y":0
                         }],
                  "opacity":1,
                  "properties":[
@@ -219,8 +93,8 @@
                 }, 
                 {
                  "draworder":"topdown",
-                 "id":32,
-                 "name":"InnerWalls",
+                 "id":44,
+                 "name":"InnerWalls2",
                  "objects":[
                         {
                          "gid":5,
@@ -231,19 +105,41 @@
                                 {
                                  "name":"Anchor",
                                  "type":"string",
-                                 "value":"-1,0"
+                                 "value":"1,0"
+                                }, 
+                                {
+                                 "name":"Y",
+                                 "type":"string",
+                                 "value":"3,4"
                                 }],
-                         "rotation":90,
+                         "rotation":-90,
                          "type":"",
                          "visible":true,
                          "width":50,
-                         "x":50,
-                         "y":0
-                        }, 
+                         "x":100,
+                         "y":150
+                        }],
+                 "opacity":1,
+                 "properties":[
                         {
-                         "gid":5,
+                         "name":"Materials",
+                         "type":"string",
+                         "value":"[walls]"
+                        }],
+                 "type":"objectgroup",
+                 "visible":true,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "draworder":"topdown",
+                 "id":43,
+                 "name":"Grips",
+                 "objects":[
+                        {
+                         "gid":41,
                          "height":50,
-                         "id":80,
+                         "id":72,
                          "name":"",
                          "properties":[
                                 {
@@ -251,12 +147,153 @@
                                  "type":"string",
                                  "value":"0,-1"
                                 }],
-                         "rotation":0,
-                         "type":"",
+                         "rotation":-90,
+                         "type":"Grip",
+                         "visible":true,
+                         "width":50,
+                         "x":150,
+                         "y":50
+                        }, 
+                        {
+                         "gid":41,
+                         "height":50,
+                         "id":73,
+                         "name":"",
+                         "rotation":-180,
+                         "type":"Grip",
+                         "visible":true,
+                         "width":50,
+                         "x":50,
+                         "y":0
+                        }, 
+                        {
+                         "gid":41,
+                         "height":50,
+                         "id":77,
+                         "name":"",
+                         "rotation":90,
+                         "type":"Grip",
                          "visible":true,
                          "width":50,
                          "x":0,
                          "y":100
+                        }],
+                 "opacity":1,
+                 "properties":[
+                        {
+                         "name":"MoveRandomly",
+                         "type":"string",
+                         "value":"0.5;0.5;0"
+                        }, 
+                        {
+                         "name":"RotateRandomly",
+                         "type":"string",
+                         "value":"20;0;40"
+                        }, 
+                        {
+                         "name":"ScaleRandomly",
+                         "type":"string",
+                         "value":"1;0.5;0.5"
+                        }, 
+                        {
+                         "name":"Snap",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"Y",
+                         "type":"string",
+                         "value":"*"
+                        }],
+                 "type":"objectgroup",
+                 "visible":true,
+                 "x":0,
+                 "y":0
+                }],
+         "name":"Floor 0",
+         "opacity":1,
+         "properties":[
+                {
+                 "name":"Height",
+                 "type":"float",
+                 "value":2.5
+                }],
+         "type":"group",
+         "visible":true,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "id":38,
+         "layers":[
+                {
+                 "data":[0, 0, 0, 0, 0, 4, 0, 0, 4],
+                 "height":3,
+                 "id":39,
+                 "name":"Ground",
+                 "opacity":1,
+                 "properties":[
+                        {
+                         "name":"Materials",
+                         "type":"string",
+                         "value":"[ground]"
+                        }, 
+                        {
+                         "name":"Walkable",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "type":"tilelayer",
+                 "visible":true,
+                 "width":3,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "data":[2684354566, 3221225477, 3221225478, 2684354565, 0, 1610612741, 6, 5, 1610612742],
+                 "height":3,
+                 "id":40,
+                 "name":"Walls",
+                 "opacity":1,
+                 "properties":[
+                        {
+                         "name":"ConnectToCeiling",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"Materials",
+                         "type":"string",
+                         "value":"[walls]"
+                        }],
+                 "type":"tilelayer",
+                 "visible":true,
+                 "width":3,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "draworder":"topdown",
+                 "id":41,
+                 "name":"InnerWalls",
+                 "objects":[
+                        {
+                         "gid":5,
+                         "height":50,
+                         "id":70,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"Anchor",
+                                 "type":"string",
+                                 "value":"0,-1"
+                                }],
+                         "rotation":90,
+                         "type":"",
+                         "visible":true,
+                         "width":50,
+                         "x":100,
+                         "y":50
                         }],
                  "opacity":1,
                  "properties":[
@@ -283,30 +320,20 @@
                         {
                          "gid":8,
                          "height":50,
-                         "id":77,
+                         "id":69,
                          "name":"",
                          "properties":[
                                 {
-                                 "name":"MazeTransitions",
-                                 "type":"int",
-                                 "value":2
-                                }, 
-                                {
-                                 "name":"Speak",
-                                 "type":"string",
-                                 "value":"Now that we have tackled walls and the outside, let's focus on what can be done inside. A very interesting way to connect zones is to create small labyrinths. The arrows on the floor will guide you. Inside the labyrinth objects can be placed through rules. These can include constraints like targeting only corners, dead-ends or to set limits to the amount, minimum distance and more."
-                                }, 
-                                {
                                  "name":"TargetZone",
                                  "type":"string",
-                                 "value":"PlayerDamage"
+                                 "value":"Gravity"
                                 }],
-                         "rotation":-90,
+                         "rotation":90,
                          "type":"",
                          "visible":true,
                          "width":50,
-                         "x":50,
-                         "y":50
+                         "x":100,
+                         "y":100
                         }],
                  "opacity":1,
                  "type":"objectgroup",
@@ -316,74 +343,92 @@
                 }, 
                 {
                  "draworder":"topdown",
-                 "id":27,
-                 "name":"Objects",
-                 "objects":[],
-                 "opacity":1,
-                 "type":"objectgroup",
-                 "visible":true,
-                 "x":0,
-                 "y":0
-                }, 
-                {
-                 "draworder":"topdown",
-                 "id":31,
-                 "name":"Signs",
+                 "id":42,
+                 "name":"Grips",
                  "objects":[
                         {
-                         "gid":39,
+                         "gid":41,
                          "height":50,
-                         "id":78,
+                         "id":71,
                          "name":"",
                          "properties":[
                                 {
                                  "name":"Anchor",
                                  "type":"string",
-                                 "value":"0,1"
-                                }, 
-                                {
-                                 "name":"Snap",
-                                 "type":"bool",
-                                 "value":true
-                                }, 
-                                {
-                                 "name":"Text",
-                                 "type":"string",
-                                 "value":"Into the Maze"
-                                }, 
-                                {
-                                 "name":"Y",
-                                 "type":"int",
-                                 "value":2
+                                 "value":"0,-1"
                                 }],
+                         "rotation":-90,
+                         "type":"Grip",
+                         "visible":true,
+                         "width":50,
+                         "x":150,
+                         "y":50
+                        }, 
+                        {
+                         "gid":41,
+                         "height":50,
+                         "id":75,
+                         "name":"",
+                         "rotation":-180,
+                         "type":"Grip",
+                         "visible":true,
+                         "width":50,
+                         "x":50,
+                         "y":0
+                        }, 
+                        {
+                         "gid":41,
+                         "height":50,
+                         "id":76,
+                         "name":"",
                          "rotation":90,
-                         "type":"SignRight",
+                         "type":"Grip",
                          "visible":true,
                          "width":50,
                          "x":0,
-                         "y":50
+                         "y":100
                         }],
                  "opacity":1,
+                 "properties":[
+                        {
+                         "name":"MoveRandomly",
+                         "type":"string",
+                         "value":"0.5;0.5;0"
+                        }, 
+                        {
+                         "name":"RotateRandomly",
+                         "type":"string",
+                         "value":"20;0;40"
+                        }, 
+                        {
+                         "name":"ScaleRandomly",
+                         "type":"string",
+                         "value":"1;0.5;0.5"
+                        }, 
+                        {
+                         "name":"Snap",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"Y",
+                         "type":"string",
+                         "value":"*"
+                        }],
                  "type":"objectgroup",
                  "visible":true,
                  "x":0,
                  "y":0
                 }],
-         "name":"Floor 0",
+         "name":"Floor1",
          "opacity":1,
-         "properties":[
-                {
-                 "name":"Height",
-                 "type":"float",
-                 "value":2.5
-                }],
          "type":"group",
-         "visible":true,
+         "visible":false,
          "x":0,
          "y":0
         }],
- "nextlayerid":33,
- "nextobjectid":81,
+ "nextlayerid":45,
+ "nextobjectid":80,
  "orientation":"orthogonal",
  "properties":[
         {
@@ -404,12 +449,12 @@
         {
          "name":"Skybox",
          "type":"string",
-         "value":"\/Skybox\/DSRWP"
+         "value":"\/Skybox\/Epic_BlueSunset"
         }, 
         {
          "name":"Speak",
          "type":"string",
-         "value":"A powerful concept is to automatically replace the blockout walls with custom ones through automated rules. This means, the zone will look different each time you visit it as the engine will randomly fulfill the rules."
+         "value":"Climbing is yet another supported form of locomotion and is a great way to mix things up. Try it out!"
         }],
  "renderorder":"left-up",
  "tiledversion":"1.6.0",

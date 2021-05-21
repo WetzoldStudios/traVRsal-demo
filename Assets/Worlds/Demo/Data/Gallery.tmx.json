@@ -521,11 +521,6 @@
  "orientation":"orthogonal",
  "properties":[
         {
-         "name":"AudioEffect",
-         "type":"string",
-         "value":"guide-galleryexit.mp3"
-        }, 
-        {
          "name":"Chapter",
          "type":"string",
          "value":"walkthrough"
@@ -539,6 +534,11 @@
          "name":"NoSpawning",
          "type":"bool",
          "value":false
+        }, 
+        {
+         "name":"Speak",
+         "type":"string",
+         "value":"You can load images at runtime, either from the world or device or from any URL, Unsplash or GIPHY.\n\nThis concludes the guided tour and you can continue to explore on your own. I might be the Robot Overloard, but please do support Robert who is developing this project as a solo dev by spreading the word and leaving a review. He will be very happy. And I will get my electricity. Take care and bye bye."
         }],
  "renderorder":"left-up",
  "tiledversion":"1.6.0",

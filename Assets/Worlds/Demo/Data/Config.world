@@ -29,6 +29,12 @@
             "fileName": "Crouching.tmx"
         },
         {
+            "fileName": "Climbing.tmx"
+        },
+        {
+            "fileName": "Gravity.tmx"
+        },
+        {
             "fileName": "Gallery.tmx"
         },
         {

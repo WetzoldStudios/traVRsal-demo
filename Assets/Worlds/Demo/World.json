@@ -1,6 +1,6 @@
 {
     "key": "Demo",
-    "version": "0.0.49",
+    "version": "0.0.67",
     "name": "traVRsal Demo",
     "shortDescription": "Show-casing many of the available world-building features.",
     "longDescription": "This is an example for world creators to show-case what is possible with traVRsal. Use this for inspiration and as a copy/paste resource. The accompanying Unity project including all assets can be downloaded from github and is constantly expanded.",
@@ -17,8 +17,7 @@
         {
             "key": "explore",
             "name": "Exploration",
-            "description": "Go and explore at your own pace, starting in the hub zone.",
-            "unlockRule": "None"
+            "description": "Go and explore at your own pace, starting in the hub zone."
         }
     ],
     "minVersion": "1.1",
@@ -169,6 +168,15 @@
         },
         {
             "objectKey": "GalleryImage",
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "pivotType": "Center"
+        },
+        {
+            "objectKey": "Grip",
             "scale": {
                 "x": 1.0,
                 "y": 1.0,

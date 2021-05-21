@@ -311,11 +311,6 @@
  "orientation":"orthogonal",
  "properties":[
         {
-         "name":"AudioEffect",
-         "type":"string",
-         "value":"guide-playerdamage.mp3"
-        }, 
-        {
          "name":"Chapter",
          "type":"string",
          "value":"walkthrough"
@@ -329,6 +324,11 @@
          "name":"NoSpawning",
          "type":"bool",
          "value":false
+        }, 
+        {
+         "name":"Speak",
+         "type":"string",
+         "value":"You can also take damage. This zone contains a trap which you should avoid and a pit you should not fall down into. Try both. Upon death, custom audio can be played."
         }],
  "renderorder":"left-up",
  "tiledversion":"1.6.0",

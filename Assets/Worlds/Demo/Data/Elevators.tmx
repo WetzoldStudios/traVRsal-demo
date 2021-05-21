@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.5.0" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="3" height="3" tilewidth="50" tileheight="50" infinite="0" nextlayerid="37" nextobjectid="84">
+<map version="1.5" tiledversion="1.6.0" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="3" height="3" tilewidth="50" tileheight="50" infinite="0" nextlayerid="37" nextobjectid="84">
  <properties>
-  <property name="AudioEffect" value="guide-elevators.mp3"/>
   <property name="Chapter" value="walkthrough"/>
   <property name="NoAgents" type="bool" value="false"/>
   <property name="NoSpawning" type="bool" value="false"/>
   <property name="Offset" value="0;0;-15"/>
+  <property name="Speak" value="Each zone can have multiple floors which all can have varying heights. Elevators are special versions of moving platforms that connect floors inside a zone. Go up and continue from there!"/>
  </properties>
  <tileset firstgid="1" source="../../_Tiled/Master.tsx"/>
  <tileset firstgid="33" source="../../_Tiled/Deco.tsx"/>
