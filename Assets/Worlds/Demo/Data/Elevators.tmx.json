@@ -463,7 +463,7 @@
          "value":"Each zone can have multiple floors which all can have varying heights. Elevators are special versions of moving platforms that connect floors inside a zone. Go up and continue from there!"
         }],
  "renderorder":"left-up",
- "tiledversion":"1.6.0",
+ "tiledversion":"1.7.0",
  "tileheight":50,
  "tilesets":[
         {

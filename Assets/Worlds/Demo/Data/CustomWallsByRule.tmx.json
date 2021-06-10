@@ -412,7 +412,7 @@
          "value":"A powerful concept is to automatically replace the blockout walls with custom ones through automated rules. This means, the zone will look different each time you visit it as the engine will randomly fulfill the rules."
         }],
  "renderorder":"left-up",
- "tiledversion":"1.6.0",
+ "tiledversion":"1.7.0",
  "tileheight":50,
  "tilesets":[
         {

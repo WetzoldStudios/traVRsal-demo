@@ -408,7 +408,7 @@
          "value":"Now let's get into world building. The easiest way is to simply exchange the materials of the walls, either for the whole wall, per tile or randomly. Check out the walls around you."
         }],
  "renderorder":"left-up",
- "tiledversion":"1.6.0",
+ "tiledversion":"1.7.0",
  "tileheight":50,
  "tilesets":[
         {

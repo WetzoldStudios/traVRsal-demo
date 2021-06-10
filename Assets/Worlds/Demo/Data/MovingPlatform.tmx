@@ -65,7 +65,7 @@
    <object id="68" type="Poster" gid="39" x="100" y="0" width="50" height="50" rotation="180">
     <properties>
      <property name="Image" value="https://travrsal.com/img/OutOrDead_EngineDescription.jpg"/>
-     <property name="Move" value="0;0;-2"/>
+     <property name="Move" value="0;0;-3"/>
      <property name="Scale" value="5;5;5"/>
      <property name="Y" type="int" value="2"/>
     </properties>

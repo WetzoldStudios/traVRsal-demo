@@ -234,11 +234,6 @@
                          "name":"",
                          "properties":[
                                 {
-                                 "name":"Anchor",
-                                 "type":"string",
-                                 "value":"-1,0"
-                                }, 
-                                {
                                  "name":"Text",
                                  "type":"string",
                                  "value":"Audio Guide"
@@ -247,7 +242,7 @@
                          "type":"SignLeft",
                          "visible":true,
                          "width":50,
-                         "x":100,
+                         "x":50,
                          "y":0
                         }, 
                         {
@@ -256,11 +251,6 @@
                          "id":94,
                          "name":"",
                          "properties":[
-                                {
-                                 "name":"Anchor",
-                                 "type":"string",
-                                 "value":"0,-1"
-                                }, 
                                 {
                                  "name":"Text",
                                  "type":"string",
@@ -271,7 +261,7 @@
                          "visible":true,
                          "width":50,
                          "x":0,
-                         "y":50
+                         "y":100
                         }, 
                         {
                          "gid":39,
@@ -279,11 +269,6 @@
                          "id":95,
                          "name":"",
                          "properties":[
-                                {
-                                 "name":"Anchor",
-                                 "type":"string",
-                                 "value":"1,0"
-                                }, 
                                 {
                                  "name":"Text",
                                  "type":"string",
@@ -293,7 +278,7 @@
                          "type":"SignLeft",
                          "visible":true,
                          "width":50,
-                         "x":50,
+                         "x":100,
                          "y":150
                         }],
                  "opacity":1,
@@ -386,7 +371,41 @@
                         }],
                  "opacity":1,
                  "type":"objectgroup",
-                 "visible":true,
+                 "visible":false,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "draworder":"topdown",
+                 "id":48,
+                 "name":"Climbing",
+                 "objects":[
+                        {
+                         "gid":42,
+                         "height":50,
+                         "id":105,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"TargetLocation",
+                                 "type":"string",
+                                 "value":"Parcour"
+                                }, 
+                                {
+                                 "name":"Y",
+                                 "type":"int",
+                                 "value":4
+                                }],
+                         "rotation":180,
+                         "type":"Beam",
+                         "visible":true,
+                         "width":50,
+                         "x":50,
+                         "y":100
+                        }],
+                 "opacity":1,
+                 "type":"objectgroup",
+                 "visible":false,
                  "x":0,
                  "y":0
                 }, 
@@ -697,8 +716,8 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":48,
- "nextobjectid":105,
+ "nextlayerid":49,
+ "nextobjectid":106,
  "orientation":"orthogonal",
  "properties":[
         {
@@ -717,7 +736,7 @@
          "value":"\/Skybox\/Space_Nebula_NuminousGlow\n"
         }],
  "renderorder":"left-up",
- "tiledversion":"1.6.0",
+ "tiledversion":"1.7.0",
  "tileheight":50,
  "tilesets":[
         {

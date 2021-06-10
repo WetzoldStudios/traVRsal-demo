@@ -1,9 +1,10 @@
 {
     "key": "Demo",
-    "version": "0.0.67",
-    "name": "traVRsal Demo",
-    "shortDescription": "Show-casing many of the available world-building features.",
-    "longDescription": "This is an example for world creators to show-case what is possible with traVRsal. Use this for inspiration and as a copy/paste resource. The accompanying Unity project including all assets can be downloaded from github and is constantly expanded.",
+    "version": "0.0.102",
+    "versionCode": 10,
+    "name": "World-Building Demo",
+    "shortDescription": "Show-casing locomotion and available world-building features.",
+    "longDescription": "This is an example for world creators to show-case what is possible. Use this for inspiration and as a copy paste resource. The accompanying Unity project including all assets can be downloaded from github and is constantly expanded.",
     "coverImage": "Cover.png",
     "loadAllChapters": true,
     "defaultChapter": "explore",
@@ -11,16 +12,18 @@
         {
             "key": "walkthrough",
             "name": "Walk-through",
-            "description": "Learn about the different world-building options of traVRsal in a narrated walk-through, introducing elements one by one.",
+            "description": "Learn about the different world-building options in a narrated walk-through, introducing elements one by one.",
+            "coverImage": "Walkthrough.jpg",
             "unlockRule": "None"
         },
         {
             "key": "explore",
             "name": "Exploration",
-            "description": "Go and explore at your own pace, starting in the hub zone."
+            "description": "Go and explore at your own pace, starting in the hub zone.",
+            "coverImage": "Explore.jpg"
         }
     ],
-    "minVersion": "1.1",
+    "minAppVersion": "1.1.124",
     "availableTime": 600,
     "enableChallenges": false,
     "measures": [
@@ -38,7 +41,8 @@
         {
             "key": "IntroPortal",
             "value": false,
-            "behaviour": "Change_Higher"
+            "behaviour": "Change_Higher",
+            "resetOnCheckpoint": false
         }
     ],
     "replacements": [

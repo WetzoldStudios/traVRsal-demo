@@ -435,7 +435,7 @@
          "value":"Walls don't have to be all single tiles. You can also use segments spanning the whole height and also segments spanning multiple tiles in width."
         }],
  "renderorder":"left-up",
- "tiledversion":"1.6.0",
+ "tiledversion":"1.7.0",
  "tileheight":50,
  "tilesets":[
         {

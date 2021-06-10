@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4468937731029866130}
   - component: {fileID: 1437372257184287934}
   - component: {fileID: 6202140218993246778}
+  - component: {fileID: 901896238562801153}
   m_Layer: 0
   m_Name: Image
   m_TagString: Untagged
@@ -27,7 +28,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2246769176854046015}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.001}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7149871049338848876}
@@ -56,6 +57,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -99,11 +101,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialIndex: 0
+  random: 0
+  order: 0
   source: 2
   key: unsplash
   adjustAspectRatio: 1
   imageData:
     imageLink: 
+    animationLink: 
     name: 
     description: 
     author: 
@@ -111,6 +116,19 @@ MonoBehaviour:
     audio: 
     speak: 
     ratingCount: 0
+--- !u!65 &901896238562801153
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2246769176854046015}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0726683, y: 1.1276859, z: 0.02035577}
+  m_Center: {x: 0.011194255, y: -0.0011488795, z: -0.015}
 --- !u!1 &2573638088932358547
 GameObject:
   m_ObjectHideFlags: 0
@@ -122,7 +140,6 @@ GameObject:
   - component: {fileID: 6754268958841709530}
   - component: {fileID: 120295428658394953}
   - component: {fileID: 1706375414843541946}
-  - component: {fileID: 9062428007866168716}
   m_Layer: 0
   m_Name: Cube (2)
   m_TagString: Untagged
@@ -163,6 +180,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -193,19 +211,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &9062428007866168716
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2573638088932358547}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &4277624688186694565
 GameObject:
   m_ObjectHideFlags: 0
@@ -217,7 +222,6 @@ GameObject:
   - component: {fileID: 634286999961326137}
   - component: {fileID: 2611844560566880219}
   - component: {fileID: 5371504031355481863}
-  - component: {fileID: 6877547417437613573}
   m_Layer: 0
   m_Name: Cube (3)
   m_TagString: Untagged
@@ -258,6 +262,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -288,19 +293,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6877547417437613573
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4277624688186694565}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5646602061284048725
 GameObject:
   m_ObjectHideFlags: 0
@@ -325,7 +317,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5646602061284048725}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: 0.0017}
+  m_LocalPosition: {x: 0, y: 0, z: 0.002}
   m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
   m_Children:
   - {fileID: 7765511010231878393}
@@ -343,7 +335,6 @@ GameObject:
   - component: {fileID: 7149871049338848876}
   - component: {fileID: 929983356134497114}
   - component: {fileID: 5580911978748877892}
-  - component: {fileID: 283520225211328968}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -384,6 +375,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -414,19 +406,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &283520225211328968
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6495441238233654967}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &9198346912546641714
 GameObject:
   m_ObjectHideFlags: 0
@@ -438,7 +417,6 @@ GameObject:
   - component: {fileID: 5947312421685935248}
   - component: {fileID: 6991265390857990913}
   - component: {fileID: 8235094914687099604}
-  - component: {fileID: 5183949278699499299}
   m_Layer: 0
   m_Name: Cube (1)
   m_TagString: Untagged
@@ -479,6 +457,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -509,19 +488,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &5183949278699499299
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9198346912546641714}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &9210173830968274940
 GameObject:
   m_ObjectHideFlags: 0
@@ -572,6 +538,7 @@ MonoBehaviour:
   carriable: 0
   portalHole: 0
   proportionateScaling: 0
+  editorCamIgnore: 0
   initialDirection: 2
   spec:
     objectKey: 
@@ -585,5 +552,6 @@ MonoBehaviour:
     pinToSide: 0
     snapSideways: 0
     standalone: 0
+    standaloneAllSides: 0
     adjustMaterials: 1
     pivotType: 2

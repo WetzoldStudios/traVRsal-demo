@@ -511,7 +511,7 @@
          "value":"Here you see some objects that show basic placement and rotation options as well as data binding and timers in action."
         }],
  "renderorder":"left-up",
- "tiledversion":"1.6.0",
+ "tiledversion":"1.7.0",
  "tileheight":50,
  "tilesets":[
         {

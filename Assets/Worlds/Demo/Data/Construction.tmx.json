@@ -211,11 +211,6 @@
  "orientation":"orthogonal",
  "properties":[
         {
-         "name":"Chapter",
-         "type":"string",
-         "value":"walkthrough"
-        }, 
-        {
          "name":"NoAgents",
          "type":"bool",
          "value":false
@@ -231,7 +226,7 @@
          "value":"15;0;0"
         }],
  "renderorder":"left-up",
- "tiledversion":"1.6.0",
+ "tiledversion":"1.7.0",
  "tileheight":50,
  "tilesets":[
         {
