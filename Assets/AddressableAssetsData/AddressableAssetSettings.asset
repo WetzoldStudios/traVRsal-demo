@@ -31,9 +31,9 @@ MonoBehaviour:
   m_MonoScriptBundleNaming: 0
   m_MonoScriptBundleCustomNaming: 
   m_RemoteCatalogBuildPath:
-    m_Id: b90689188772797458b85a1c9eb14c9b
+    m_Id: 912d1c486547e624f9a2f305d4e82d6e
   m_RemoteCatalogLoadPath:
-    m_Id: 6ba890a5ae0f52c499d4526309edc4ea
+    m_Id: 4ef4644741ba2424c83e4ee9e838d5f1
   m_ContentStateBuildPath: 
   m_overridePlayerVersion: 
   m_GroupAssets:
@@ -74,7 +74,7 @@ MonoBehaviour:
       - m_Id: b90689188772797458b85a1c9eb14c9b
         m_Value: ServerData/Worlds/Demo/[BuildTarget]
       - m_Id: 6ba890a5ae0f52c499d4526309edc4ea
-        m_Value: https://travrsal-beta.sfo2.cdn.digitaloceanspaces.com/Worlds/Demo/[BuildTarget]
+        m_Value: https://travrsal-alpha.sfo2.cdn.digitaloceanspaces.com/Worlds/Demo/[BuildTarget]
     m_ProfileEntryNames:
     - m_Id: b0dc59ea255fb5f4db596ab4c26a6b85
       m_Name: BuildTarget
