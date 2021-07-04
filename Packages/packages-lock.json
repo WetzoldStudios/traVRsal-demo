@@ -1,11 +1,11 @@
 {
   "dependencies": {
     "com.unity.addressables": {
-      "version": "1.18.9",
+      "version": "1.18.11",
       "depth": 1,
       "source": "registry",
       "dependencies": {
-        "com.unity.scriptablebuildpipeline": "1.19.0",
+        "com.unity.scriptablebuildpipeline": "1.19.1",
         "com.unity.modules.assetbundle": "1.0.0",
         "com.unity.modules.imageconversion": "1.0.0",
         "com.unity.modules.jsonserialize": "1.0.0",
@@ -142,7 +142,7 @@
       }
     },
     "com.unity.scriptablebuildpipeline": {
-      "version": "1.19.0",
+      "version": "1.19.1",
       "depth": 2,
       "source": "registry",
       "dependencies": {},
@@ -276,11 +276,11 @@
       "url": "https://packages.unity.com"
     },
     "com.wetzold.travrsal.sdk": {
-      "version": "https://github.com/WetzoldStudios/traVRsal-sdk.git#94f210714ae0dbfb082ec32bb5cf3cdcd26a7726",
+      "version": "https://github.com/WetzoldStudios/traVRsal-sdk.git#1b51216f1656d4607c087ebdeded591ce27661ee",
       "depth": 0,
       "source": "git",
       "dependencies": {
-        "com.unity.addressables": "1.18.9",
+        "com.unity.addressables": "1.18.11",
         "com.unity.ai.navigation": "1.0.0-exp.3",
         "com.unity.collections": "0.7.1-preview.3",
         "com.unity.editorcoroutines": "1.0.0",
@@ -293,7 +293,7 @@
         "com.unity.xr.management": "4.0.6",
         "com.unity.xr.oculus": "1.9.1"
       },
-      "hash": "94f210714ae0dbfb082ec32bb5cf3cdcd26a7726"
+      "hash": "1b51216f1656d4607c087ebdeded591ce27661ee"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",
