@@ -457,7 +457,7 @@
          "value":"Climbing is yet another supported form of locomotion and is a great way to mix things up. Try it out!"
         }],
  "renderorder":"left-up",
- "tiledversion":"1.7.0",
+ "tiledversion":"1.7.1",
  "tileheight":50,
  "tilesets":[
         {

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 468a46d0ae32c3544b7d98094e6448a9, type: 3}
   m_Name: AddressableAssetSettings
   m_EditorClassIdentifier: 
-  m_DefaultGroup: 50a612b3843f10b46abed00b55defca4
+  m_DefaultGroup: b3dff17748699d442b05dd0b8dedea60
   m_CachedHash:
     serializedVersion: 2
     Hash: 00000000000000000000000000000000
@@ -76,7 +76,7 @@ MonoBehaviour:
       - m_Id: b90689188772797458b85a1c9eb14c9b
         m_Value: ServerData/Worlds/Demo/[BuildTarget]
       - m_Id: 6ba890a5ae0f52c499d4526309edc4ea
-        m_Value: https://travrsal-alpha.sfo2.cdn.digitaloceanspaces.com/Worlds/Demo/[BuildTarget]
+        m_Value: https://travrsal-live.sfo2.cdn.digitaloceanspaces.com/Worlds/Demo/[BuildTarget]
     m_ProfileEntryNames:
     - m_Id: b0dc59ea255fb5f4db596ab4c26a6b85
       m_Name: BuildTarget

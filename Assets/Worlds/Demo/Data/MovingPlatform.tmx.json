@@ -256,7 +256,7 @@
          "value":"Another way to get to a different zone, and especially to widen the perceived play-area, is to use a moving platform. Hop on!"
         }],
  "renderorder":"left-up",
- "tiledversion":"1.7.0",
+ "tiledversion":"1.7.1",
  "tileheight":50,
  "tilesets":[
         {

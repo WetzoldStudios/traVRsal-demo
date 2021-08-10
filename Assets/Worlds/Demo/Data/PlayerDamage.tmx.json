@@ -331,7 +331,7 @@
          "value":"You can also take damage. This zone contains a trap which you should avoid and a pit you should not fall down into. Try both. Upon death, custom audio can be played."
         }],
  "renderorder":"left-up",
- "tiledversion":"1.7.0",
+ "tiledversion":"1.7.1",
  "tileheight":50,
  "tilesets":[
         {

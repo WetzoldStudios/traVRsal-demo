@@ -15,7 +15,7 @@ MonoBehaviour:
   m_GroupName: Demo
   m_Data:
     m_SerializedData: []
-  m_GUID: 50a612b3843f10b46abed00b55defca4
+  m_GUID: b3dff17748699d442b05dd0b8dedea60
   m_SerializeEntries:
   - m_GUID: e49c9f1d5dc32074dad6ddb0d23341c9
     m_Address: Worlds/Demo
