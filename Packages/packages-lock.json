@@ -15,7 +15,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ai.navigation": {
-      "version": "1.0.0-exp.3",
+      "version": "1.0.0-exp.4",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -24,12 +24,10 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.collab-proxy": {
-      "version": "1.7.1",
+      "version": "1.9.0",
       "depth": 0,
       "source": "registry",
-      "dependencies": {
-        "com.unity.nuget.newtonsoft-json": "2.0.0"
-      },
+      "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.editorcoroutines": {
@@ -56,7 +54,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.visualstudio": {
-      "version": "2.0.9",
+      "version": "2.0.11",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -162,7 +160,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.test-framework": {
-      "version": "1.1.27",
+      "version": "1.1.29",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -203,18 +201,20 @@
       }
     },
     "com.unity.xr.interaction.toolkit": {
-      "version": "1.0.0-pre.4",
+      "version": "1.0.0-pre.5",
       "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.inputsystem": "1.0.2",
         "com.unity.ugui": "1.0.0",
+        "com.unity.modules.audio": "1.0.0",
+        "com.unity.modules.imgui": "1.0.0",
         "com.unity.xr.legacyinputhelpers": "2.1.7"
       },
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.legacyinputhelpers": {
-      "version": "2.1.7",
+      "version": "2.1.8",
       "depth": 2,
       "source": "registry",
       "dependencies": {
@@ -224,7 +224,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.management": {
-      "version": "4.0.7",
+      "version": "4.1.0",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -237,7 +237,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.oculus": {
-      "version": "1.9.1",
+      "version": "1.10.0",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -247,23 +247,23 @@
       "url": "https://packages.unity.com"
     },
     "com.wetzold.travrsal.sdk": {
-      "version": "https://github.com/WetzoldStudios/traVRsal-sdk.git#98c0545d707ed25407bfb316e5c918f7f7541b8d",
+      "version": "https://github.com/WetzoldStudios/traVRsal-sdk.git#9c85e9a9c1c958c3f55d5622254015b9e5d4f2db",
       "depth": 0,
       "source": "git",
       "dependencies": {
         "com.unity.addressables": "1.18.11",
-        "com.unity.ai.navigation": "1.0.0-exp.3",
+        "com.unity.ai.navigation": "1.0.0-exp.4",
         "com.unity.editorcoroutines": "1.0.0",
         "com.unity.nuget.newtonsoft-json": "2.0.1-preview.1",
         "com.unity.render-pipelines.universal": "11.0.0",
         "com.unity.settings-manager": "1.0.3",
-        "com.unity.test-framework": "1.1.27",
+        "com.unity.test-framework": "1.1.29",
         "com.unity.textmeshpro": "3.0.6",
-        "com.unity.xr.interaction.toolkit": "1.0.0-pre.4",
+        "com.unity.xr.interaction.toolkit": "1.0.0-pre.5",
         "com.unity.xr.management": "4.0.7",
-        "com.unity.xr.oculus": "1.9.1"
+        "com.unity.xr.oculus": "1.10.0"
       },
-      "hash": "98c0545d707ed25407bfb316e5c918f7f7541b8d"
+      "hash": "9c85e9a9c1c958c3f55d5622254015b9e5d4f2db"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",
