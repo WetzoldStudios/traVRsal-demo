@@ -131,7 +131,7 @@
    </object>
    <object id="83" gid="4" x="100" y="150" width="50" height="50"/>
   </objectgroup>
-  <objectgroup id="37" name="Waypoints" locked="1">
+  <objectgroup id="37" name="Waypoints">
    <object id="85" gid="33" x="100" y="150" width="50" height="50">
     <properties>
      <property name="Key" value="[zone]-w1"/>
@@ -139,7 +139,7 @@
     </properties>
    </object>
   </objectgroup>
-  <objectgroup id="34" name="Transitions">
+  <objectgroup id="34" name="Transitions" locked="1">
    <object id="74" type="Platform" gid="29" x="100" y="150" width="50" height="50">
     <properties>
      <property name="Materials" value="DarkGrid"/>

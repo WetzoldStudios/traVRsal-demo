@@ -57,7 +57,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.visualstudio": {
-      "version": "2.0.11",
+      "version": "2.0.12",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -237,7 +237,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.management": {
-      "version": "4.1.0",
+      "version": "4.2.0",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -260,7 +260,7 @@
       "url": "https://packages.unity.com"
     },
     "com.wetzold.travrsal.sdk": {
-      "version": "https://github.com/WetzoldStudios/traVRsal-sdk.git#28ca08d59716f79660eaa7f49a314ffd23f0fcda",
+      "version": "https://github.com/WetzoldStudios/traVRsal-sdk.git#754d44f373bba806a1f0290b1ec244fd6c5a03f1",
       "depth": 0,
       "source": "git",
       "dependencies": {
@@ -273,10 +273,10 @@
         "com.unity.test-framework": "1.1.30",
         "com.unity.textmeshpro": "3.0.6",
         "com.unity.xr.interaction.toolkit": "1.0.0-pre.8",
-        "com.unity.xr.management": "4.0.7",
+        "com.unity.xr.management": "4.2.0",
         "com.unity.xr.oculus": "1.11.0"
       },
-      "hash": "28ca08d59716f79660eaa7f49a314ffd23f0fcda"
+      "hash": "754d44f373bba806a1f0290b1ec244fd6c5a03f1"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",
