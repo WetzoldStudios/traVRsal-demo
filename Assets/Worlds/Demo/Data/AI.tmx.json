@@ -314,7 +314,7 @@
                                  "value":1
                                 }],
                          "rotation":0,
-                         "type":"Wave",
+                         "type":"Waves",
                          "visible":true,
                          "width":50,
                          "x":100,

@@ -1,5 +1,150 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &260190130101793878
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7253677005210852899}
+  - component: {fileID: 2014139214909528797}
+  - component: {fileID: 7324216796657299662}
+  m_Layer: 0
+  m_Name: Wave2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7253677005210852899
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 260190130101793878}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6374710870975385025}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2014139214909528797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 260190130101793878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1dab59a2f8261842a5a743a8b6bc013, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mode: 1
+  pattern: 1000,a,200,a,200,a
+  loop: 0
+  spawnRules:
+  - key: a
+    layer: 
+    objectKeys:
+    - RedBall
+    amountType: 0
+    amount: 2
+    distributionType: 1
+    orientation: 10
+    occupy: 0
+    progressionStart: 0
+    progressionEnd: 1
+    currentZone: 0
+    exactLocation: 0
+    validZones: []
+    validSockets:
+    - AI-S3
+    - AI-S4
+    validObjects: []
+    restrictions: []
+    minDistance: 0
+    y: 0
+    yRange: []
+    moveRandomly: 0.05
+    rotateRandomly: 
+    scale: 
+    maxScale: 0
+    snap: 0
+    atCeiling: 0
+    connectToCeiling: 0
+    stretchToCeiling: 0
+    flipOrientation: 0
+    considerPlayerHeight: 0
+    damage: 0
+    health: 0
+    speed: -1
+    waypoints: 
+    shieldProbability: -1
+    shieldRegenerationPeriod: -1
+    minShields: -1
+    maxShields: -1
+    maxShieldStrength: -1
+    enabled: 1
+    enabledFormula: 
+    dontCountAsTarget: 0
+    dontCountAsObstacle: 1
+    debug: 0
+    companions: []
+  onStarted:
+    m_PersistentCalls:
+      m_Calls: []
+  onOver:
+    m_PersistentCalls:
+      m_Calls: []
+  onDefended:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7324216796657299662}
+        m_TargetAssemblyTypeName: traVRsal.SDK.Delay, traVRsal.SDK.runtime
+        m_MethodName: Trigger
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &7324216796657299662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 260190130101793878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b41e927bf00e9df41b4468d81b9a882f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mode: 1
+  delay: 2
+  onCompletion:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 75442752801651140}
+        m_TargetAssemblyTypeName: traVRsal.SDK.Wave, traVRsal.SDK.runtime
+        m_MethodName: Trigger
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1497444545836561556
 GameObject:
   m_ObjectHideFlags: 0
@@ -27,11 +172,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1497444545836561556}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalScale: {x: 0.13301, y: 0.13301, z: 0.13301}
   m_Children: []
   m_Father: {fileID: 6374710870975385025}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &39350494799892992
 MeshFilter:
@@ -61,7 +206,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 134771f5774f87445a2feeecb690d7b6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -96,7 +241,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!1 &6374710870975385026
+--- !u!1 &2688689329298984741
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -104,44 +249,44 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6374710870975385025}
-  - component: {fileID: 8880575415214909779}
-  - component: {fileID: 2409486774247008520}
+  - component: {fileID: 1681899326575148679}
+  - component: {fileID: 75442752801651140}
+  - component: {fileID: 5367580818257890748}
   m_Layer: 0
-  m_Name: Wave
+  m_Name: Wave1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6374710870975385025
+--- !u!4 &1681899326575148679
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6374710870975385026}
+  m_GameObject: {fileID: 2688689329298984741}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.97672296, y: 0.15878725, z: -0.20229745}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 3729018923560473972}
-  m_Father: {fileID: 0}
+  m_Children: []
+  m_Father: {fileID: 6374710870975385025}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8880575415214909779
+--- !u!114 &75442752801651140
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6374710870975385026}
+  m_GameObject: {fileID: 2688689329298984741}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a1dab59a2f8261842a5a743a8b6bc013, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pattern: 1000,a,200,b,200,b
+  mode: 0
+  pattern: 
   loop: 0
   spawnRules:
   - key: a
@@ -162,55 +307,6 @@ MonoBehaviour:
     validSockets:
     - AI-S1
     - AI-S2
-    - AI-S3
-    - AI-S4
-    validObjects: []
-    restrictions: []
-    minDistance: 0
-    y: 0
-    yRange: []
-    moveRandomly: 0.05
-    rotateRandomly: 
-    scale: 
-    maxScale: 0
-    snap: 0
-    atCeiling: 0
-    connectToCeiling: 0
-    stretchToCeiling: 0
-    flipOrientation: 0
-    considerPlayerHeight: 0
-    damage: 0
-    health: 0
-    speed: -1
-    waypoints: 
-    shieldProbability: -1
-    shieldRegenerationPeriod: -1
-    minShields: -1
-    maxShields: -1
-    maxShieldStrength: -1
-    enabled: 1
-    enabledFormula: 
-    dontCountAsTarget: 0
-    dontCountAsObstacle: 1
-    debug: 0
-    companions: []
-  - key: b
-    layer: 
-    objectKeys:
-    - RedBall
-    amountType: 0
-    amount: 1
-    distributionType: 1
-    orientation: 10
-    occupy: 0
-    progressionStart: 0
-    progressionEnd: 1
-    currentZone: 0
-    exactLocation: 0
-    validZones: []
-    validSockets:
-    - AI-S1
-    - AI-S3
     validObjects: []
     restrictions: []
     minDistance: 0
@@ -262,7 +358,7 @@ MonoBehaviour:
   onDefended:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2409486774247008520}
+      - m_Target: {fileID: 5367580818257890748}
         m_TargetAssemblyTypeName: traVRsal.SDK.Delay, traVRsal.SDK.runtime
         m_MethodName: Trigger
         m_Mode: 1
@@ -286,13 +382,13 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
---- !u!114 &2409486774247008520
+--- !u!114 &5367580818257890748
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6374710870975385026}
+  m_GameObject: {fileID: 2688689329298984741}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b41e927bf00e9df41b4468d81b9a882f, type: 3}
@@ -303,9 +399,9 @@ MonoBehaviour:
   onCompletion:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8880575415214909779}
+      - m_Target: {fileID: 2014139214909528797}
         m_TargetAssemblyTypeName: traVRsal.SDK.Wave, traVRsal.SDK.runtime
-        m_MethodName: Restart
+        m_MethodName: Trigger
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -315,3 +411,36 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!1 &6374710870975385026
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6374710870975385025}
+  m_Layer: 0
+  m_Name: Waves
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6374710870975385025
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6374710870975385026}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1681899326575148679}
+  - {fileID: 7253677005210852899}
+  - {fileID: 3729018923560473972}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

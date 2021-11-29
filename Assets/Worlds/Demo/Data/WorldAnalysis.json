@@ -1,5 +1,5 @@
 {
-    "totalObjects": 2297,
+    "totalObjects": 2299,
     "totalAgents": 2,
     "referencedWorlds": [
         "Base",
@@ -110,7 +110,7 @@
         "/Demo/Pieces/Timer",
         "/Demo/Pieces/Wall",
         "/Demo/Pieces/WallMaterials",
-        "/Demo/Pieces/Wave",
+        "/Demo/Pieces/Waves",
         "/Demo/Pieces/Window",
         "/Demo/Pieces/Window2X",
         "/Demo/Pieces/WorldTimer",

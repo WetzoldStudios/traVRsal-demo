@@ -1,7 +1,7 @@
 {
     "key": "Demo",
-    "version": "0.0.228",
-    "versionCode": 136,
+    "version": "0.0.232",
+    "versionCode": 140,
     "name": "World-Building Demo",
     "shortDescription": "Show-casing locomotion and available world-building features.",
     "longDescription": "This is an example for world creators to show-case what is possible. Use this for inspiration and as a copy paste resource. The accompanying Unity project including all assets can be downloaded from github and is constantly expanded.",
@@ -315,7 +315,7 @@
         }
     ],
     "dependencies": {
-        "totalObjects": 2297,
+        "totalObjects": 2299,
         "totalAgents": 2,
         "referencedWorlds": [
             "Base",
@@ -426,7 +426,7 @@
             "/Demo/Pieces/Timer",
             "/Demo/Pieces/Wall",
             "/Demo/Pieces/WallMaterials",
-            "/Demo/Pieces/Wave",
+            "/Demo/Pieces/Waves",
             "/Demo/Pieces/Window",
             "/Demo/Pieces/Window2X",
             "/Demo/Pieces/WorldTimer",

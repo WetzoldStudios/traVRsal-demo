@@ -74,7 +74,7 @@
   <objectgroup id="4" name="Transitions"/>
   <objectgroup id="27" name="Objects">
    <object id="77" type="Drone" gid="42" x="150" y="0" width="50" height="50" rotation="-180"/>
-   <object id="79" type="Wave" gid="43" x="100" y="100" width="50" height="50">
+   <object id="79" type="Waves" gid="43" x="100" y="100" width="50" height="50">
     <properties>
      <property name="Y" type="int" value="1"/>
     </properties>
