@@ -436,6 +436,29 @@
                          "width":50,
                          "x":100,
                          "y":150
+                        }, 
+                        {
+                         "gid":33,
+                         "height":50,
+                         "id":87,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"Key",
+                                 "type":"string",
+                                 "value":"[zone]-w2"
+                                }, 
+                                {
+                                 "name":"Move",
+                                 "type":"string",
+                                 "value":"2;-4;0"
+                                }],
+                         "rotation":0,
+                         "type":"",
+                         "visible":true,
+                         "width":50,
+                         "x":100,
+                         "y":150
                         }],
                  "opacity":1,
                  "type":"objectgroup",
@@ -467,7 +490,7 @@
                                 {
                                  "name":"Waypoints",
                                  "type":"string",
-                                 "value":"[zone]-w1"
+                                 "value":"[zone]-w1,[zone]-w2"
                                 }],
                          "rotation":0,
                          "type":"Platform",
@@ -490,7 +513,7 @@
          "y":0
         }],
  "nextlayerid":38,
- "nextobjectid":87,
+ "nextobjectid":88,
  "orientation":"orthogonal",
  "properties":[
         {
