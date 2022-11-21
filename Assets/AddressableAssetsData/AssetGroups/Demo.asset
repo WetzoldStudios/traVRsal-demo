@@ -21,6 +21,7 @@ MonoBehaviour:
     m_Address: Worlds/Demo
     m_ReadOnly: 0
     m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 466e2238282697b4f807d9f84f3adc4a, type: 2}
   m_SchemaSet:

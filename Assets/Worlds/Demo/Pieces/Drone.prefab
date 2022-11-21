@@ -148,6 +148,7 @@ MonoBehaviour:
   nonBlocking: 0
   climbable: 0
   carriable: 0
+  door: 0
   portalHole: 0
   editorCamIgnore: 0
   scalingMode: 0
@@ -173,7 +174,7 @@ NavMeshAgent:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5694072743210432876}
-  m_Enabled: 0
+  m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
   m_Speed: 0.5
@@ -210,6 +211,7 @@ MonoBehaviour:
   trackPlayer: 1
   tracker: {fileID: 0}
   trackSpeed: 1
+  moveToPlayer: 0
   proximityDamage: 0
   proximity: 0.5
   movement: 1
@@ -218,12 +220,19 @@ MonoBehaviour:
   moveAreaStart: {x: 0, y: 0}
   moveAreaEnd: {x: 0, y: 0}
   wanderRadius: 5
+  waypoints: 
   snapToGrid: 1
   reportMovement: 1
   walkSound: {fileID: 0}
   animParamMove: move
   animParamVelocityX: velx
   animParamVelocityZ: velz
+  onWaypointReached:
+    m_PersistentCalls:
+      m_Calls: []
+  onLastWaypointReached:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &5779652006806662911
 GameObject:
   m_ObjectHideFlags: 0

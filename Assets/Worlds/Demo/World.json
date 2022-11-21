@@ -1,7 +1,7 @@
 {
     "key": "Demo",
-    "version": "0.0.232",
-    "versionCode": 140,
+    "version": "0.0.323",
+    "versionCode": 231,
     "name": "World-Building Demo",
     "shortDescription": "Show-casing locomotion and available world-building features.",
     "longDescription": "This is an example for world creators to show-case what is possible. Use this for inspiration and as a copy paste resource. The accompanying Unity project including all assets can be downloaded from github and is constantly expanded.",
@@ -20,7 +20,8 @@
             "key": "explore",
             "name": "Exploration",
             "description": "Go and explore at your own pace, starting in the hub zone.",
-            "coverImage": "Explore.jpg"
+            "coverImage": "Explore.jpg",
+            "unlockAchievement": "demo-exploration"
         }
     ],
     "minAppVersion": "1.1.124",
@@ -117,7 +118,7 @@
         {
             "key": "AI",
             "objectKeys": [
-                "Drone"
+                "HomingDrone"
             ],
             "amount": 1,
             "validSockets": [
@@ -143,7 +144,7 @@
         {
             "key": "DeadEnds",
             "objectKeys": [
-                "SampleObject"
+                "TrackingSampleObject"
             ],
             "amountType": "Probability",
             "amount": 100,
@@ -159,7 +160,7 @@
         {
             "key": "Corners",
             "objectKeys": [
-                "SampleObject"
+                "TrackingSampleObject"
             ],
             "amountType": "Probability",
             "amount": 100,
@@ -259,6 +260,24 @@
             "pivotType": "Center"
         },
         {
+            "objectKey": "HomingDrone",
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "pivotType": "Bottom_Center"
+        },
+        {
+            "objectKey": "InventoryItem",
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "pivotType": "Center"
+        },
+        {
             "objectKey": "Poster",
             "scale": {
                 "x": 1.0,
@@ -295,6 +314,15 @@
             "pivotType": "Center"
         },
         {
+            "objectKey": "TrackingSampleObject",
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "pivotType": "Center"
+        },
+        {
             "objectKey": "Window",
             "scale": {
                 "x": 1.0,
@@ -312,10 +340,19 @@
             },
             "width": 2,
             "height": 5
+        },
+        {
+            "objectKey": "Sceneries/OuterRoom",
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "pivotType": "Bottom_Center"
         }
     ],
     "dependencies": {
-        "totalObjects": 2299,
+        "totalObjects": 2320,
         "totalAgents": 2,
         "referencedWorlds": [
             "Base",
@@ -335,6 +372,7 @@
             "/Base/Materials/Proto/Green",
             "/Base/Materials/Proto/Red",
             "/Base/Materials/Proto/White",
+            "/Base/Pieces/Button",
             "/Base/Pieces/ButtonCentered",
             "/Base/Pieces/Ceiling",
             "/Base/Pieces/Corner",
@@ -357,6 +395,7 @@
             "/Base/Pieces/Maze/MazeDeadlockCornerRight",
             "/Base/Pieces/Maze/MazeDeadlockCornerRightRound",
             "/Base/Pieces/Maze/MazeDoubleCorner",
+            "/Base/Pieces/Maze/MazeTriple",
             "/Base/Pieces/Maze/MazeTripple",
             "/Base/Pieces/Pistol",
             "/Base/Pieces/PlasmaGun",
@@ -405,12 +444,14 @@
             "/Demo/Pieces/Drone",
             "/Demo/Pieces/Elevator",
             "/Demo/Pieces/Elevators",
+            "/Demo/Pieces/Flap",
             "/Demo/Pieces/Gallery",
             "/Demo/Pieces/GalleryImage",
             "/Demo/Pieces/Gravity",
             "/Demo/Pieces/GreenBall",
             "/Demo/Pieces/Grip",
-            "/Demo/Pieces/Intro",
+            "/Demo/Pieces/HomingDrone",
+            "/Demo/Pieces/InventoryItem",
             "/Demo/Pieces/MovingPlatform",
             "/Demo/Pieces/Platform",
             "/Demo/Pieces/PlayerDamage",
@@ -418,12 +459,14 @@
             "/Demo/Pieces/Poster",
             "/Demo/Pieces/RedBall",
             "/Demo/Pieces/SampleObject",
+            "/Demo/Pieces/Sceneries/OuterRoom",
             "/Demo/Pieces/SignLeft",
             "/Demo/Pieces/SignRight",
             "/Demo/Pieces/Sound",
             "/Demo/Pieces/Spike",
             "/Demo/Pieces/TileCube",
             "/Demo/Pieces/Timer",
+            "/Demo/Pieces/TrackingSampleObject",
             "/Demo/Pieces/Wall",
             "/Demo/Pieces/WallMaterials",
             "/Demo/Pieces/Waves",
@@ -450,10 +493,12 @@
             "Here you see some objects that show basic placement and rotation options as well as data binding and timers in action.",
             "Now let's get into world building. The easiest way is to simply exchange the materials of the walls, either for the whole wall, per tile or randomly. Check out the walls around you.",
             "Now that we have tackled walls and the outside, let's focus on what can be done inside. A very interesting way to connect zones is to create small labyrinths. The arrows on the floor will guide you. Inside the labyrinth objects can be placed through rules. These can include constraints like targeting only corners, dead-ends or to set limits to the amount, minimum distance and more.",
+            "Objects like the cubes over there are placed onto the grid, either manually or through rules. Each grid with all objects in it is called a zone. You can travel between zones by different means. The most immersive one is to simply walk there using a portal like the one in front of you. Step through!",
             "Step onto the marker to open the portal, and then walk through!",
             "This zone features a much lower ceiling so duck to get through!",
             "This zone is all about sound and effects.",
             "Transitions to other zones can trigger audio like this text, and as you hear also cross-fade in new music in the background.",
+            "Triggers like the one you just entered can cause sound to be played or text to be spoken",
             "Walls don't have to be all single tiles. You can also use segments spanning the whole height and also segments spanning multiple tiles in width.",
             "What does go up, must come down. And gravity will do the job for you. Falling can be a great form of locomotion in itself. And also your demise.",
             "You can also take damage. This zone contains a trap which you should avoid and a pit you should not fall down into. Try both. Upon death, custom audio can be played.",

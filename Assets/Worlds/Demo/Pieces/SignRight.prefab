@@ -410,10 +410,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d34c63715e8f664288e205becf54900, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enabledGameObjects: []
-  enabledComponents: []
+  filter: 
+  allowInIntro: 0
   informedComponents: []
-  allowInIntro: 1
+  onActive:
+    m_PersistentCalls:
+      m_Calls: []
+  onBecomeActive:
+    m_PersistentCalls:
+      m_Calls: []
+  onInactive:
+    m_PersistentCalls:
+      m_Calls: []
+  onBecomeInactive:
+    m_PersistentCalls:
+      m_Calls: []
   onZoneChange:
     m_PersistentCalls:
       m_Calls:

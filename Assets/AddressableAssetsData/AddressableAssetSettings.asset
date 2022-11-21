@@ -20,7 +20,7 @@ MonoBehaviour:
   m_BuildRemoteCatalog: 1
   m_BundleLocalCatalog: 0
   m_CatalogRequestsTimeout: 0
-  m_DisableCatalogUpdateOnStart: 1
+  m_DisableCatalogUpdateOnStart: 0
   m_IgnoreUnsupportedFilesInBuild: 1
   m_UniqueBundleIds: 0
   m_NonRecursiveBuilding: 1
@@ -32,11 +32,14 @@ MonoBehaviour:
   m_ShaderBundleNaming: 2
   m_ShaderBundleCustomNaming: Demo
   m_MonoScriptBundleNaming: 0
+  m_CheckForContentUpdateRestrictionsOption: 0
   m_MonoScriptBundleCustomNaming: 
   m_RemoteCatalogBuildPath:
     m_Id: ba7525840ad840b4ab4533f85800342a
   m_RemoteCatalogLoadPath:
     m_Id: 4cd666aefbf4afc4e8f83354e54db432
+  m_ContentStateBuildPathProfileVariableName: 
+  m_CustomContentStateBuildPath: 
   m_ContentStateBuildPath: 
   m_BuildAddressablesWithPlayerBuild: 2
   m_overridePlayerVersion: 
@@ -88,9 +91,9 @@ MonoBehaviour:
       - m_Id: 6ba890a5ae0f52c499d4526309edc4ea
         m_Value: https://travrsal-live.sfo2.cdn.digitaloceanspaces.com/Worlds/Demo/[BuildTarget]
       - m_Id: ba7525840ad840b4ab4533f85800342a
-        m_Value: C:/Unity/traVRsal-demo/Assets/../traVRsal/Demo/[BuildTarget]
+        m_Value: D:/Unity/traVRsal-demo/Assets/../traVRsal/Demo/[BuildTarget]
       - m_Id: 4cd666aefbf4afc4e8f83354e54db432
-        m_Value: C:/Unity/traVRsal-demo/Assets/../traVRsal/Demo/[BuildTarget]
+        m_Value: D:/Unity/traVRsal-demo/Assets/../traVRsal/Demo/[BuildTarget]
       - m_Id: 8f39f12179549a34583b6f442e86722f
         m_Value: ServerData/Worlds/Demo/[BuildTarget]
       - m_Id: d90c0e40ecf5e624096149722370030f
@@ -146,6 +149,4 @@ MonoBehaviour:
     m_Settings: {fileID: 11400000}
     m_NextInstanceId: 0
     m_RegisteredServiceTypeRefs: []
-    m_GlobalProfileVariablesInfos:
-    - key: PrivateIpAddress
-      value: 192.168.178.27
+    m_PingTimeoutInMilliseconds: 5000

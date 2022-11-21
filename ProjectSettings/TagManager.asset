@@ -10,6 +10,12 @@ TagManager:
   - Player Head
   - Collectible
   - Player Helper
+  - Player Hand
+  - Reserved for Future 1
+  - Reserved for Future 2
+  - Reserved for Future 3
+  - Reserved for Future 4
+  - Reserved for Future 5
   - Object 1
   - Object 2
   - Object 3
@@ -110,14 +116,24 @@ TagManager:
   - Object 98
   - Object 99
   - Object 100
+  - Object 101
+  - Object 102
+  - Object 103
+  - Object 104
+  - Object 105
+  - Object 106
+  - Object 107
+  - Object 108
+  - Object 109
+  - Object 110
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Always In Front
   - Water
   - UI
-  - 
+  - Logic
   - 
   - 
   - 

@@ -53,6 +53,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -126,9 +127,9 @@ GameObject:
   - component: {fileID: 2626770461786366095}
   - component: {fileID: 6198375733998357876}
   - component: {fileID: 6198375733998357875}
-  - component: {fileID: 6198375733998357873}
   - component: {fileID: 6198375733998357874}
   - component: {fileID: 1208613409550535351}
+  - component: {fileID: 2730949013892643139}
   m_Layer: 0
   m_Name: Button
   m_TagString: Untagged
@@ -169,6 +170,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -236,6 +238,7 @@ SpringJoint:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3888902310490931873}
   m_ConnectedBody: {fileID: 1713550093}
+  m_ConnectedArticulationBody: {fileID: 0}
   m_Anchor: {x: 0, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
   m_ConnectedAnchor: {x: 0, y: 0, z: 5.334528}
@@ -251,20 +254,6 @@ SpringJoint:
   m_EnablePreprocessing: 1
   m_MassScale: 1
   m_ConnectedMassScale: 1
---- !u!114 &6198375733998357873
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3888902310490931873}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 05b1f6d8e3134aecae61e233bc61edbc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxSound: {fileID: 0}
-  minSound: {fileID: 0}
 --- !u!114 &6198375733998357874
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -283,9 +272,9 @@ MonoBehaviour:
   OnButtonDown:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 6198375733998357873}
-        m_TargetAssemblyTypeName: traVRsal.SDK.VariableAction, traVRsal.SDK.runtime
-        m_MethodName: ToggleAction
+      - m_Target: {fileID: 2730949013892643139}
+        m_TargetAssemblyTypeName: traVRsal.SDK.SetVariable, traVRsal.SDK.runtime
+        m_MethodName: ReachActionMax
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -298,8 +287,8 @@ MonoBehaviour:
   OnButtonUp:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 6198375733998357873}
-        m_TargetAssemblyTypeName: traVRsal.SDK.VariableAction, traVRsal.SDK.runtime
+      - m_Target: {fileID: 2730949013892643139}
+        m_TargetAssemblyTypeName: traVRsal.SDK.SetVariable, traVRsal.SDK.runtime
         m_MethodName: ReachActionMin
         m_Mode: 1
         m_Arguments:
@@ -328,6 +317,25 @@ MonoBehaviour:
   lockXRotation: 1
   lockYRotation: 1
   lockZRotation: 1
+--- !u!114 &2730949013892643139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3888902310490931873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3640fa51c57901644a6a20a19c930a39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mode: 0
+  variableChannel: 0
+  maxSound: {fileID: 0}
+  minSound: {fileID: 0}
+  variableReactionChannel: 0
+  delay: 0
+  booleanAction: 0
 --- !u!1 &7867893976003710062
 GameObject:
   m_ObjectHideFlags: 0
@@ -337,7 +345,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3409536764134073338}
-  - component: {fileID: 7010079910689516877}
   m_Layer: 0
   m_Name: Button
   m_TagString: Untagged
@@ -361,23 +368,3 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7010079910689516877
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7867893976003710062}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f6b53d4b0c03f3f41861b98ed0e14f1b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  initialDelay: {x: 1, y: 2}
-  interval: {x: 3, y: 4}
-  fixedInterval: 1
-  toggleObjects:
-  - {fileID: 3888902310490931873}
-  - {fileID: 1713550091}
-  toggleComponents: []
-  toggleColliders: []

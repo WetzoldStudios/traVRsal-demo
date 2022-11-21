@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7302224820756049823}
   - component: {fileID: 7744230596071120151}
   - component: {fileID: 3634355977327744523}
+  - component: {fileID: 6552646221232763350}
   m_Layer: 0
   m_Name: TileCube
   m_TagString: Untagged
@@ -50,9 +51,10 @@ MonoBehaviour:
   nonBlocking: 0
   climbable: 0
   carriable: 0
+  door: 0
   portalHole: 0
-  proportionateScaling: 0
-  initialDirection: 2
+  editorCamIgnore: 0
+  scalingMode: 0
   spec:
     objectKey: 
     gameObject: {fileID: 0}
@@ -81,16 +83,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   variable: 
+  variableChannel: 0
   invert: 0
   action: 3
   targetObject: {fileID: 0}
   component: {fileID: 0}
-  enabledComponents: []
-  disabledComponents: []
-  enabledColliders: []
-  disabledColliders: []
-  enabledObjects: []
-  disabledObjects: []
+  onTrue:
+    m_PersistentCalls:
+      m_Calls: []
+  onFalse:
+    m_PersistentCalls:
+      m_Calls: []
+  onChange:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &3634355977327744523
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -104,14 +110,37 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mode: 1
+  variableChannel: 0
+  valueScale: 0
   distance: {x: 0.5, y: 0.5}
-  duration: 3
   axis: {x: 0, y: 1, z: 0}
   easeType: 4
   loop: 0
   loopType: 1
-  onDelay: 2
-  offDelay: 0
+  initialDelay: {x: 0, y: 0}
+  duration: {x: 4, y: 4}
+  onDelay: {x: 0, y: 0}
+  offDelay: {x: 0, y: 0}
+  audio: {fileID: 0}
+  onReachedDestination:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &6552646221232763350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 934713719070716112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c143c48a243ae0d4bb926c2e73c6ac88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 0}
+  parameterName: 
+  invert: 0
+  variableChannel: 0
 --- !u!1 &2684741980374702227
 GameObject:
   m_ObjectHideFlags: 0
@@ -164,6 +193,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1

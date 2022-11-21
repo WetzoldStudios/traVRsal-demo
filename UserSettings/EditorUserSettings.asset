@@ -5,6 +5,36 @@ EditorUserSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 4
   m_ConfigSettings:
+    RecentlyUsedSceneGuid-0:
+      value: 5b54035f5d055a5d585b5a7647745a4446151929747925682b701c67e3e5623e
+      flags: 0
+    RecentlyUsedSceneGuid-1:
+      value: 5207040451000c0b08570f7542750e444616197f782e7f677a7c4b6ae6b5646e
+      flags: 0
+    RecentlyUsedSceneGuid-2:
+      value: 5b06015f52060d585c5d0f2713705e444e161b792a7c70627d2d4f63bbb36260
+      flags: 0
+    RecentlyUsedSceneGuid-3:
+      value: 000557035004590f5c5b087349750d44474f1d7e287c23327f2d4a64e1e5636d
+      flags: 0
+    RecentlyUsedSceneGuid-4:
+      value: 5001555e52045a5d5a5d0d7645770744134f412c282a756978784536b3e2666a
+      flags: 0
+    RecentlyUsedSceneGuid-5:
+      value: 54025704530d5a0d5e5e0a771176064413164b7a7a2d7f6175784460b0b6613c
+      flags: 0
+    RecentlyUsedSceneGuid-6:
+      value: 050203025c575d0e54585d7441705c44144e48727c707e322f2a1b36e6b66060
+      flags: 0
+    RecentlyUsedSceneGuid-7:
+      value: 06030753525050595e5f5d2111770844144f407b782e7f357c7e4966b2b26239
+      flags: 0
+    RecentlyUsedSceneGuid-8:
+      value: 05060d5106510c0858570f7143270f4440154e73742a756579281c61bab06268
+      flags: 0
+    RecentlyUsedSceneGuid-9:
+      value: 0700575554055059090c597611270a44154f19782e7a7e63757c4f6be7b66068
+      flags: 0
     RecentlyUsedScenePath-0:
       value: 3350570d04520c48420d032f5e345a040c18142e623c34313b3b0e32eeae273ce9a804fce92e36313c4ddb340d2c050ff3181d12b929020a011af40d02b023373a8a3ddd1bc50f10ce0a53fdce18dfe6c699f5e4dcf9e8d1da90f3cdd5feeaeafaf8a1c49da1f8c7afbbc182aecfd7c8c484a2cac5d2d0
       flags: 0
@@ -40,9 +70,13 @@ EditorUserSettings:
   m_VCDebugCmd: 0
   m_VCDebugOut: 0
   m_SemanticMergeMode: 2
+  m_DesiredImportWorkerCount: 4
+  m_StandbyImportWorkerCount: 2
+  m_IdleImportWorkerShutdownDelay: 60000
   m_VCShowFailedCheckout: 1
   m_VCOverwriteFailedCheckoutAssets: 1
   m_VCProjectOverlayIcons: 1
   m_VCHierarchyOverlayIcons: 1
   m_VCOtherOverlayIcons: 1
   m_VCAllowAsyncUpdate: 0
+  m_ArtifactGarbageCollection: 1

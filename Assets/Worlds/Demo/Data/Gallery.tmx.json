@@ -6,7 +6,9 @@
          "id":5,
          "layers":[
                 {
-                 "data":[4, 4, 4, 4, 4, 4, 4, 4, 4],
+                 "data":[4, 4, 4,
+                    4, 4, 4,
+                    4, 4, 4],
                  "height":3,
                  "id":1,
                  "name":"Ground",
@@ -29,7 +31,9 @@
                  "y":0
                 }, 
                 {
-                 "data":[0, 3, 3, 3, 3, 3, 3, 3, 3],
+                 "data":[0, 3, 3,
+                    3, 3, 3,
+                    3, 3, 3],
                  "height":3,
                  "id":28,
                  "name":"Ceiling",
@@ -57,6 +61,7 @@
                  "name":"Ceiling",
                  "objects":[
                         {
+                         "class":"",
                          "gid":3,
                          "height":50,
                          "id":72,
@@ -73,7 +78,6 @@
                                  "value":true
                                 }],
                          "rotation":0,
-                         "type":"",
                          "visible":true,
                          "width":50,
                          "x":0,
@@ -84,9 +88,12 @@
                  "visible":true,
                  "x":0,
                  "y":0
-                }, 
+                },
+            
                 {
-                 "data":[2684354566, 3221225477, 3221225478, 2684354565, 0, 1610612741, 6, 5, 1610612742],
+                 "data":[2684354566, 3221225477, 3221225478,
+                    2684354565, 0, 1610612741,
+                    6, 5, 1610612742],
                  "height":3,
                  "id":3,
                  "name":"Walls",
@@ -125,6 +132,7 @@
                  "name":"Images",
                  "objects":[
                         {
+                         "class":"Poster",
                          "gid":40,
                          "height":50,
                          "id":74,
@@ -146,13 +154,13 @@
                                  "value":2
                                 }],
                          "rotation":0,
-                         "type":"Poster",
                          "visible":true,
                          "width":50,
                          "x":50,
                          "y":150
                         }, 
                         {
+                         "class":"Poster",
                          "gid":40,
                          "height":50,
                          "id":76,
@@ -169,7 +177,6 @@
                                  "value":2
                                 }],
                          "rotation":90,
-                         "type":"Poster",
                          "visible":true,
                          "width":50,
                          "x":7,
@@ -180,13 +187,15 @@
                  "visible":true,
                  "x":0,
                  "y":0
-                }, 
+                },
+            
                 {
                  "draworder":"topdown",
                  "id":41,
                  "name":"Signs",
                  "objects":[
                         {
+                         "class":"SignLeft",
                          "gid":40,
                          "height":50,
                          "id":75,
@@ -206,20 +215,21 @@
                                  "name":"Text",
                                  "type":"string",
                                  "value":"Named Image"
-                                }, 
+                                },
+                            
                                 {
                                  "name":"Y",
                                  "type":"int",
                                  "value":2
                                 }],
                          "rotation":90,
-                         "type":"SignLeft",
                          "visible":true,
                          "width":50,
                          "x":0,
                          "y":50
                         }, 
                         {
+                         "class":"SignLeft",
                          "gid":40,
                          "height":50,
                          "id":77,
@@ -239,14 +249,14 @@
                                  "name":"Text",
                                  "type":"string",
                                  "value":"Live Web Image"
-                                }, 
+                                },
+                            
                                 {
                                  "name":"Y",
                                  "type":"int",
                                  "value":2
                                 }],
                          "rotation":0,
-                         "type":"SignLeft",
                          "visible":true,
                          "width":50,
                          "x":0,
@@ -264,12 +274,12 @@
                  "name":"Transitions",
                  "objects":[
                         {
+                         "class":"\/TrainingGround\/Elevator",
                          "gid":9,
                          "height":50,
                          "id":71,
                          "name":"",
                          "rotation":180,
-                         "type":"\/TrainingGround\/Elevator",
                          "visible":true,
                          "width":50,
                          "x":50,
@@ -303,7 +313,9 @@
          "id":30,
          "layers":[
                 {
-                 "data":[0, 4, 4, 4, 4, 4, 4, 4, 4],
+                 "data":[0, 4, 4,
+                    4, 4, 4,
+                    4, 4, 4],
                  "height":3,
                  "id":31,
                  "name":"Ground",
@@ -331,6 +343,7 @@
                  "name":"Ground",
                  "objects":[
                         {
+                         "class":"",
                          "gid":4,
                          "height":50,
                          "id":73,
@@ -347,7 +360,6 @@
                                  "value":true
                                 }],
                          "rotation":0,
-                         "type":"",
                          "visible":true,
                          "width":50,
                          "x":0,
@@ -360,7 +372,9 @@
                  "y":0
                 }, 
                 {
-                 "data":[3, 3, 3, 3, 3, 3, 3, 3, 3],
+                 "data":[3, 3, 3,
+                    3, 3, 3,
+                    3, 3, 3],
                  "height":3,
                  "id":32,
                  "name":"Ceiling",
@@ -381,9 +395,12 @@
                  "width":3,
                  "x":0,
                  "y":0
-                }, 
+                },
+            
                 {
-                 "data":[2684354566, 3221225477, 3221225478, 2684354565, 0, 1610612741, 6, 5, 1610612742],
+                 "data":[2684354566, 3221225477, 3221225478,
+                    2684354565, 0, 1610612741,
+                    6, 5, 1610612742],
                  "height":3,
                  "id":33,
                  "name":"Walls",
@@ -411,6 +428,7 @@
                  "name":"InnerWalls",
                  "objects":[
                         {
+                         "class":"",
                          "gid":5,
                          "height":50,
                          "id":68,
@@ -422,13 +440,13 @@
                                  "value":"1,0"
                                 }],
                          "rotation":-90,
-                         "type":"",
                          "visible":true,
                          "width":50,
                          "x":100,
                          "y":150
                         }, 
                         {
+                         "class":"",
                          "gid":5,
                          "height":50,
                          "id":69,
@@ -440,7 +458,6 @@
                                  "value":"1,0"
                                 }],
                          "rotation":-90,
-                         "type":"",
                          "visible":true,
                          "width":50,
                          "x":100,
@@ -469,6 +486,7 @@
                  "name":"Transitions",
                  "objects":[
                         {
+                         "class":"",
                          "gid":8,
                          "height":50,
                          "id":70,
@@ -480,7 +498,6 @@
                                  "value":"Hub"
                                 }],
                          "rotation":90,
-                         "type":"",
                          "visible":true,
                          "width":50,
                          "x":100,
@@ -491,7 +508,8 @@
                  "visible":true,
                  "x":0,
                  "y":0
-                }, 
+                },
+            
                 {
                  "draworder":"topdown",
                  "id":36,
@@ -534,14 +552,15 @@
          "name":"NoSpawning",
          "type":"bool",
          "value":false
-        }, 
+        },
+    
         {
          "name":"Speak",
          "type":"string",
          "value":"You can load images at runtime, either from the world or device or from any URL, Unsplash or GIPHY.\n\nThis concludes the guided tour and you can continue to explore on your own. I might be the Robot Overloard, but please do support Robert who is developing this project as a solo dev by spreading the word and leaving a review. He will be very happy. And I will get my electricity. Take care and bye bye."
         }],
  "renderorder":"left-up",
- "tiledversion":"1.7.1",
+ "tiledversion":"1.9.2",
  "tileheight":50,
  "tilesets":[
         {
@@ -560,6 +579,7 @@
          "tileheight":50,
          "tiles":[
                 {
+                 "class":"\/Base\/Ceiling",
                  "id":2,
                  "image":"..\/..\/_Tiled\/Master Images\/ceiling.png",
                  "imageheight":50,
@@ -579,15 +599,16 @@
                          "name":"DontPropagate-Virtual",
                          "type":"bool",
                          "value":false
-                        }, 
+                        },
+                    
                         {
                          "name":"Virtual",
                          "type":"bool",
                          "value":false
-                        }],
-                 "type":"\/Base\/Ceiling"
+                        }]
                 }, 
                 {
+                 "class":"\/Base\/Ground",
                  "id":3,
                  "image":"..\/..\/_Tiled\/Master Images\/ground.png",
                  "imageheight":50,
@@ -607,15 +628,16 @@
                          "name":"DontPropagate-Virtual",
                          "type":"bool",
                          "value":false
-                        }, 
+                        },
+                    
                         {
                          "name":"Virtual",
                          "type":"bool",
                          "value":false
-                        }],
-                 "type":"\/Base\/Ground"
+                        }]
                 }, 
                 {
+                 "class":"\/Base\/Wall",
                  "id":4,
                  "image":"..\/..\/_Tiled\/Master Images\/wall.png",
                  "imageheight":50,
@@ -635,7 +657,8 @@
                          "name":"CheckOccupiedNeighbor",
                          "type":"bool",
                          "value":true
-                        }, 
+                        },
+                    
                         {
                          "name":"FillHoles",
                          "type":"bool",
@@ -645,10 +668,11 @@
                          "name":"SkipOccupied",
                          "type":"string",
                          "value":"\/Base\/Door"
-                        }],
-                 "type":"\/Base\/Wall"
-                }, 
+                        }]
+                },
+            
                 {
+                 "class":"\/Base\/Corner",
                  "id":5,
                  "image":"..\/..\/_Tiled\/Master Images\/corner.png",
                  "imageheight":50,
@@ -658,10 +682,10 @@
                          "name":"FillHoles",
                          "type":"bool",
                          "value":false
-                        }],
-                 "type":"\/Base\/Corner"
+                        }]
                 }, 
                 {
+                 "class":"\/Base\/Corridor",
                  "id":6,
                  "image":"..\/..\/_Tiled\/Master Images\/corridor.png",
                  "imageheight":50,
@@ -676,10 +700,10 @@
                          "name":"FillHoles",
                          "type":"bool",
                          "value":true
-                        }],
-                 "type":"\/Base\/Corridor"
+                        }]
                 }, 
                 {
+                 "class":"\/Base\/Transition",
                  "id":7,
                  "image":"..\/..\/_Tiled\/Master Images\/transition.png",
                  "imageheight":50,
@@ -699,7 +723,8 @@
                          "name":"Music",
                          "type":"string",
                          "value":""
-                        }, 
+                        },
+                    
                         {
                          "name":"OneWay",
                          "type":"bool",
@@ -714,7 +739,8 @@
                          "name":"Reactivatable",
                          "type":"bool",
                          "value":false
-                        }, 
+                        },
+                    
                         {
                          "name":"Snap",
                          "type":"bool",
@@ -729,15 +755,17 @@
                          "name":"TargetZone",
                          "type":"string",
                          "value":""
-                        }, 
+                        },
+                    
                         {
                          "name":"ZoneExit",
                          "type":"bool",
                          "value":true
-                        }],
-                 "type":"\/Base\/Transition"
-                }, 
+                        }]
+                },
+            
                 {
+                 "class":"Elevator",
                  "id":8,
                  "image":"..\/..\/_Tiled\/Master Images\/elevator.png",
                  "imageheight":50,
@@ -752,17 +780,17 @@
                          "name":"Variable",
                          "type":"string",
                          "value":"[auto]"
-                        }],
-                 "type":"Elevator"
+                        }]
                 }, 
                 {
+                 "class":"\/Base\/CorridorEnd",
                  "id":10,
                  "image":"..\/..\/_Tiled\/Master Images\/corridor-end.png",
                  "imageheight":50,
-                 "imagewidth":50,
-                 "type":"\/Base\/CorridorEnd"
+                 "imagewidth":50
                 }, 
                 {
+                 "class":"\/Base\/Door",
                  "id":12,
                  "image":"..\/..\/_Tiled\/Master Images\/door.png",
                  "imageheight":50,
@@ -777,10 +805,11 @@
                          "name":"Variable",
                          "type":"string",
                          "value":""
-                        }],
-                 "type":"\/Base\/Door"
-                }, 
+                        }]
+                },
+            
                 {
+                 "class":"\/Base\/Button",
                  "id":13,
                  "image":"..\/..\/_Tiled\/Master Images\/button.png",
                  "imageheight":50,
@@ -800,10 +829,10 @@
                          "name":"Variable",
                          "type":"string",
                          "value":""
-                        }],
-                 "type":"\/Base\/Button"
+                        }]
                 }, 
                 {
+                 "class":"\/Base\/Signal",
                  "id":14,
                  "image":"..\/..\/_Tiled\/Master Images\/signal.png",
                  "imageheight":50,
@@ -818,10 +847,10 @@
                          "name":"Y",
                          "type":"int",
                          "value":0
-                        }],
-                 "type":"\/Base\/Signal"
+                        }]
                 }, 
                 {
+                 "class":"\/Base\/maze-exit",
                  "id":16,
                  "image":"..\/..\/_Tiled\/Master Images\/maze-exit.png",
                  "imageheight":50,
@@ -836,10 +865,11 @@
                          "name":"Virtual",
                          "type":"bool",
                          "value":true
-                        }],
-                 "type":"\/Base\/maze-exit"
-                }, 
+                        }]
+                },
+            
                 {
+                 "class":"\/Base\/maze-obstacle",
                  "id":17,
                  "image":"..\/..\/_Tiled\/Master Images\/maze-obstacle.png",
                  "imageheight":50,
@@ -849,10 +879,10 @@
                          "name":"Virtual",
                          "type":"bool",
                          "value":true
-                        }],
-                 "type":"\/Base\/maze-obstacle"
+                        }]
                 }, 
                 {
+                 "class":"\/Base\/maze",
                  "id":18,
                  "image":"..\/..\/_Tiled\/Master Images\/maze.png",
                  "imageheight":50,
@@ -872,10 +902,10 @@
                          "name":"Virtual",
                          "type":"bool",
                          "value":true
-                        }],
-                 "type":"\/Base\/maze"
+                        }]
                 }, 
                 {
+                 "class":"\/Base\/Transition",
                  "id":19,
                  "image":"..\/..\/_Tiled\/Master Images\/start.png",
                  "imageheight":50,
@@ -895,10 +925,11 @@
                          "name":"ZoneEntry",
                          "type":"bool",
                          "value":true
-                        }],
-                 "type":"\/Base\/Transition"
-                }, 
+                        }]
+                },
+            
                 {
+                 "class":"\/Base\/no-spawn",
                  "id":21,
                  "image":"..\/..\/_Tiled\/Master Images\/no-spawn.png",
                  "imageheight":50,
@@ -908,8 +939,7 @@
                          "name":"Virtual",
                          "type":"bool",
                          "value":true
-                        }],
-                 "type":"\/Base\/no-spawn"
+                        }]
                 }, 
                 {
                  "id":22,
@@ -929,6 +959,7 @@
                         }]
                 }, 
                 {
+                 "class":"\/Base\/Switch",
                  "id":23,
                  "image":"..\/..\/_Tiled\/Master Images\/switch.png",
                  "imageheight":50,
@@ -948,10 +979,11 @@
                          "name":"Y",
                          "type":"int",
                          "value":0
-                        }],
-                 "type":"\/Base\/Switch"
-                }, 
+                        }]
+                },
+            
                 {
+                 "class":"\/Base\/StoneWall",
                  "id":24,
                  "image":"..\/..\/_Tiled\/Master Images\/stonewall.png",
                  "imageheight":50,
@@ -971,7 +1003,8 @@
                          "name":"CheckOccupiedNeighbor",
                          "type":"bool",
                          "value":true
-                        }, 
+                        },
+                    
                         {
                          "name":"FillHoles",
                          "type":"bool",
@@ -981,10 +1014,10 @@
                          "name":"SkipOccupied",
                          "type":"string",
                          "value":"\/Base\/Door"
-                        }],
-                 "type":"\/Base\/StoneWall"
+                        }]
                 }, 
                 {
+                 "class":"\/Base\/StoneCorner",
                  "id":25,
                  "image":"..\/..\/_Tiled\/Master Images\/stonecorner.png",
                  "imageheight":50,
@@ -994,10 +1027,10 @@
                          "name":"FillHoles",
                          "type":"bool",
                          "value":false
-                        }],
-                 "type":"\/Base\/StoneCorner"
+                        }]
                 }, 
                 {
+                 "class":"\/Base\/StoneCorridor",
                  "id":26,
                  "image":"..\/..\/_Tiled\/Master Images\/stonecorridor.png",
                  "imageheight":50,
@@ -1012,17 +1045,18 @@
                          "name":"FillHoles",
                          "type":"bool",
                          "value":true
-                        }],
-                 "type":"\/Base\/StoneCorridor"
-                }, 
+                        }]
+                },
+            
                 {
+                 "class":"\/Base\/StoneCorridorEnd",
                  "id":27,
                  "image":"..\/..\/_Tiled\/Master Images\/stonecorridor-end.png",
                  "imageheight":50,
-                 "imagewidth":50,
-                 "type":"\/Base\/StoneCorridorEnd"
+                 "imagewidth":50
                 }, 
                 {
+                 "class":"\/Base\/Redirection",
                  "id":28,
                  "image":"..\/..\/_Tiled\/Master Images\/redirection.png",
                  "imageheight":50,
@@ -1042,10 +1076,10 @@
                          "name":"TargetLocation",
                          "type":"string",
                          "value":""
-                        }],
-                 "type":"\/Base\/Redirection"
+                        }]
                 }, 
                 {
+                 "class":"\/Base\/Location",
                  "id":29,
                  "image":"..\/..\/_Tiled\/Master Images\/location.png",
                  "imageheight":50,
@@ -1060,10 +1094,11 @@
                          "name":"LocationId",
                          "type":"string",
                          "value":""
-                        }],
-                 "type":"\/Base\/Location"
-                }, 
+                        }]
+                },
+            
                 {
+                 "class":"\/Base\/Trigger",
                  "id":30,
                  "image":"..\/..\/_Tiled\/Master Images\/trigger.png",
                  "imageheight":50,
@@ -1083,15 +1118,16 @@
                          "name":"Speak",
                          "type":"string",
                          "value":""
-                        }, 
+                        },
+                    
                         {
                          "name":"Variable",
                          "type":"string",
                          "value":""
-                        }],
-                 "type":"\/Base\/Trigger"
+                        }]
                 }, 
                 {
+                 "class":"\/Base\/Explicit-Spawn",
                  "id":31,
                  "image":"..\/..\/_Tiled\/Master Images\/explicit-spawn.png",
                  "imageheight":50,
@@ -1101,10 +1137,10 @@
                          "name":"Virtual",
                          "type":"bool",
                          "value":true
-                        }],
-                 "type":"\/Base\/Explicit-Spawn"
+                        }]
                 }, 
                 {
+                 "class":"\/Base\/Waypoint",
                  "id":32,
                  "image":"..\/..\/_Tiled\/Master Images\/waypoint.png",
                  "imageheight":50,
@@ -1119,8 +1155,7 @@
                          "name":"Key",
                          "type":"string",
                          "value":""
-                        }],
-                 "type":"\/Base\/Waypoint"
+                        }]
                 }],
          "tilewidth":50
         }, 
@@ -1140,6 +1175,7 @@
          "tileheight":50,
          "tiles":[
                 {
+                 "class":"\/Base\/MultiDisplay",
                  "id":3,
                  "image":"..\/..\/_Tiled\/Master Images\/multi-display.png",
                  "imageheight":50,
@@ -1159,7 +1195,8 @@
                          "name":"Snap",
                          "type":"bool",
                          "value":true
-                        }, 
+                        },
+                    
                         {
                          "name":"Variable",
                          "type":"string",
@@ -1169,10 +1206,10 @@
                          "name":"Y",
                          "type":"int",
                          "value":0
-                        }],
-                 "type":"\/Base\/MultiDisplay"
+                        }]
                 }, 
                 {
+                 "class":"\/Base\/Texture",
                  "id":4,
                  "image":"..\/..\/_Tiled\/Master Images\/texture.png",
                  "imageheight":50,
@@ -1192,10 +1229,10 @@
                          "name":"Snap",
                          "type":"bool",
                          "value":true
-                        }],
-                 "type":"\/Base\/Texture"
+                        }]
                 }, 
                 {
+                 "class":"\/Base\/Scenery",
                  "id":5,
                  "image":"..\/..\/_Tiled\/Master Images\/scenery.png",
                  "imageheight":50,
@@ -1205,9 +1242,9 @@
                          "name":"SceneryName",
                          "type":"string",
                          "value":""
-                        }],
-                 "type":"\/Base\/Scenery"
-                }, 
+                        }]
+                },
+            
                 {
                  "id":6,
                  "image":"..\/..\/_Tiled\/Master Images\/object.png",
@@ -1228,7 +1265,8 @@
                          "name":"Offset",
                          "type":"string",
                          "value":""
-                        }, 
+                        },
+                    
                         {
                          "name":"Rotate",
                          "type":"string",
@@ -1243,7 +1281,8 @@
                          "name":"Snap",
                          "type":"bool",
                          "value":false
-                        }, 
+                        },
+                    
                         {
                          "name":"Text",
                          "type":"string",
@@ -1275,7 +1314,8 @@
                          "name":"Offset",
                          "type":"string",
                          "value":""
-                        }, 
+                        },
+                    
                         {
                          "name":"Rotate",
                          "type":"string",
@@ -1290,7 +1330,8 @@
                          "name":"Snap",
                          "type":"bool",
                          "value":false
-                        }, 
+                        },
+                    
                         {
                          "name":"Text",
                          "type":"string",
@@ -1322,7 +1363,8 @@
                          "name":"Offset",
                          "type":"string",
                          "value":""
-                        }, 
+                        },
+                    
                         {
                          "name":"Rotate",
                          "type":"string",
@@ -1337,7 +1379,8 @@
                          "name":"Snap",
                          "type":"bool",
                          "value":false
-                        }, 
+                        },
+                    
                         {
                          "name":"Text",
                          "type":"string",
@@ -1348,7 +1391,8 @@
                          "type":"int",
                          "value":0
                         }]
-                }, 
+                },
+            
                 {
                  "id":9,
                  "image":"..\/..\/_Tiled\/Master Images\/object4.png",
@@ -1369,7 +1413,8 @@
                          "name":"Offset",
                          "type":"string",
                          "value":""
-                        }, 
+                        },
+                    
                         {
                          "name":"Rotate",
                          "type":"string",
@@ -1384,7 +1429,8 @@
                          "name":"Snap",
                          "type":"bool",
                          "value":false
-                        }, 
+                        },
+                    
                         {
                          "name":"Text",
                          "type":"string",
@@ -1397,6 +1443,7 @@
                         }]
                 }, 
                 {
+                 "class":"\/Base\/GLB",
                  "id":10,
                  "image":"..\/..\/_Tiled\/Master Images\/glb.png",
                  "imageheight":50,
@@ -1416,7 +1463,8 @@
                          "name":"Offset",
                          "type":"string",
                          "value":""
-                        }, 
+                        },
+                    
                         {
                          "name":"Rotate",
                          "type":"string",
@@ -1431,13 +1479,12 @@
                          "name":"Url",
                          "type":"string",
                          "value":""
-                        }],
-                 "type":"\/Base\/GLB"
+                        }]
                 }],
          "tilewidth":50
         }],
  "tilewidth":50,
  "type":"map",
- "version":"1.6",
+ "version":"1.9",
  "width":3
 }

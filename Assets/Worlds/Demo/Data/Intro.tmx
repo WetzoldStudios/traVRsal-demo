@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.1" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="3" height="3" tilewidth="50" tileheight="50" infinite="0" nextlayerid="35" nextobjectid="116">
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="3" height="3" tilewidth="50" tileheight="50" infinite="0" nextlayerid="35" nextobjectid="118">
  <properties>
-  <property name="AudioEffect" value="guide-intro.mp3"/>
   <property name="Chapter" value="walkthrough"/>
   <property name="NoAgents" type="bool" value="false"/>
   <property name="NoSpawning" type="bool" value="false"/>
  </properties>
  <tileset firstgid="1" source="../../_Tiled/Master.tsx"/>
- <tileset firstgid="33" source="../../_Tiled/Deco.tsx"/>
+ <tileset firstgid="34" source="../../_Tiled/Deco.tsx"/>
  <group id="5" name="Floor 0">
   <properties>
    <property name="Height" type="float" value="2.5"/>
@@ -68,19 +67,33 @@
    </object>
   </objectgroup>
   <objectgroup id="27" name="Objects">
-   <object id="66" type="TileCube" gid="39" x="0" y="50" width="50" height="50">
+   <object id="66" class="TileCube" gid="40" x="0" y="50" width="50" height="50">
     <properties>
      <property name="Materials" value="DarkGrid"/>
      <property name="Variable" value="IntroCube"/>
      <property name="Y" type="int" value="-1"/>
     </properties>
    </object>
-   <object id="67" type="/Base/FeetIndicatorSimple" gid="39" x="50" y="150" width="50" height="50"/>
-   <object id="71" type="TileCube" gid="39" x="100" y="50" width="50" height="50">
+   <object id="67" class="/Base/FeetIndicatorSimple" gid="40" x="50" y="150" width="50" height="50"/>
+   <object id="71" class="TileCube" gid="40" x="100" y="50" width="50" height="50">
     <properties>
      <property name="Materials" value="DarkGrid"/>
      <property name="Variable" value="IntroCube"/>
      <property name="Y" type="int" value="-1"/>
+    </properties>
+   </object>
+   <object id="116" gid="14" x="0" y="50" width="50" height="50" rotation="90">
+    <properties>
+     <property name="AudioEffect" value="guide-intro.mp3"/>
+     <property name="Y" type="int" value="2"/>
+    </properties>
+   </object>
+   <object id="117" class="SignRight" gid="40" x="0" y="100" width="50" height="50" rotation="90">
+    <properties>
+     <property name="Anchor" value="0,1"/>
+     <property name="Snap" type="bool" value="true"/>
+     <property name="Text" value="Play Me!"/>
+     <property name="Y" type="int" value="2"/>
     </properties>
    </object>
   </objectgroup>

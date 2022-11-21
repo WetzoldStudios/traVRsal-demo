@@ -1,0 +1,176 @@
+[
+    {
+        "name": "Arrow.prefab",
+        "createDate": "2020-12-18T21:35:00.2798883Z",
+        "modifyDate": "2020-12-18T21:35:00.2808937Z",
+        "size": 14587
+    },
+    {
+        "name": "Beam.prefab",
+        "createDate": "2021-05-24T15:10:56.2566354Z",
+        "modifyDate": "2021-05-24T15:10:56.2576327Z",
+        "size": 60180
+    },
+    {
+        "name": "BlueBall.prefab",
+        "createDate": "2021-11-25T22:26:50.6172693Z",
+        "modifyDate": "2021-11-25T22:26:50.6172693Z",
+        "size": 5790
+    },
+    {
+        "name": "Button.prefab",
+        "createDate": "2021-12-13T19:31:15.0989023Z",
+        "modifyDate": "2021-12-13T19:31:15.0998981Z",
+        "size": 10551
+    },
+    {
+        "name": "CustomGround.prefab",
+        "createDate": "2020-12-08T11:54:03.2895296Z",
+        "modifyDate": "2020-12-08T11:54:03.2905266Z",
+        "size": 27108
+    },
+    {
+        "name": "CustomGround2.prefab",
+        "createDate": "2020-12-08T11:53:43.7298034Z",
+        "modifyDate": "2020-12-08T11:53:43.7308006Z",
+        "size": 19761
+    },
+    {
+        "name": "Drone.prefab",
+        "createDate": "2022-01-31T21:44:50.5477052Z",
+        "modifyDate": "2022-01-31T21:44:50.5477052Z",
+        "size": 9063
+    },
+    {
+        "name": "Flap.prefab",
+        "createDate": "2022-10-21T08:57:05.8420147Z",
+        "modifyDate": "2022-10-21T08:57:05.8420147Z",
+        "size": 5907
+    },
+    {
+        "name": "GalleryImage.prefab",
+        "createDate": "2021-06-08T08:06:29.8468444Z",
+        "modifyDate": "2021-06-08T08:06:29.8478415Z",
+        "size": 15912
+    },
+    {
+        "name": "GreenBall.prefab",
+        "createDate": "2021-11-25T19:21:53.9533768Z",
+        "modifyDate": "2021-11-25T19:21:53.9533768Z",
+        "size": 2752
+    },
+    {
+        "name": "Grip.prefab",
+        "createDate": "2021-08-10T15:14:04.4500864Z",
+        "modifyDate": "2021-08-10T15:14:04.4500864Z",
+        "size": 7430
+    },
+    {
+        "name": "HomingDrone.prefab",
+        "createDate": "2022-01-31T21:56:39.9244614Z",
+        "modifyDate": "2022-01-31T21:56:39.9244614Z",
+        "size": 4919
+    },
+    {
+        "name": "InventoryItem.prefab",
+        "createDate": "2022-10-14T14:30:16.6165895Z",
+        "modifyDate": "2022-10-14T14:30:16.6175879Z",
+        "size": 6142
+    },
+    {
+        "name": "Platform.prefab",
+        "createDate": "2020-12-01T20:56:55.9152212Z",
+        "modifyDate": "2020-12-01T20:56:55.9162187Z",
+        "size": 10458
+    },
+    {
+        "name": "PortalFrame.prefab",
+        "createDate": "2021-05-18T11:36:08.1132631Z",
+        "modifyDate": "2021-05-18T11:36:08.1132631Z",
+        "size": 18181
+    },
+    {
+        "name": "Poster.prefab",
+        "createDate": "2020-12-21T16:57:35.408666Z",
+        "modifyDate": "2020-12-21T16:57:35.4096634Z",
+        "size": 5574
+    },
+    {
+        "name": "RedBall.prefab",
+        "createDate": "2021-11-25T19:21:46.8374074Z",
+        "modifyDate": "2021-11-25T19:21:46.8374074Z",
+        "size": 2750
+    },
+    {
+        "name": "SampleObject.prefab",
+        "createDate": "2020-12-18T20:46:49.0336574Z",
+        "modifyDate": "2020-12-18T20:46:49.0336574Z",
+        "size": 8169
+    },
+    {
+        "name": "SignLeft.prefab",
+        "createDate": "2021-06-02T07:00:12.1299803Z",
+        "modifyDate": "2021-06-02T07:00:12.1309538Z",
+        "size": 4669
+    },
+    {
+        "name": "SignRight.prefab",
+        "createDate": "2022-11-20T22:23:39.2943834Z",
+        "modifyDate": "2022-11-20T22:23:39.2953783Z",
+        "size": 17208
+    },
+    {
+        "name": "Spike.prefab",
+        "createDate": "2020-12-18T22:36:26.338788Z",
+        "modifyDate": "2020-12-18T22:36:26.338788Z",
+        "size": 15492
+    },
+    {
+        "name": "TileCube.prefab",
+        "createDate": "2022-04-04T13:24:53.2628237Z",
+        "modifyDate": "2022-04-04T13:24:53.2628237Z",
+        "size": 6457
+    },
+    {
+        "name": "Timer.prefab",
+        "createDate": "2021-11-07T21:21:36.103876Z",
+        "modifyDate": "2021-11-07T21:21:36.1048716Z",
+        "size": 16399
+    },
+    {
+        "name": "TrackingSampleObject.prefab",
+        "createDate": "2021-12-13T19:58:06.4302748Z",
+        "modifyDate": "2021-12-13T19:58:06.4312729Z",
+        "size": 4693
+    },
+    {
+        "name": "Wall.prefab",
+        "createDate": "2020-12-08T15:03:05.126146Z",
+        "modifyDate": "2020-12-08T15:03:05.126146Z",
+        "size": 9015
+    },
+    {
+        "name": "Waves.prefab",
+        "createDate": "2021-11-29T15:05:50.9900775Z",
+        "modifyDate": "2021-11-29T15:05:50.9900775Z",
+        "size": 12086
+    },
+    {
+        "name": "Window.prefab",
+        "createDate": "2020-12-08T15:26:34.8469542Z",
+        "modifyDate": "2020-12-08T15:26:34.8489488Z",
+        "size": 36066
+    },
+    {
+        "name": "Window2X.prefab",
+        "createDate": "2020-12-08T15:54:12.9040525Z",
+        "modifyDate": "2020-12-08T15:54:12.9050481Z",
+        "size": 37123
+    },
+    {
+        "name": "WorldTimer.prefab",
+        "createDate": "2021-11-07T21:20:52.8033763Z",
+        "modifyDate": "2021-11-07T21:20:52.8033763Z",
+        "size": 16405
+    }
+]
