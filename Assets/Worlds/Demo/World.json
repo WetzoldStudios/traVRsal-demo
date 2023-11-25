@@ -1,12 +1,13 @@
 {
     "key": "Demo",
-    "version": "0.0.323",
-    "versionCode": 231,
+    "version": "0.0.346",
+    "versionCode": 254,
     "name": "World-Building Demo",
     "shortDescription": "Show-casing locomotion and available world-building features.",
     "longDescription": "This is an example for world creators to show-case what is possible. Use this for inspiration and as a copy paste resource. The accompanying Unity project including all assets can be downloaded from github and is constantly expanded.",
     "coverImage": "Cover.png",
-    "loadAllChapters": true,
+    "loadPreviousChapters": true,
+    "loadFollowingChapters": true,
     "defaultChapter": "explore",
     "chapters": [
         {
@@ -24,7 +25,7 @@
             "unlockAchievement": "demo-exploration"
         }
     ],
-    "minAppVersion": "1.1.124",
+    "minAppVersion": "1.2.111",
     "enableChallenges": false,
     "measures": [
         "Time",
@@ -352,7 +353,7 @@
         }
     ],
     "dependencies": {
-        "totalObjects": 2320,
+        "totalObjects": 2363,
         "totalAgents": 2,
         "referencedWorlds": [
             "Base",
@@ -421,6 +422,7 @@
             "/Demo/Data/CustomWalls",
             "/Demo/Data/CustomWallsByRule",
             "/Demo/Data/Elevators",
+            "/Demo/Data/FreeFloating",
             "/Demo/Data/Gallery",
             "/Demo/Data/Gravity",
             "/Demo/Data/Hub",
@@ -482,8 +484,11 @@
             "/Skybox/Materials/mossymountains",
             "/Skybox/Materials/Space_Nebula_NuminousGlow",
             "/TrainingGround/Pieces/Elevator",
+            "[ceiling]",
             "[exit]",
-            "[random]"
+            "[ground]",
+            "[random]",
+            "[walls]"
         ],
         "referencedSpeech": [
             "A powerful concept is to automatically replace the blockout walls with custom ones through automated rules. This means, the zone will look different each time you visit it as the engine will randomly fulfill the rules.",

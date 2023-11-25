@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="3" height="3" tilewidth="50" tileheight="50" infinite="0" nextlayerid="29" nextobjectid="66">
+ <properties>
+  <property name="AutoElevate" type="bool" value="false"/>
+  <property name="Chapter" value="walkthrough"/>
+  <property name="NoAgents" type="bool" value="false"/>
+  <property name="NoSpawning" type="bool" value="false"/>
+  <property name="Offset" value="-2zx;0;-1zz"/>
+ </properties>
+ <tileset firstgid="1" source="../../_Tiled/Master.tsx"/>
+ <tileset firstgid="34" source="../../_Tiled/Deco.tsx"/>
+ <group id="5" name="Floor 0">
+  <properties>
+   <property name="Height" type="float" value="2.5"/>
+  </properties>
+  <layer id="1" name="Ground" width="3" height="3">
+   <properties>
+    <property name="Materials" value="[ground]"/>
+    <property name="Walkable" type="bool" value="true"/>
+   </properties>
+   <data encoding="csv">
+4,4,4,
+4,4,4,
+4,4,4
+</data>
+  </layer>
+  <objectgroup id="27" name="Objects">
+   <object id="65" class="SignRight" gid="40" x="50" y="50" width="50" height="50" rotation="90">
+    <properties>
+     <property name="Snap" type="bool" value="false"/>
+     <property name="Text" value="Unreachable Zone"/>
+     <property name="Y" type="int" value="2"/>
+    </properties>
+   </object>
+  </objectgroup>
+ </group>
+</map>

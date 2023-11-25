@@ -1,5 +1,5 @@
 {
-    "totalObjects": 2324,
+    "totalObjects": 2363,
     "totalAgents": 2,
     "referencedWorlds": [
         "Base",
@@ -68,6 +68,7 @@
         "/Demo/Data/CustomWalls",
         "/Demo/Data/CustomWallsByRule",
         "/Demo/Data/Elevators",
+        "/Demo/Data/FreeFloating",
         "/Demo/Data/Gallery",
         "/Demo/Data/Gravity",
         "/Demo/Data/Hub",
@@ -129,8 +130,11 @@
         "/Skybox/Materials/mossymountains",
         "/Skybox/Materials/Space_Nebula_NuminousGlow",
         "/TrainingGround/Pieces/Elevator",
+        "[ceiling]",
         "[exit]",
-        "[random]"
+        "[ground]",
+        "[random]",
+        "[walls]"
     ],
     "referencedSpeech": [
         "A powerful concept is to automatically replace the blockout walls with custom ones through automated rules. This means, the zone will look different each time you visit it as the engine will randomly fulfill the rules.",

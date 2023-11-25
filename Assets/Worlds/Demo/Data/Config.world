@@ -2,58 +2,99 @@
     "type": "world",
     "maps": [
         {
-            "fileName": "Intro.tmx"
+            "fileName": "Intro.tmx",
+            "x": 0,
+            "y": 0
         },
         {
-            "fileName": "MovingPlatform.tmx"
+            "fileName": "MovingPlatform.tmx",
+            "x": 0,
+            "y": 0
         },
         {
-            "fileName": "Elevators.tmx"
+            "fileName": "Elevators.tmx",
+            "x": 0,
+            "y": 0
         },
         {
-            "fileName": "WallMaterials.tmx"
+            "fileName": "WallMaterials.tmx",
+            "x": 0,
+            "y": 0
         },
         {
-            "fileName": "CustomObjects.tmx"
+            "fileName": "CustomObjects.tmx",
+            "x": 0,
+            "y": 0
         },
         {
-            "fileName": "CustomWalls.tmx"
+            "fileName": "CustomWalls.tmx",
+            "x": 0,
+            "y": 0
         },
         {
-            "fileName": "CustomWallsByRule.tmx"
+            "fileName": "CustomWallsByRule.tmx",
+            "x": 0,
+            "y": 0
         },
         {
-            "fileName": "PlayerDamage.tmx"
+            "fileName": "PlayerDamage.tmx",
+            "x": 0,
+            "y": 0
         },
         {
-            "fileName": "Crouching.tmx"
+            "fileName": "Crouching.tmx",
+            "x": 0,
+            "y": 0
         },
         {
-            "fileName": "Climbing.tmx"
+            "fileName": "Climbing.tmx",
+            "x": 0,
+            "y": 0
         },
         {
-            "fileName": "Gravity.tmx"
+            "fileName": "Gravity.tmx",
+            "x": 0,
+            "y": 0
         },
         {
-            "fileName": "Gallery.tmx"
+            "fileName": "Gallery.tmx",
+            "x": 0,
+            "y": 0
         },
         {
-            "fileName": "Hub.tmx"
+            "fileName": "Hub.tmx",
+            "x": 0,
+            "y": 0
         },
         {
-            "fileName": "Parcour.tmx"
+            "fileName": "Parcour.tmx",
+            "x": 0,
+            "y": 0
         },
         {
-            "fileName": "Construction.tmx"
+            "fileName": "Construction.tmx",
+            "x": 0,
+            "y": 0
         },
         {
-            "fileName": "Sound.tmx"
+            "fileName": "Sound.tmx",
+            "x": 0,
+            "y": 0
         },
         {
-            "fileName": "AI.tmx"
+            "fileName": "AI.tmx",
+            "x": 0,
+            "y": 0
         },
         {
-            "fileName": "SoundGarden.tmx"
+            "fileName": "SoundGarden.tmx",
+            "x": 0,
+            "y": 0
+        },
+        {
+            "fileName": "FreeFloating.tmx",
+            "x": 0,
+            "y": 0
         }
     ]
 }
